@@ -7,3 +7,4 @@
 - [https://tally.so/](https://tally.so/)
 - [https://www.videoask.com/](https://www.videoask.com/)
 - [https://itnig.net/podcast/](https://itnig.net/podcast/)
+- [https://en.wikipedia.org/wiki/Unix_philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
