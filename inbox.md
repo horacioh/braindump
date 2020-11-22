@@ -8,3 +8,4 @@
 - [https://www.videoask.com/](https://www.videoask.com/)
 - [https://itnig.net/podcast/](https://itnig.net/podcast/)
 - [https://en.wikipedia.org/wiki/Unix_philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
+- https://wattenberger.com/blog/react-hooks #inspiration #article #react #react-hooks
