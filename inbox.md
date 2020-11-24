@@ -18,3 +18,8 @@
 - [https://frontendmasters.com/courses/pure-react-state/](https://frontendmasters.com/courses/pure-react-state/) #course #react #state-management
 - [https://frontendmasters.com/courses/design-systems/](https://frontendmasters.com/courses/design-systems/) #course #design-system #storybook #react
 - [https://codepen.io/svganimationworkshop/collections/](https://codepen.io/svganimationworkshop/collections/) #web #svg #resource
+- review [Hammock driven development](https://www.notion.so/mintter/Hammock-Driven-Development-4d06aa22022a483ab7038d8e248f09b6?d=8c2c350b-aabf-44fa-ad4c-9e4a4ad80a56) #mintter
+- [review](https://www.notion.so/mintter/Suggestion-copy-article-into-Mintter-8daeb11d364a41c08498532d34acc13a?d=af10d313-9b8a-4d49-8fc7-e05824f9c395) #mintter
+- [How React Uses Closures to Avoid Bugs](https://epicreact.dev/how-react-uses-closures-to-avoid-bugs/) #read #react
+- [How to Test React.useEffect](https://epicreact.dev/how-to-test-react-use-effect/) #testing #react #read
+- [jest playground](https://testing-playground.com/) #resource #testing #javascript #jest
