@@ -17,5 +17,15 @@
   },
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
-  "todo-tree.tree.showBadges": true
+  "todo-tree.tree.showBadges": true,
+
+  // Foam config
+  "foam.openDailyNote.directory": "journal",
+  "auto-run-command.rules": [
+    {
+      "condition": "hasFile: .vscode/foam.json",
+      "command": "foam-vscode.open-daily-note",
+      "message": "Have a nice day!"
+    }
+  ]
 }

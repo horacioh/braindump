@@ -1,5 +1,6 @@
 # Inbox
 
+- [New courses on distributed systems and elliptic curve cryptography](https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html) #course #mintter #reference
 - [https://notes.andymatuschak.org/A%20writing%20inbox%20for%20transient%20and%20incomplete%20notes](https://notes.andymatuschak.org/A%20writing%20inbox%20for%20transient%20and%20incomplete%20notes)
 - [https://foambubble.github.io/foam/capture-notes-with-drafts-pro](https://foambubble.github.io/foam/capture-notes-with-drafts-pro) #tutorial #drafts-app #note-taking #foam
 - [https://recursia.com/](https://recursia.com/)
@@ -23,3 +24,5 @@
 - [How React Uses Closures to Avoid Bugs](https://epicreact.dev/how-react-uses-closures-to-avoid-bugs/) #read #react
 - [How to Test React.useEffect](https://epicreact.dev/how-to-test-react-use-effect/) #testing #react #read
 - [jest playground](https://testing-playground.com/) #resource #testing #javascript #jest
+- [Money Words: Seven of the Words & Phrases We Use Most Often in High-Converting Copy – Joanna Wiebe](https://www.youtube.com/watch?v=GEE7Xr_a0ZU) #business #product #video
+  - shared by Will in the 2 week project Discord Server
