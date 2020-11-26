@@ -1,5 +1,7 @@
 # Inbox
 
+- [[Agora]]
+- [PARA method](https://www.horacioh.com/notes/book-reviews/atomic-habits)
 - [stackedit](https://github.com/benweet/stackedit) #code #web #editor
 - [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) #code #web #editor
 - [tiptap](https://github.com/ueberdosis/tiptap) #code #web #editor
