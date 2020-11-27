@@ -1,5 +1,6 @@
 # Inbox
 
+- [Interstitial journaling: combining notes, to\-do & time tracking \- Ness Labs](https://nesslabs.com/interstitial-journaling)
 - [What I learned building 20\+ startups in 5 years\.](https://venturism.io/020c1066b811455896119bdc9e546110)
 - [[Agora]]
 - [PARA method](https://www.horacioh.com/notes/book-reviews/atomic-habits)
