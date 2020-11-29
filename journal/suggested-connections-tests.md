@@ -1,2 +1,0 @@
-# Suggested Connections Tests
-

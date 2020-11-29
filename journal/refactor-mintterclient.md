@@ -1,2 +1,0 @@
-# Refactor @mintter/client
-

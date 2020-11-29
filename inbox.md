@@ -1,5 +1,12 @@
 # Inbox
 
+- [TypeStyle](https://typestyle.github.io/#/)
+- [The Politics of Design](http://thepoliticsofdesign.com/about-the-book) #book
+- [unbag \- Black Gooey Universe](https://unbag.net/end/black-gooey-universe)
+- [Proceso \- Circoolar \- Ethical Workwear \- Recycled Recyclable Social Impact](https://circoolar.es/proceso/) #happori #resource
+- [Tienda ~ Página 2 de 10 ~ EcoHuella ZERO WASTE](https://www.ecohuella.es/shop/page/2/) #happori
+- [Zero Waste \| ¿Quieres reducir tus resíduos? Empieza aquí](https://tiendazerowaste.com/) #happori
+- [Intercreativity - Unterscore protocol](https://www.notion.so/Intercreativity-689f6c877df04e04a9e100a5c5448523) #mintter
 - [Interstitial journaling: combining notes, to\-do & time tracking \- Ness Labs](https://nesslabs.com/interstitial-journaling)
 - [What I learned building 20\+ startups in 5 years\.](https://venturism.io/020c1066b811455896119bdc9e546110)
 - [[Agora]]
@@ -33,8 +40,70 @@
 - [How to Test React.useEffect](https://epicreact.dev/how-to-test-react-use-effect/) #testing #react #read
 - [jest playground](https://testing-playground.com/) #resource #testing #javascript #jest
 - [Money Words: Seven of the Words & Phrases We Use Most Often in High-Converting Copy – Joanna Wiebe](https://www.youtube.com/watch?v=GEE7Xr_a0ZU) #business #product #video
+
   - shared by Will in the 2 week project Discord Server
 
+- [http://labeoufronkkoturner.com/](http://labeoufronkkoturner.com/)
+
+- [https://share.transistor.fm/e/90980ed9](https://share.transistor.fm/e/90980ed9)
+- how to solve it: book
+- [https://www.keepproductive.com/blog/guide-to-notion-databases](https://www.keepproductive.com/blog/guide-to-notion-databases)
+- [https://help.shopify.com/en/manual/discounts](https://help.shopify.com/en/manual/discounts)
+-
+- [https://wagtail.io/blog/why-wagtail-new-editor-is-built-with-draft-js](https://wagtail.io/blog/why-wagtail-new-editor-is-built-with-draft-js)
+- [https://github.com/staltz/xstream](https://github.com/staltz/xstream)
+- [https://medium.com/drill/the-internet-changes-http-3-will-not-use-tcp-anymore-427e82eeadc0](https://medium.com/drill/the-internet-changes-http-3-will-not-use-tcp-anymore-427e82eeadc0)
+- [https://blog.sapegin.me/all/accessibility-testing/](https://blog.sapegin.me/all/accessibility-testing/)
+- [https://aws.amazon.com/blogs/mobile/appsync-waf/](https://aws.amazon.com/blogs/mobile/appsync-waf/)
+- [https://torus.host/index.html](https://torus.host/index.html)
+- [https://www.youtube.com/channel/UCo3mAheKM1bS3ToJ90QAkiw/videos](https://www.youtube.com/channel/UCo3mAheKM1bS3ToJ90QAkiw/videos)
+- [https://github.com/bahmutov/cypress-react-unit-test](https://github.com/bahmutov/cypress-react-unit-test)
+- [https://github.com/callbag/callbag](https://github.com/callbag/callbag)
+- [https://blog.hypercore-protocol.org/posts/announcing-hyperdrive-10/](https://blog.hypercore-protocol.org/posts/announcing-hyperdrive-10/)
+- [https://xn--57h.bigsun.xyz/lnurl-auth.html](https://xn--57h.bigsun.xyz/lnurl-auth.html)
+- [https://crearsoftware.com/2020/09/29/como-introducir-en-el-mercado-un-software-innovador/](https://crearsoftware.com/2020/09/29/como-introducir-en-el-mercado-un-software-innovador/)
+- [https://blueprintjs.com/](https://blueprintjs.com/)
+- [https://carpentries.github.io/instructor-training/files/papers/wiggins-mctighe-ubd-nutshell.pdf](https://carpentries.github.io/instructor-training/files/papers/wiggins-mctighe-ubd-nutshell.pdf)
+  [https://github.com/microsoft/TypeScript-Website/issues/130](https://github.com/microsoft/TypeScript-Website/issues/130)
+- [https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/)
+- [https://daveceddia.com/setup-chrome-for-screencasting/](https://daveceddia.com/setup-chrome-for-screencasting/)
+- [https://www.javierescribano.me/jose-perez-aguera-mercadona-tech/](https://www.javierescribano.me/jose-perez-aguera-mercadona-tech/)
+- [https://www.atlassian.com/blog/teamwork/career-mentorship-guide](https://www.atlassian.com/blog/teamwork/career-mentorship-guide)
+- [https://twitter.com/Mappletons/status/1250532315459194880](https://twitter.com/Mappletons/status/1250532315459194880)
+- [https://doc.rust-lang.org/stable/rust-by-example/index.html](https://doc.rust-lang.org/stable/rust-by-example/index.html)
+- [https://yew.rs/docs/en/intro/](https://yew.rs/docs/en/intro/)
+- [https://joeprevite.com/launching-first-product](https://joeprevite.com/launching-first-product)
+- [https://dev.to/tlakomy/a-story-of-a-biggest-fuckup-in-my-early-career-and-what-it-taught-me-about-taking-ownership-2251](https://dev.to/tlakomy/a-story-of-a-biggest-fuckup-in-my-early-career-and-what-it-taught-me-about-taking-ownership-2251)
+- [https://react-spectrum.adobe.com/blog/building-a-button-part-2.html](https://react-spectrum.adobe.com/blog/building-a-button-part-2.html)
+- [https://joelhooks.com/basic-painstorming](https://joelhooks.com/basic-painstorming)
+- [https://howtoegghead.com/instructor/instructor-feedback-cycles/egghead-style/avoid-intros-and-outros/](https://howtoegghead.com/instructor/instructor-feedback-cycles/egghead-style/avoid-intros-and-outros/)
+- [https://howtoegghead.com/instructor/instructor-feedback-cycles/egghead-style/show-first-then-maybe-explain/](https://howtoegghead.com/instructor/instructor-feedback-cycles/egghead-style/show-first-then-maybe-explain/)
+- [http://porlapuertatrasera.com/2020/08/31/el-proximo-paso/](http://porlapuertatrasera.com/2020/08/31/el-proximo-paso/)
+- [https://egghead.io/lessons/egghead-egghead-talks-learning-tips-every-developer-should-know](https://egghead.io/lessons/egghead-egghead-talks-learning-tips-every-developer-should-know)
+- [https://twitter.com/adamwathan/status/1296447318074568704](https://twitter.com/adamwathan/status/1296447318074568704)
+- [https://www.desiringgod.org/interviews/ten-principles-for-personal-productivity](https://www.desiringgod.org/interviews/ten-principles-for-personal-productivity)
+- [https://owd.tcnj.edu/~robertso/readings/nelson-literary-machines.pdf](https://owd.tcnj.edu/~robertso/readings/nelson-literary-machines.pdf)
+- [https://www.economist.com/1843/2016/10/20/the-scientists-who-make-apps-addictive](https://www.economist.com/1843/2016/10/20/the-scientists-who-make-apps-addictive)
+- [https://producthackers.com/es/articulos/onboarding-modular/](https://producthackers.com/es/articulos/onboarding-modular/)
+- [https://github.com/reflexjs/reflex/tree/master/packages/gatsby-plugin-search-algolia](https://github.com/reflexjs/reflex/tree/master/packages/gatsby-plugin-search-algolia)
+- [https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/](https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/)
+- [http://pketh.org/the-first-four-years-of-glitch.html](http://pketh.org/the-first-four-years-of-glitch.html)
+- [https://kinopio.club/](https://kinopio.club/)
+- [https://aneventapart.com/news/post/resources-from-front-end-focus](https://aneventapart.com/news/post/resources-from-front-end-focus)
+- [https://theconversation.com/is-humanity-doomed-because-we-cant-plan-for-the-long-term-three-experts-discuss-137943](https://theconversation.com/is-humanity-doomed-because-we-cant-plan-for-the-long-term-three-experts-discuss-137943)
+- [https://adamwathan.me/tailwindcss-from-side-project-byproduct-to-multi-mullion-dollar-business/](https://adamwathan.me/tailwindcss-from-side-project-byproduct-to-multi-mullion-dollar-business/)
+- calcetines naive: 90% algodón 8% poliamida 2% lycra
+- [MDAST](https://unifiedjs.com/explore/?q=mdast)
+- [https://unifiedjs.com/explore/package/mdast-util-compact/](https://unifiedjs.com/explore/package/mdast-util-compact/)
+- [https://unifiedjs.com/explore/package/mdast-util-heading-range/](https://unifiedjs.com/explore/package/mdast-util-heading-range/)
+- meetup para C level people de porque usar React
+- CFP: How streaming can help you become a better dev
+- CFP: Impact of images on performance (React Europe case study)
+- Video con problemas en Gatsby source GraphQL de diferentes versiones
+- crear repo de config para videos en aprendegatsby
+- fix GitHub actions
+- [https://www.dougengelbart.org/content/view/191/268/](https://www.dougengelbart.org/content/view/191/268/)
+
 [//begin]: # "Autogenerated link references for markdown compatibility"
-[agora]: agora "Agora"
+[Agora]: agora "Agora"
 [//end]: # "Autogenerated link references"
