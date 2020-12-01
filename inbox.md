@@ -1,6 +1,6 @@
 # Inbox
 
-- [Progressively deliver new image formats with CSS & Cloudflare Workers](https://jross.me/progressively-delivering-new-image-formats-with-css-and-cloudflare-workers/)
+- [Animated Transitions with React Router v5](https://ui.dev/react-router-v5-animated-transitions/)
 - [Introducing Decentralization Off The Shelf: 7 Maxims – Simply Secure](https://simplysecure.org/blog/decentralization-off-the-shelf-7-maxims)
 - [FOSDEM 2019 \- ActivityPub panel](https://archive.fosdem.org/2019/schedule/event/activitypub_panel/) #mintter
 - [TypeStyle](https://typestyle.github.io/#/)
