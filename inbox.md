@@ -1,5 +1,7 @@
 # Inbox
 
+- [Introducing Decentralization Off The Shelf: 7 Maxims – Simply Secure](https://simplysecure.org/blog/decentralization-off-the-shelf-7-maxims)
+- [FOSDEM 2019 \- ActivityPub panel](https://archive.fosdem.org/2019/schedule/event/activitypub_panel/) #mintter
 - [TypeStyle](https://typestyle.github.io/#/)
 - [The Politics of Design](http://thepoliticsofdesign.com/about-the-book) #book
 - [unbag \- Black Gooey Universe](https://unbag.net/end/black-gooey-universe)
