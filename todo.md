@@ -3,7 +3,6 @@
 - [ ] [[mintter-component-libs-comparison]] #mintter
 - [ ] [[mintter-refactor-mintterclient]] #mintter #todo
 - [ ] define **why** (or why not) we let a publication from other authors in the main panel. Avoid lead to caos #mintter
-- [ ] comprar bolsas de plasticos chinos eco #happori
 - [ ] [[happori nuevo tagline]] #happori
 - [ ] [[happori preguntas frecuentes]] #happori
 - [ ] [[review next + electrom example]]
