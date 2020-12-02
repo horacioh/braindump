@@ -1,5 +1,6 @@
 # About this workspace
 
+- This is a [Foam](https://foambubble.github.io) Workspace
 - treating some todos as pages (`- [ ] [[todo page]]`) turns out to work well, I can keep track on where I added and where I did it
 - I have a general todo page with all the todos without a date
 - on my journal I add the todos I want to do for the day

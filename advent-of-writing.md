@@ -1,6 +1,10 @@
 # Advent of Writing
 
-Write something every day!
+- #adventOfWriting
+
+## Write something every day!
+
+I'm commiting to write something every day from December 1st to December 25th!. You're welcome to Join me in this experience!
 
 - [[2020-12-01]] [[article-progressively-delivering-new-image-formats-with-css-and-cloudflare-workers]]
 
