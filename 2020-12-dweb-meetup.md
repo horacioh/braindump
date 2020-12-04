@@ -3,7 +3,6 @@
 - [[2020-12-04]]
 
 - 12 lightning talks
-- Mark nadal is here! 😅
 - descentralise payments
 - http://brewster.kahle.org/2020/11/16/dpayments-on-the-dweb-now-possible-math-breakthrough/
 - http://brewster.kahle.org/2015/08/11/locking-the-web-open-a-call-for-a-distributed-web-2/
@@ -36,7 +35,7 @@
 - people likes the DWeb mesh technology
 - Tech and non-tech students attend to the workshop
 
-## Karissa Mclelvey: Secentralization, off the shelf
+## Karissa Mclelvey: Decentralization, off the shelf
 
 - worked on DAT
 - DWeb apps are hard to build
