@@ -1,5 +1,10 @@
 # Inbox
 
+- [How to Build a Consistent Content Creation Habit](https://www.jason.af/build-consistent-content-creation-habit)
+- [earthstar/tour\.md at master · earthstar\-project/earthstar](https://github.com/earthstar-project/earthstar/blob/master/docs/tour.md)
+- [paulshen/manipulative: Devtool for manipulating React \+ Emotion styles in the browser](https://github.com/paulshen/manipulative)
+- [earthstar\-project/earthstar: A distributed, syncable document database for making p2p apps](https://github.com/earthstar-project/earthstar)
+- [Why we hire consultants to help build egghead\.io](https://joelhooks.com/blog/2017/10/26/why-we-hire-consultants-to-help-build-egghead-dot-io)
 - [Sendy \- Send Newsletters 100x cheaper via Amazon SES](https://sendy.co/)
 - [Animated Transitions with React Router v5](https://ui.dev/react-router-v5-animated-transitions/)
 - [Introducing Decentralization Off The Shelf: 7 Maxims – Simply Secure](https://simplysecure.org/blog/decentralization-off-the-shelf-7-maxims)
@@ -44,16 +49,12 @@
 - [How to Test React.useEffect](https://epicreact.dev/how-to-test-react-use-effect/) #testing #react #read
 - [jest playground](https://testing-playground.com/) #resource #testing #javascript #jest
 - [Money Words: Seven of the Words & Phrases We Use Most Often in High-Converting Copy – Joanna Wiebe](https://www.youtube.com/watch?v=GEE7Xr_a0ZU) #business #product #video
-
   - shared by Will in the 2 week project Discord Server
-
 - [http://labeoufronkkoturner.com/](http://labeoufronkkoturner.com/)
-
 - [https://share.transistor.fm/e/90980ed9](https://share.transistor.fm/e/90980ed9)
 - how to solve it: book
 - [https://www.keepproductive.com/blog/guide-to-notion-databases](https://www.keepproductive.com/blog/guide-to-notion-databases)
 - [https://help.shopify.com/en/manual/discounts](https://help.shopify.com/en/manual/discounts)
--
 - [https://wagtail.io/blog/why-wagtail-new-editor-is-built-with-draft-js](https://wagtail.io/blog/why-wagtail-new-editor-is-built-with-draft-js)
 - [https://github.com/staltz/xstream](https://github.com/staltz/xstream)
 - [https://medium.com/drill/the-internet-changes-http-3-will-not-use-tcp-anymore-427e82eeadc0](https://medium.com/drill/the-internet-changes-http-3-will-not-use-tcp-anymore-427e82eeadc0)
