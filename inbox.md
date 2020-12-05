@@ -1,5 +1,8 @@
 # Inbox
 
+- [framework.thoughtvectors: A site for study, collaboration, and action, co-sponsored by the Doug Engelbart Institute.](https://framework.thoughtvectors.net)
+- [Use CSS Variables instead of React Context](https://epicreact.dev/css-variables/) #react [[kent-c-dodds]] #css #css-variables #react-context
+- [Check your Pulse #55](https://sariazout.substack.com/p/check-your-pulse-55)
 - [The Era of Visual Studio Code \| Roben Kleene](https://blog.robenkleene.com/2020/09/21/the-era-of-visual-studio-code/)
 - [How to Build a Consistent Content Creation Habit](https://www.jason.af/build-consistent-content-creation-habit)
 - [earthstar/tour\.md at master · earthstar\-project/earthstar](https://github.com/earthstar-project/earthstar/blob/master/docs/tour.md)
@@ -34,20 +37,20 @@
 - [https://www.videoask.com/](https://www.videoask.com/)
 - [https://itnig.net/podcast/](https://itnig.net/podcast/)
 - [https://en.wikipedia.org/wiki/Unix_philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
-- https://wattenberger.com/blog/react-hooks #inspiration #article #react #react-hooks
+- https://wattenberger.com/blog/react-hooks #inspiration #article [[react]] #react-hooks
 - [greensock products](https://greensock.com/products/)
 - [greensock scrolltrigger](https://greensock.com/scrolltrigger/)
 - [https://frontendmasters.com/courses/canvas-webgl/](https://frontendmasters.com/courses/canvas-webgl/) #course #webgl #canvas #js
 - [https://frontendmasters.com/courses/functional-javascript-v3/](https://frontendmasters.com/courses/functional-javascript-v3/) #js #course #functional-programming
 - [https://frontendmasters.com/courses/javascript-accessibility/](https://frontendmasters.com/courses/javascript-accessibility/) #course #web #js #a11y
 - [https://frontendmasters.com/courses/interviewing-frontend/](https://frontendmasters.com/courses/interviewing-frontend/) #course #hiring #interviews
-- [https://frontendmasters.com/courses/pure-react-state/](https://frontendmasters.com/courses/pure-react-state/) #course #react #state-management
-- [https://frontendmasters.com/courses/design-systems/](https://frontendmasters.com/courses/design-systems/) #course #design-system #storybook #react
+- [https://frontendmasters.com/courses/pure-react-state/](https://frontendmasters.com/courses/pure-react-state/) #course [[react]] #state-management
+- [https://frontendmasters.com/courses/design-systems/](https://frontendmasters.com/courses/design-systems/) #course #design-system #storybook [[react]]
 - [https://codepen.io/svganimationworkshop/collections/](https://codepen.io/svganimationworkshop/collections/) #web #svg #resource
 - review [Hammock driven development](https://www.notion.so/mintter/Hammock-Driven-Development-4d06aa22022a483ab7038d8e248f09b6?d=8c2c350b-aabf-44fa-ad4c-9e4a4ad80a56) #mintter
 - [review](https://www.notion.so/mintter/Suggestion-copy-article-into-Mintter-8daeb11d364a41c08498532d34acc13a?d=af10d313-9b8a-4d49-8fc7-e05824f9c395) #mintter
-- [How React Uses Closures to Avoid Bugs](https://epicreact.dev/how-react-uses-closures-to-avoid-bugs/) #read #react
-- [How to Test React.useEffect](https://epicreact.dev/how-to-test-react-use-effect/) #testing #react #read
+- [How React Uses Closures to Avoid Bugs](https://epicreact.dev/how-react-uses-closures-to-avoid-bugs/) #read [[react]]
+- [How to Test React.useEffect](https://epicreact.dev/how-to-test-react-use-effect/) #testing [[react]] #read
 - [jest playground](https://testing-playground.com/) #resource #testing #javascript #jest
 - [Money Words: Seven of the Words & Phrases We Use Most Often in High-Converting Copy – Joanna Wiebe](https://www.youtube.com/watch?v=GEE7Xr_a0ZU) #business #product #video
   - shared by Will in the 2 week project Discord Server
@@ -109,7 +112,45 @@
 - crear repo de config para videos en aprendegatsby
 - fix GitHub actions
 - [https://www.dougengelbart.org/content/view/191/268/](https://www.dougengelbart.org/content/view/191/268/)
+- [Glamorous toolkit](https://gtoolkit.com) #dev #tools
+- [How to add testing to an existing project](https://kentcdodds.com/blog/how-to-add-testing-to-an-existing-project/) [[react]] #testing [[kent-c-dodds]]
+- [conventional\: comments](https://conventionalcomments.org) #dev #resources #git #workflow
+- [Build your PC](https://www.logicalincrements.com) #hardware #pc #resource #reference #gear
+- [Open Source Sustainability](https://dev.to/erikras/open-source-sustainability-3pjf) #oss #article #thoughts
+- [GraphQL Recipes v2: Building APIs with GraphQL Transform](https://dev.to/open-graphql/graphql-recipes-building-apis-with-graphql-transform-3jp0) #dev #web #graphql #recipes #resources #tutorial [[graphql]] 
+- [Fail like a Scientist](https://nesslabs.com/fail-like-a-scientist) #article #nesslabs [[anne-laure-le-cunff]]
+- [Collaborative design research](https://matthewstrom.com/writing/collaborative-design-research/)
+- [USABILITIPS: Tips de Usabilidad](https://usabilitips.glideapp.io)
+- [Como estoy usando Notion para recoger y ampliar conocimiento](https://elenadrigal.com/notion-recoger-ampliar-conocimiento) #notion #knowledge #notes #article #spanish
+- [The documented collection of UI components](https://uiplaybook.dev) #ui #reference #design [[accessibility]] 
+- [Type Safe Infrastructure, Part 2 — GraphQL APIs with AWS AppSync](https://medium.com/@sam.goodwin1989/type-safe-infrastructure-part-2-graphql-apis-with-aws-appsync-d1225e4e21e3) [[graphql]] #resource #api #web #dev
+- [UCAN: Authorizing Users Without a Back End](https://blog.fission.codes/auth-without-backend/) #article #authentication #web #dev #product
+- [Corey Ginnivan's website](https://corey.ginnivan.net)
+- [Records and Tuples for React](https://sebastienlorber.com/records-and-tuples-for-react) [[react]] #web #dev #resources #tutorial #js
+- [Under the spotlight: Select](https://modulz-website.now.sh/blog/under-the-spotlight-select)
+- [Programmatically create forms, and capture submissions with Next.js and GraphQL](https://graphcms.com/blog/forms-and-submissions-with-nextjs-and-graphql) #web #graphql #nextjs #js #web #form #resource #tutorial
+- [The Technonomicon](https://notes.technomancy.dev)
+- [From Zer0 to Saa$: building a side project live on stream](https://www.indiehackers.com/post/from-zer0-to-saa-building-a-side-project-live-on-stream-2c61fd956c) #article #howto #sideproject #sass
+- [Continuous Integration with Jest Tests and Github Actions]() #js #jest #tutorial #howto #web #dev
+- [Our 8 Pillars of Education](https://writeofpassage.school/2020/02/10/our-8-pillars-of-education/) #education #article #learning
+- [What Should I Teach in a Video Tutorial?](https://johnlindquist.com/what-should-i-teach-in-a-video-tutorial/) #teaching #learning #video [[john-lindquist]] #web #dev #thoughts
+- [The power of Flexible Consistency](https://nesslabs.com/flexible-consistency) #article [[anne-laure-le-cunff]] #consistency #thoughts
+- [How to build filtering into your REST API](https://simonplend.com/how-to-build-filtering-into-your-rest-api/) #tutorial #web #dev [[react]] #howto
+- [Spanish Startup Riders](https://www.startupriders.io) #spain #startup #resource #list
+- [filter.css \- CSS only library to apply color filters](https://bansal.io/filters-css) #resource #css #library #web #dev
+- [Critical-ish CSS Extraction](https://giuseppegurgone.com/critical-css-extraction/) #web #dev #performance #css #howto
+- [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library) #react [[testing-frontend-apps]] #dev #web #resource [[kent-c-dodds]]
+- [Tweetagram: Auto generate beautiful visuals from a Tweet](https://www.bannerbear.com/demos/tweetagram/) #product #showcase #twitter #instagram
+- [Torus: Hosting for static websites](https://torus.host) #product #showcase #web #dev #ssg #hosting
+- [Market definitions and tech monopolies](https://www.ben-evans.com/benedictevans/2020/10/31/market-definitions-and-tech-monopolies) #article #thoughts #tech
+- [How to emulate hand-drawn shapes \/ Algorithms behind RoughJS](https://shihn.ca/posts/2020/roughjs-algorithms/) #web #dev #howto #drawing #image-generation
+- [Tracer.click \- A new way to track user behaviour](https://tracer.click) #product #showcase #analytics #tracking
+- [Starship: The minimal, blazing-fast, and infinitely customizable prompt for any shell](https://starship.rs) #shell #product #web #dev
+- [The missing semester](https://edieblu.github.io/missing-semester/) #resource #computer-science #learning
+
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [Agora]: agora "Agora"
+[graphql]: graphql "Graphql"
+[anne-laure-le-cunff]: anne-laure-le-cunff "Anne-Laure Le Cunff"
 [//end]: # "Autogenerated link references"
