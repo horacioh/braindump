@@ -1,5 +1,6 @@
 # Inbox
 
+- [A brief guide to design feedback](https://matthewstrom.com/writing/critique-vs-review/)
 - [framework.thoughtvectors: A site for study, collaboration, and action, co-sponsored by the Doug Engelbart Institute.](https://framework.thoughtvectors.net)
 - [Use CSS Variables instead of React Context](https://epicreact.dev/css-variables/) #react [[kent-c-dodds]] #css #css-variables #react-context
 - [Check your Pulse #55](https://sariazout.substack.com/p/check-your-pulse-55)
@@ -119,7 +120,6 @@
 - [Open Source Sustainability](https://dev.to/erikras/open-source-sustainability-3pjf) #oss #article #thoughts
 - [GraphQL Recipes v2: Building APIs with GraphQL Transform](https://dev.to/open-graphql/graphql-recipes-building-apis-with-graphql-transform-3jp0) #dev #web #graphql #recipes #resources #tutorial [[graphql]] 
 - [Fail like a Scientist](https://nesslabs.com/fail-like-a-scientist) #article #nesslabs [[anne-laure-le-cunff]]
-- [Collaborative design research](https://matthewstrom.com/writing/collaborative-design-research/)
 - [USABILITIPS: Tips de Usabilidad](https://usabilitips.glideapp.io)
 - [Como estoy usando Notion para recoger y ampliar conocimiento](https://elenadrigal.com/notion-recoger-ampliar-conocimiento) #notion #knowledge #notes #article #spanish
 - [The documented collection of UI components](https://uiplaybook.dev) #ui #reference #design [[accessibility]] 
