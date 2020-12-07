@@ -151,7 +151,7 @@
 
 ```
 From Dietrich Ayala to Everyone: (3:22 AM)
-new extension apis is a rough road - hard lesson we learned with libdweb.good choice to not do that :)
+new extension apis is a rough road - hard lesson we learned with libdweb. good choice to not do that :)
 ```
 
 ## Fluence: Open Application Platform: Tom Trowbridge
