@@ -1,5 +1,7 @@
 # Inbox
 
+- [Joseph Jacks – Medium](https://medium.com/@asynchio)
+- [Islands Architecture](https://jasonformat.com/islands-architecture/)
 - [Visly](https://visly.app/)
 - [Introduction — Radix UI](https://radix-ui.com/primitives/docs/overview/introduction)
 - [specs/pubsub/gossipsub at master · libp2p/specs](https://github.com/libp2p/specs/tree/master/pubsub/gossipsub)
