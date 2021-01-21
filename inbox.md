@@ -1,5 +1,9 @@
 # Inbox
 
+- [Build a Corgi Up\-boop Web App with Netlify Serverless Functions and Hasura \| egghead\.io](https://egghead.io/playlists/build-a-corgi-up-boop-web-app-with-netlify-serverless-functions-and-hasura-553c) #workshop #videos #reasource #egghead #netlify #serverless #tutorial
+- [fonts, typefaces, typography — I love Typography \(ILT\)](https://ilovetypography.com/2020/01/27/typographic-manicules-point-dont-point/)
+- [Tidy TypeScript: Name your generics](https://fettblog.eu/tidy-typescript-name-your-generics/) #javascript #typescript
+- [Max Stoiber on Twitter: passport\-magic\-login: Simple magic link authentication with Passport\! 🎩✨ | Twitter](https://twitter.com/mxstbr/status/1348549129027383298) #twitter #tools #authentication #javascript
 - [VSpaceCode \| VSpaceCode](https://vspacecode.github.io/)
 - [Joseph Jacks – Medium](https://medium.com/@asynchio)
 - [Islands Architecture](https://jasonformat.com/islands-architecture/)
