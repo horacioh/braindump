@@ -37,9 +37,8 @@
 - [The Smart Coder](https://thesmartcoder.dev/10-awesome-github-repos-every-web-developer-should-know/)
 - [The Era of Visual Studio Code \| Roben Kleene](https://blog.robenkleene.com/2020/09/21/the-era-of-visual-studio-code/)
 - [How to Build a Consistent Content Creation Habit](https://www.jason.af/build-consistent-content-creation-habit)
-- [earthstar/tour\.md at master · earthstar\-project/earthstar](https://github.com/earthstar-project/earthstar/blob/master/docs/tour.md)
 - [paulshen/manipulative: Devtool for manipulating React \+ Emotion styles in the browser](https://github.com/paulshen/manipulative)
-- [earthstar\-project/earthstar: A distributed, syncable document database for making p2p apps](https://github.com/earthstar-project/earthstar)
+- [earthstar\-project/earthstar: A distributed, syncable document database for making p2p apps](https://github.com/earthstar-project/earthstar) #research #mintter #distributed-systems
 - [Why we hire consultants to help build egghead\.io](https://joelhooks.com/blog/2017/10/26/why-we-hire-consultants-to-help-build-egghead-dot-io)
 - [Sendy \- Send Newsletters 100x cheaper via Amazon SES](https://sendy.co/)
 - [Animated Transitions with React Router v5](https://ui.dev/react-router-v5-animated-transitions/)
