@@ -1,4 +1,4 @@
-# PushPin paper
+# PushPin: Towards Production-Quality Peer-to-Peer Collaboration
 
 - [source](https://martin.kleppmann.com/papers/pushpin-papoc20.pdf)
 
