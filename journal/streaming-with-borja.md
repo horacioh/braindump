@@ -10,6 +10,9 @@
 - failed side projects
   - **explicar un poco estos side projects?**
   - usecomms?
+    - no funciono. y habian otros competidores:
+    - [Threads](https://threads.com/)
+    - [Twist: Clear & Organized Team Communication](https://twist.com/)
 - Dinoclass
   - como empezo?
   - enseñarle a niños? estás loco?
