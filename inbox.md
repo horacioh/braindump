@@ -1,5 +1,7 @@
 # Inbox
 
+- [How to build a simple notes app with IDX](https://blog.ceramic.network/how-to-build-a-simple-notes-app-with-idx/)
+- [Getting Started with Secure Scuttlebutt \(SSB\) \| by Miguel Mota \| Medium](https://medium.com/@miguelmota/getting-started-with-secure-scuttlebut-e6b7d4c5ecfd)
 - [CIDER 1\.0 \| Meta Redux](https://metaredux.com/posts/2020/12/28/cider-1-0.html) [[clojure]]
 - [CIDER: The Clojure Interactive Development Environment that Rocks](https://cider.mx/) [[clojure]]
 - [Building a decentralized browser application with IPFS \- YouTube](https://www.youtube.com/watch?v=ud7WXPCxHyc) [[clojure]] #video #stream #decentralisation #ipfs
