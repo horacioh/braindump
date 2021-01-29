@@ -6,7 +6,7 @@ by [[Martin Kleppmann]]
 - [Lecture notes](https://www.cl.cam.ac.uk/teaching/2021/ConcDisSys/dist-sys-notes.pdf)
 - [Slides](https://www.cl.cam.ac.uk/teaching/2021/ConcDisSys/dist-sys-slides.pdf)
 
-## 1.1 Introduction
+### 1.1 Introduction
 
 - [video](https://www.youtube.com/watch?v=UEAMfLPZZhE&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB)
 - [Leslie Lamport](http://www.lamport.org/): legend in this area
@@ -23,7 +23,7 @@ by [[Martin Kleppmann]]
   - **Fault Tolerance**: we want the system as a whole to continue working, even when some parts are faulty.
   - is Hard!
 
-## 1.2 Computer Networking
+### 1.2 Computer Networking
 
 - [video](https://www.youtube.com/watch?v=1F3DEq8ML1U&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=2)
 - Any computer device is called a `Node`
@@ -37,7 +37,7 @@ by [[Martin Kleppmann]]
   - bandwidth in the web is limited to the amount of size the messages
 - Messages are not individual TCP packets.
 
-## 1.3 Remote Procedure Call
+### 1.3 Remote Procedure Call
 
 - [video](https://www.youtube.com/watch?v=S2osKiqQG9s&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=3)
 - Client-server example: Online Payments
@@ -50,7 +50,7 @@ by [[Martin Kleppmann]]
 - Location Transparency: System hides where a resource is located
 - REST is an implementation of RPC
 
-### Service-oriented Architecture (SOA) / "microservices"
+#### Service-oriented Architecture (SOA) / "microservices"
 
 - split a large software application into multiple services (on multiple nodes) that communicate via RPC
   - Interoperability: Datatype conversions
@@ -220,11 +220,11 @@ by [[Martin Kleppmann]]
 
 - **"CAUSAL" !== "CASUAL"**
 
-### 4. Broadcast protocols and logical time
+## 4. Broadcast protocols and logical time
 
 - [video](https://www.youtube.com/watch?v=x-D8iFU1d-o&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=11)
 
-#### Logical Clocks
+### 4.1 Logical Clocks
 
 - designed to capture causal dependencies
 - Types of logical clocks:
@@ -265,6 +265,72 @@ by [[Martin Kleppmann]]
 
 # <==> => "if and only if"
 ```
+
+### 4.2 Broadcast ordering
+
+- [video](https://www.youtube.com/watch?v=A8oamrHf_cQ&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=12)
+
+- Boradcast protocols is group notification: one message sents a node to all other nodes in the system
+- Receiving vs Delivering
+  - both are counterparts
+  - the broadcast algorithm could delay delivering messages maybe because it needs to deliver them in the right order.
+- Forms of reliable broadcast (based on the order in which they are delivered)
+  - **FIFO Boradcast**: the order should remain if the messages are sent from the same node.
+  - **Causal Broadcast**: delivery in causal order.
+  - **Total order Broadcast**: ensures all nodes deliver the messages in the same order. - #question Who decides the order in which messages should be deliverd if you don't know all the messages?
+    ![Relationships between broadcast models](assets/distributed-systems-broadcast-relationships.png)
+
+### 4.3 Broadcast Algorithms
+
+- [videos](https://www.youtube.com/watch?v=77qpCahU3fo&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=13)
+
+- Two layers
+  - Make best-effort broadcast (retransmitting dropped messages)
+  - Enforce delivery order on top of reliable broadcast
+- nodes send messages directly: not reliable.
+- Re-broadcast messages the first time is received
+  - reliable but expensive O(n2)
+- **Gossip Protocols** or epidemic protocol
+  - nodes forward a message to a number of nodes and that spreads to all nodes in the system
+  - a way of achieving reliable broadcast
+- Total Order algorithm
+  - Single leader approach
+    - one node designates a leader
+    - other nodes sends messages to the leader and the leader broadcast messages using FIFO boradcast
+    - Problem: if leader crashes, no more messages are delivered and is hard to change the leader safely
+  - Lamport Clock
+    - lamport timestamps to every message
+    - deliver messages in total order of timestamps
+    - Problem: how do you ensure you are not sending a message with a lower Lamport timestamp?
+
+## 5. Replication
+
+- [video](https://www.youtube.com/watch?v=mBUCF1WGI_I&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=14)
+
+- having a copy of the same data in multiple nodes
+- **replica**: a node that has a copy of the data
+- Spread load across many replicas
+- replicas can be faulty, others are still accessible
+- **RAIDs** are in a single computer, not in multiple computers with multiple controllers as in a Distributed Systems
+- **Idempotence**
+  - if you apply a function once, it has the same effect that applying the function twice or more times
+  - adding a like is **not idempotent**
+  - adding an item to a set **is idempotent**
+- Choice of retry semantics
+  - At-most-once
+  - At-least-once
+  - Exactly-once
+- checkout this example:
+  ![Replica example problem](assets/distributed-systems-replica-problems.png)
+
+- Both replicas look the same, but the user's intent is different (in one the user wants to add X and in the other the user wants to remove X)
+- we can solve this by adding timestamps to each event (of course!)
+- **anti-entropy protocol**: protocol to reconcile state between replicas (using timestamps)
+- we can use lamport clocks or vector clocks, depending on the behaviour we want
+- timestamps provide a relative order in every operation. this helps to have the same data in all replicas
+- with two concurrent writers, we can have two common approaches:
+  - Last writer wins (LWW): Data loss!
+  - Multi-value Register: using partial order (vector clocks)
 
 ## References
 
