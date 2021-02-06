@@ -1,5 +1,10 @@
 # Inbox
 
+- [Scuttlebutt Demo](https://awinterman.github.io/simple-scuttle/) #decentralisation #research #scuttlebutt
+- [iainc/iA\-Writer\-Templates: Preview, create PDFs, and print documents in your own style with templates in iA Writer\.](https://github.com/iainc/iA-Writer-Templates) #mintter #writing #typography #fonts #design-system #design
+- [Calvin: Fast Distributed Transactions for Partitioned Database Systems](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf) #research #whitepaper #mintter #distributed-systems
+- [Hero of the information age: Data storyteller \[Nesslabs session\] \- YouTube](https://www.youtube.com/watch?v=SskNmJHjm9I&feature=emb_title) #nesslabs #video #storytelling #writing
+- [Accessibility – Tiny Helpers](https://tiny-helpers.dev/accessibility/)
 - [How to build a simple notes app with IDX](https://blog.ceramic.network/how-to-build-a-simple-notes-app-with-idx/)
 - [Getting Started with Secure Scuttlebutt \(SSB\) \| by Miguel Mota \| Medium](https://medium.com/@miguelmota/getting-started-with-secure-scuttlebut-e6b7d4c5ecfd)
 - [CIDER 1\.0 \| Meta Redux](https://metaredux.com/posts/2020/12/28/cider-1-0.html) [[clojure]]

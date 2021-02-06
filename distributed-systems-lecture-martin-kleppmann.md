@@ -275,7 +275,7 @@ by [[Martin Kleppmann]]
   - both are counterparts
   - the broadcast algorithm could delay delivering messages maybe because it needs to deliver them in the right order.
 - Forms of reliable broadcast (based on the order in which they are delivered)
-  - **FIFO Boradcast**: the order should remain if the messages are sent from the same node.
+  - **FIFO Broadcast**: the order should remain if the messages are sent from the same node.
   - **Causal Broadcast**: delivery in causal order.
   - **Total order Broadcast**: ensures all nodes deliver the messages in the same order. - #question Who decides the order in which messages should be deliverd if you don't know all the messages?
     ![Relationships between broadcast models](assets/distributed-systems-broadcast-relationships.png)
