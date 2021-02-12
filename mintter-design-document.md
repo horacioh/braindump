@@ -10,9 +10,11 @@ Furthermore, the web architecture missed a linked data layer that would have all
 
 The result is that the public sphere has shifted into a platform for advertising, and our conversations have become fragmented, divisive, and plagued with disinformation, leading us to polarization. Nevertheless, our society needs honest collaboration and thought tools to solve complex problems and platforms that can hold constructive dialogues and critical debates.
 
-In this whitepaper, we want to demonstrate that we can build a system that enables a new way to dialogue in a peer-to-peer network with no central point of control. A network of peers gossiping linked data brings the necessary properties to provide a superior hypertext authoring. A cryptographic identity system on top of the network carries the digitally signed content's attribution to the authors.
+In this whitepaper, we want to demonstrate that we can build a system that enables sharing and remixing content, keeping attribution and royalties without a central point of control or server. A network of peers gossiping linked data brings the necessary properties to provide a superior hypertext authoring. A cryptographic identity system on top of the network carries the digitally signed content's attribution to the authors.
 
-A copyright system where authors cite, reuse or remix previously published content, maintaining attribution and royalties. Lightning Network provides the first micropayment scheme that we believe could be eventually embedded in the Web. Direct payments between reader and creator will bring a fair compensation for knowledge.
+A copyright system where authors cite, reuse or remix previously published content, maintaining attribution and royalties.
+
+Lightning Network provides the first micropayment scheme that we believe could be eventually embedded in the Web. Direct payments between reader and creator will bring a fair compensation for knowledge.
 
 Attribution, royalties, a better citation process, and reusing can become the dialogue society needs. Share and reuse knowledge. A dialogue inspired by the academia interacts and how creative commons wants thinks of a copyright system. In Mintter reusing and remixing content keeping attribution and royalties, users will prefer to do it right than steal.
 
@@ -45,6 +47,15 @@ Before going into details on Mintter, lets layout the design principles we appli
   The principles of Local-First software described earlier fit very well with P2P. Although providing a similar level of user experience as in traditional centralized systems is very challenging, especially when users have more than one device. It's hard to find one-size-fits-all solution for this, thus we decided to focus a concrete use case - Publishing, with the idea to provide the best user experience possible, while continue being a P2P system. Decentralization is not the goal in and of itself though. The good news is that adding a layer of centralization to a system that is inherently P2P is a lot easier than trying to do it the other way around.
 
 - **CRDT**
+
+  Not only managing decentralized identity with multiple devices is hard, but also managing any state in general. Since each device can be out-of-sync for arbitrary amount of time and there's no single source of truth, deterministic merge of divergent state is essential for such a system to work. This is where [CRDTs](https://www.notion.so/Mintter-Design-Document-bed174849106466cbec2a12dabddd701) comes in handy.
+
+  Although most of the available work around CRDTs is focused on the real-time collaboration, this is not the only place where they can be helpful. In Mintter we actually don't pursue the goal of real-time collaboration, at least in the beginning. We use CRDTs for two primary reasons: version control of data, and seamless multi-device experience.
+
+  Choosing a specific CRDT algorithm is challenging as each solution comes with its own trade-offs and performance characteristics. Hence, we aren't committing to a specific algorithm for Mintter, but instead attempt to create an abstraction – a Patch data structure (described in the following section) that could support different algorithms and evolve incrementally in a backward-compatible way.
+
+  For the use case of Publishing doing version control with delta updates rather than snapshots makes sense because it would incentivize users to keep all the changes for as long as they keep the object, thus ensuring the density of propagation and preservation of history.
+
 - **Cryptography**
 
   Cryptography enables new applications with decentralised architectures. During the web era, these applications were only conceived as centralised server architectures. In the last decades, progress on PKI and Digital Signatures. Bring interesting features in Identity.
@@ -78,14 +89,59 @@ Mintter, as you can see in the figure below, allows authors (our users) to contr
 Prototype of the Local Application showing the Library page listing all the publications available locally to read and reuse.
 
 - **Decentralized Identity**
+
+  Your Digital Identity is very important, not only for your integrity but also for others to trust that no matter what you do, the content associated to your digital identity was published by you and only you. Normally cryptographic keys are used to establish an identity of a user in a decentralized environment.
+
+  Implementing support for a single identity with multiple devices is especially hard in a P2P setting, as there's no single source of truth about the system's state. One possible solution could be to copy the same private key on all devices so that each one can sign content with the primary identity key. While being conceptually simple, this brings some security risks like compromising the whole identity if a single device is compromised.
+
+  We take a bit different approach by using random keys on each device (Peer) and "linking" them together under the primary Account Key.
+
+  - **Cryptographic key pairs and Device Signature**
+
+    To help to establish trust between users we use asymmetric cryptographic key pairs to identify each device/peer that runs a Mintter Application. Content produced by users is signed with the private key of their devices, and other users can verify the signature with the corresponding public keys.
+
+    Devices are grouped under a single Account which is the primary identity of a Mintter User. In essence, one Account will have a list of devices/peers (at least one) associated with it. That's one key pair for the Account, and a separate key pair for each device.
+
+    The process to link devices to an Account works along these lines:
+
+    1. When you create your identity for the first time, we generate a random cryptographic seed using [Aezeed](https://www.notion.so/Mintter-Design-Document-bed174849106466cbec2a12dabddd701) scheme as implemented by LND to ensure future integration with Lightning Network is possible using the same seed. The seed is then encoded into 24-word mnemonic phrase, and these 24 words is the only thing user needs to take care of to keep their identity safe. We avoid storing the seed anywhere, and it's only used to create the binding between Account and Device.
+    2. We deterministically derive user's Mintter Account Key from the Seed we've created previously using the process described in [SLIP-10](https://www.notion.so/Mintter-Design-Document-bed174849106466cbec2a12dabddd701).
+       1. First we generate a master key for ed25519 elliptic curve.
+       2. Then we derive user's Mintter Account Key, which also ends up being a ed25519 private key.
+       3. Then we derive a public key from the private key.
+    3. For the device key - we generate a separate random ed25519 key pair. The hash of the public key becomes the PeerID of the device.
+    4. Then an "Invite" message is produced and signed by the Account Key that includes the PeerID of the device being added.
+    5. Then the Device "wraps" and signs this invite message with its own private key. This combined message ends up being a proof of the fact that both Device and Account wanted to be linked.
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5fbded70-a4b1-4455-ab32-ee559a36154b/device-invite.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5fbded70-a4b1-4455-ab32-ee559a36154b/device-invite.jpg)
+
+    Visual Representation of the process to add a Device to an Account
+
+    We this scheme, we can avoid storing the main Account Key on the devices and only use it briefly to link Device and Account together. This helps to prevent compromising the Account Key in case of compromising a Device. We could still store the original Seed enciphered with the user's provided passphrase on the device for a more seamless user experience.
+
+    As always with cryptography there's a tradeoff between usability and security. Users need to be aware of the fact that there's no "forgot password" functionality for their main cryptographic identity, and they need to take good care of it.
+
+    A user could also use the Account Key to revoke a Device. This is done by creating a revocation message signed by the account specifying a device to revoke.
+
+  - **Mintter Account**
+
+    The state of the user's Mintter Account is composed by the following information:
+
+    - _Profile._ \***\*It \*\***can hold arbitrary information about the Account such as: alias, email, bio, avatar URL, etc. Users can also link third-party accounts like Twitter, or other social media platforms, by publishing proofs on these other platforms signed with one of the user's device keys. All this information becomes public and available for other users to verify.
+    - _List of Devices._ The list of Peer IDs with their state (active, revoked).
+    - _Catalog of Publications._ Users can author Mintter Documents (described later) and information about the published document will become part of their Account.
+    - _Social Graph._ Users can follow, unfollow or block other users. These actions are public, and are recorder on the user's account information.
+
+    While the actual state of the account is mutable (e.g. you can follow someone and then unfollow them), the history of changes is immutable (append-only) and is cryptographically verifiable. This is described in more detail in the following section.
+
 - **Objects And Patches**
 
   As described earlier in the [CRDT section](https://www.notion.so/Mintter-Design-Document-bed174849106466cbec2a12dabddd701) we generalize on the idea that every piece of state in our system is expressed as a set of patches. Patches are applied to Objects by specifying an ObjectID. Technically ObjectID can be an arbitrary string, but in our use case we define two types:
 
   - The main user's account for which the ObjectID would be the hash of the Account Public Key.
-  - Random ObjectID that is created by publishing an "empty" patch that doesn't refer to any object, such that the hash of this patch would become a new ObjectID that other patches can refer to. This idea is inspired by [Perkeep's permanode](https://www.notion.so/Mintter-Design-Document-bed174849106466cbec2a12dabddd701), and it gives us the benefit of being able to trace back to the original creator of the object.
+  - Random ObjectID that is created by publishing an "empty" patch that doesn't refer to any object, such that the hash of this patch would become a new ObjectID that other patches can refer to. This idea is inspired by [Perkeep's permanode](https://www.notion.so/Mintter-Design-Document-bed174849106466cbec2a12dabddd701), and it gives us the benefit of being able to trace back to the identity of the original creator of the object.
 
-  Every new patch must explicitly specify other patches that are depend on patches that came before it which are required in order to apply this new patch.
+  Every new patch must explicitly specify other patches that it depends on, meaning any other patch that came before which is required in order to apply this new patch.
 
   Peers exchange patches between each other and apply them to their local copy of the state. Patches are signed cryptographically by the Device Key, stored as IPFS blobs (these are actually IPLD DAG-CBOR Blocks, but we call them blobs to avoid confusion with Mintter Document Blocks discussed later), and are content-addressable.
 
@@ -99,16 +155,60 @@ Prototype of the Local Application showing the Library page listing all the publ
 
   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36b56bcc-4534-467a-ae97-9a3af844ab16/concurrent-patches.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36b56bcc-4534-467a-ae97-9a3af844ab16/concurrent-patches.jpg)
 
-  The actual body of the patch is an opaque byte sequence that is interpretable by the application. It could be a list of discrete operations or some kind of CRDT data structure. This is what allows us to choose different CRDT algorithms without modifying the actual Patch "envelope".
+  The actual body of the patch is an opaque byte sequence that is interpretable by the application. It could be a list of discrete operations, or some kind of CRDT data structure. This is what allows us to choose different CRDT algorithms without modifying the actual Patch "envelope".
 
   A Patch is a struct with the following fields (pseudo-code):
 
-  - _LamportTime_:
-  - _Kind_: An arbitrary string that lets the client know about what's inside the body of the patch. This is important to make the system evolvable and future-proof.
-  - _Body_: An arbitrary byte buffer. Could be serialized list of discrete operations, or anything else that is relevant to the application.
-  - _Message_: An optional human-readable message.
-  - _CreateTime_: A physical timestamp of creation of this patch, for convenience.
-  - _Signature_: A cryptographic signature of all the previous fields with the Device Key.
+  ```go
+  type Patch struct {
+    // CID-encoded ID of the author of the patch.
+    Author CID
+
+  	// CID-encoded object ID.
+    ObjectID CID
+
+  	// A list of CIDs of patches that are required to apply this patch.
+    // The dependent patches must refer to the same Object IDs.
+    // Only direct dependencies must be specified, and only one
+    // for each peer, e.g. for a sequence of patches A ← B ← C,
+    // patch C must only specify B as its dependency.
+    Deps []CID
+
+  	// A monotonically increasing counter that must have no gaps
+    // within the same device and ObjectID.
+    Seq uint64
+
+    // A Lamport timestamp. Each peer keeps a logical clock
+    // per object, and when creating a new patch the
+    // author must assign a timestamp which is an increment of
+    // the maximal timestamp among all other peers' timestamps
+    // the author knows about.
+    LamportTime uint64
+
+    // An arbitrary string that lets the client know
+    // about what's inside the body of the patch.
+    // This is important to make the system evolvable and future-proof.
+    Kind string
+
+    // An arbitrary byte buffer.
+    // Could be serialized list of discrete operations,
+    // or anything else that is relevant to the application.
+    Body []byte
+
+    // An optional human-readable message.
+    Message string
+
+    // A physical timestamp of creation of this patch, for convenience.
+    CreateTime Time
+
+    // A public key that signs the patch.
+    PublicKey []byte
+
+    // A cryptographic signature of all the previous
+    // fields that can be verified with the public key.
+    Signature []byte
+  }
+  ```
 
   This kind of structure helps to define the arbitrary total order of patches produced by multiple peers that refer to the same ObjectID. This property is helpful and very important for deterministic merges of divergent states. For any two patches A and B there can exist one of these relationships between them:
 
@@ -328,7 +428,7 @@ Prototype of the Local Application showing the Library page listing all the publ
     - only the accountID owner is allowed to publish messages on that topic
     - users can filter by document ID, but that does not mean it will not receive every message from that particular topic (accountID)
     - if your peers does not have a particular document you want, it will fallback to a DHT to find the particular document
-    - The user's social connections are essential to avoid spam and undesired messages (‣)
+    - The user's social connections are essential to avoid spam and undesired messages ([Gitverse - P2P GitHub alternative from André Staltz in SSB](https://www.notion.so/Gitverse-P2P-GitHub-alternative-from-Andr-Staltz-in-SSB-6ecb07c1ed764b21b046e64b35ea8c78))
     - How can we assk to all our connected peers for all the documents published by an accountID:
       - if the published documents are a list of hashes on each peer, this measn that on every published document, a peer needs to create two patches and @Alexandr Burdiyan does not like that.
         - @Horacio Herrera thinks this can be the state generated for each accountID on every peer, and can be shared to other peers if they want it. (maybe a "haves" list of all documents of a particular accounID)
@@ -363,7 +463,86 @@ Prototype of the Local Application showing the Library page listing all the publ
     - **keywords** could work as filters only in your local graph
 
 - **Super Peers: Web Gateways and Storage**
+
+  If a User uses Mintter.com, MIntter is the Publisher. If the user runs its own instance, the user is the Publisher. Mintter can run an instance on behalf of a user. Dedicated servers run their own lightning node.
+
+  Flexible deployment options
+
+  1. Author - Web Gateway and content mirroring (personal storage server) in mintter.com, basic theming.
+  2. Publisher - Dedicated Server, web Gateway, storage server, templating, LN node.
+  3. Hackers - an independent developer run their own instance in their premises.
+
+  Extend the web capabilities. Solve p2p issues with super peers. **What is the topology of the network?** There are devices, mirroring servers, publisher servers. These entities create a mesh of machines to adapt to the technical needs of store, bandwidth, availability, and processing power. And to the user needs Authors, Readers, and Publishers, content creation, distribution, availability. based on the principles of a better copyright system of creative commons, keeping attribution and royalties.
+
+  You can search only within your retained or sync content, ask your network of peers (your peers a different from your follows, or ask the DHT.)
+
+  In [Usenet](https://en.wikipedia.org/wiki/Alt.*_hierarchy#/media/File:Usenet-total-storage.jpg), conversations are followed through topics and threads (reply to). Instead, Mintter follows an academic and hypertext inspired type of dialogue. Where every new addition to the dialogue is a new article with citations to previous additions.
+
+  - **Propagation**
+
+    Messages will propagate, relays,
+
+    The more mentions, links, and embeds, the more propagation of an article through the network. The more popular something is, the more peers replicate it. As such more bandwidth and redundant fetch locations become available that could get the content to you (the reader) at lower latencies.
+
+    Propagation won't have retweets, or likes, only textual mentions. The article's flooding will be limited by the gossip protocol and the power that the user will have to follow its desired topics. Topics can be an author, a document, or a publisher.
+
+  - **Mirroring Servers**
+
+    Mintter or any other provider (like hashbase) can mirror the Authors content. Authors can make their content available even when their main device (laptop or computer) is offline. mintter web viewer or HTTP gateway.
+
+    Also the Mirror Server can host User Identity Profiles.
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56b30c88-3744-4904-9518-7dd0640834b6/image0.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56b30c88-3744-4904-9518-7dd0640834b6/image0.jpg)
+
+    SN → Server node
+    LN → Local Node
+    MS → Mirror Server
+    <—> Direct Connection
+    ← - → "Indirect" (not explicit) connection
+
+    - A Mirror server can and will store any topic. This is important to make user's content available even if their local node is offline.
+    - A user needs a mechanism to "send" a publication to a Mirror server, to help users share the url to a particular Document Version.
+    - Another idea about Mirror server could be that they work as a CDN node, in which is connected to every node it can and makes content available to anyone
+
+    _Unlike a traditional server, a storage peer can be reached through NAT traversal, so it does not need a public IP address: for example, it could be a device on the user’s home internet connection. Since it only stores the data for a small number of users, it does not need to be a powerful machine. We have experimented with using a Raspberry Pi as storage peer, writing data to an SD card, and also running storage peers on virtual server instances in public cloud providers._
+
+  - **Mintter And Relation With The Web**
+
+    - how content from the web is stored
+    - Web links break
+
+      - Mintter could snapshot a web site and store it in IPFS and link to the precise CID of the web page.
+        - Does this even make sense?
+        - Licenses and other policies
+      - We could just store the link in the Mintter document and that's it.
+
+      Canonical weblinks? Philosophically speaking, are we using the web for location addresses and google's global search? Also, are we relying on domain authority brought by the web? Do we need this value that the web creates? Probably most readers are going to be web readers. Furthermore, every web site is a library or repository of content. We should find a way to interact with those repositories, making them part of the network.
+
+    - At the beginning, Mintter will have a bootstrap node, in which every user will be automatically connected to. This will give users a public URL to every document they publish on their local nodes, making it easier to share their content online
+    - Similar to Newsgroups in Usenet, we can treat domains as the primary key of a newsgroup (topic), and give domain admins control over what happens on that specific "topic". In Usenet there where some problems and limitations around centralizing a decentralize hierarchy (categories and subcategories)
+
+  - **Publisher Servers**
+
+    Publishers
+
+    Run a lightning network instance
+
+    Regular paywalls?
+
+    Node Servers can pin all the articles they want and become part of the
+
+    Curation of content
+
+    **_The Hyperdocuments "Library System"_** -- where hyperdocuments can be submitted to a library-like service that catalogs them and guarantees access when referenced by its catalog number, or "jumped to" with an appropriate link. Links within newly submitted hyperdocuments can cite any passages within any of the prior documents, and the back-link service lets the online reader of a document detect and "go examine" any passage of a subsequent document that has a link citing that passage.
+
+    **_Hyperdocument Mail_** -- where an integrated, general-purpose mail service enables a hyperdocument of any size to be mailed. Any embedded links are also faithfully transmitted -- and any recipient can then follow those links to their designated targets in other mail items, in common-access files, or in "library" items. We are building a centralized smtp gateway where a peer can send an article with an email attach we will send an email, also we can used this for notifications.
+
 - **Vulnerabilities**
+
+  There's no cryptographic system that is 100% secure, and because of our design decisions described earlier there are some limitations in out system:
+
+  - Patches referring to different objects published by the same peer don't have verifiable total order. They are only ordered by their physical timestamp now.
+  - Lost device or any malicious peer can publish things in the past by rewinding its physical clock. Messages published by a single peer are only ordered by their physical timestamp at the moment. Due to this limitation there's no order between the revocation message from the account and messages published by the device besides the physical timestamp.
 
 ## Constellation Services and The Value of Content
 
@@ -378,6 +557,26 @@ The second business model is Content Monetization. We offer our users a new way 
 A Visual metaphor by Maggie Appleton about how content distribution and curation help distribute value throughout multiple publications
 
 - **Encryption and Payments**
+
+  Paid Documents will travel encrypted through the network. The Publisher must have a Publisher Node active with a stable IP. Readers will connect to the Publisher Node to decrypt and route the payment for the Paid Document. Lightning Network has some mechanisms to manage offline payments for certain scenarios.
+
+  The key to decrypt the content is the same for everyone. How can we ensure a user gets paied by multiple readers without compromising the secret key? Atomic swap
+
+  If a Reader looses its copy, he will have to pay again for it.
+
+  A Reader that decrypts a copy can try to distribute a free version of the copy. We believe that if we build a very smooth copyright system, people will prefer the Paid Copy:
+
+  Express the gratitute to the creator.
+
+  Making sure that it has the original copy without being tempered.
+
+  Being able to reuse the content keeping the attribution.
+
+  Reputation with their peers.
+
+  Paid Content distribution is done through the network and the payment and decryption from a Publisher Server.
+
+  In the future, through smartcontracts the network will help with the job of publishing.
 
 ## Privacy And Censorship
 
@@ -434,6 +633,24 @@ Our purpose is to empower authors to share their knowledge with individuality an
 [complementary content](https://www.notion.so/complementary-content-2c2ecc01595c437ab424d0e384473ba7)
 
 - **A New Way to Dialogue**
+
+  Addressability, parallel pages, and visible connections are key for, connectivism reading different experts talking about the same topic from different perspectives is considered the best way to learn. [\*](https://www.notion.so/Mintter-Design-Document-bed174849106466cbec2a12dabddd701)
+
+  a better citation process in a peer-to-peer network. These published documents must maintain key hypertext features as linking, reuse of content, or content graphs.
+
+  Users can quickly refer to or reuse other users' statements, read different perspectives or retrieve origin contexts. We achieve this with better hypertext authoring tools like a hierarchical multimedia editor, visible connections and parallel pages, and trails.
+
+  The act of publishing. When you're done writing a document you publish it to the general public. Xanadu and Augment. Backlinks, everything is a document. Visible connections and parallel pages.
+
+  Mintter focused on publishing requires immutable objects by essence. Once you publish content to the public sphere, that content becomes immutable, allowing others to reuse your content. **Immutability** is a key property of successful distributed systems. This immutability plus the identity properties offered by cryptography let us keep the **trace** of a statement through the maze of devices of a peer to peer network.
+
+  When everything is addressable you can point to different statements from different people and very fast create a powerful new statement. Thus advance the dialogue.
+
+        The web makes isolated pages, social feeds creates noise. For example, *we don’t want ‘retweets’ or ‘reboost’ mechanisms in SSB, because these are ways of propagating viral content, which turns out to boost attention-seeking behaviors, which in turn boosts controversial and toxic content. Social networks are good at propagating things by gossip, and retweets are essentially a gossip mechanism.*
+
+  Share and reuse knowledge with an outstanding citation process, through a peer-to-peer network where your knowledge becomes part of a dialogue with other authors.
+  Compose content in a beautiful editor reusing and linking other authors' knowledge through an easy citation process. Connect to the authors you admire in a peer-to-peer network with a distributed data layer. A better copyright system that maintains your attribution and royalties across the network. Start publishing and sharing your articles with your own server in the web.
+
 - **The Right Copyright System**
 
   Current systems based on advertisement are not incentivise on the the value of content itself but in the incentise of a third-party normaly the advertiser. This brings interfances on the attention with doom scroll feeds, clickbait, **fake news**, etc instead of better conversations.
@@ -451,3 +668,7 @@ Our purpose is to empower authors to share their knowledge with individuality an
   —> the system aims for public uncensorshed publishing, thus privacy is not in the core of the tool. We cover this later in the document.
 
 - **Example: Usenet, Xanadu**
+
+  The uncensored and efficient distribution of messages through a distributed network made Usenet (yet) the most successful tool for conversation among experts. Untrusted experts.
+
+  Most p2p systems have failed. We believe that if we focus on a very defined use case, and to a very specific data structure, we can be successful. As BitTorrent has done with big media files and Bitcoin with money transactions.

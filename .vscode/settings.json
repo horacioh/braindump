@@ -17,7 +17,7 @@
   },
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
-  "todo-tree.tree.showBadges": true,
+  "todo-tree.tree.showBadges": false,
 
   // Foam config
   "foam.openDailyNote.directory": "journal",

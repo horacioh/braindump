@@ -1,5 +1,22 @@
 # Inbox
 
+- [Rock, Paper, Blockchain \| Hacker Noon](https://hackernoon.com/how-far-away-are-we-from-mass-blockchain-adoption-7t5p32u3) #blockchain #research
+- [10 Pro Tips To Help Financial Advisors Adapt To The DeFi Market](https://www.forbes.com/sites/forbesfinancecouncil/2021/02/04/10-pro-tips-to-help-financial-advisors-adapt-to-the-defi-market/) #decentralisation #finance #research
+- [How Decentralized Software Is Transforming Money](https://www.forbes.com/sites/forbesfinancecouncil/2021/01/28/how-decentralized-software-is-transforming-money) #decentralisation #research
+- [The High Price of Free – A List Apart](https://alistapart.com/article/the-high-price-of-free/) #research #web #mintter
+- [Create your design system, part 1: Typography \| by Sebastiano Guerriero \| CodyHouse \| Medium](https://medium.com/codyhouse/create-your-design-system-part-1-typography-7c630d9092bd) #design-system #design #web #css #ui
+- [The Average Lifespan of a Webpage \| The Signal](https://blogs.loc.gov/thesignal/2011/11/the-average-lifespan-of-a-webpage/) #research #mintter #web
+- [mr\-canoehead/network_performance_monitor: Network Performance Monitor \- a portable tool for troubleshooting performance issues with home networks](https://github.com/mr-canoehead/network_performance_monitor) #raspberry #hacking #network #monitoring
+- [posobin/ampie: Social navigator for the web](https://github.com/posobin/ampie) #mintter #social #web
+- [Spatial Interfaces \| Dark Blue Heaven](https://darkblueheaven.com/spatialinterfaces/) #research #ux #design
+- [cyoaOne book, many readings](https://samizdat.co/cyoa/) #research #mintter
+- [The Future of Text : A 2020 Vision](https://infocentral.org/drafts/FutureOfText2020BookEntry.txt) #research #mintter
+- [\[css\-conditional\] \[css\-contain\] Fleshing out @container queries with single\-axis containment · Issue \#5796 · w3c/csswg\-drafts](https://github.com/w3c/csswg-drafts/issues/5796) #css #documentation #web
+- [How to Draw Invisible Programming Concepts \- Part One](https://maggieappleton.com/drawinginvisibles1) #design #drawing #metaphors #research
+- [notrab/react\-use\-cart: React hook library for managing cart state](https://github.com/notrab/react-use-cart) #ecommerce #shopping-cart #web #javascript #react
+- [Emacs Doom Episode 1 \- Getting Started \- YouTube](https://www.youtube.com/watch?v=rCMh7srOqvw&feature=youtu.be) #emacs #orgmode
+- [The High Price of Free – A List Apart](https://alistapart.com/article/the-high-price-of-free/) #research #mintter
+- [Create your design system, part 1: Typography \| by Sebastiano Guerriero \| CodyHouse \| Medium](https://medium.com/codyhouse/create-your-design-system-part-1-typography-7c630d9092bd) #design-system #css #web
 - [Scuttlebutt Demo](https://awinterman.github.io/simple-scuttle/) #decentralisation #research #scuttlebutt
 - [iainc/iA\-Writer\-Templates: Preview, create PDFs, and print documents in your own style with templates in iA Writer\.](https://github.com/iainc/iA-Writer-Templates) #mintter #writing #typography #fonts #design-system #design
 - [Calvin: Fast Distributed Transactions for Partitioned Database Systems](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf) #research #whitepaper #mintter #distributed-systems
@@ -192,11 +209,8 @@
 - [Torus: Hosting for static websites](https://torus.host) #product #showcase #web #dev #ssg #hosting
 - [How to emulate hand-drawn shapes \/ Algorithms behind RoughJS](https://shihn.ca/posts/2020/roughjs-algorithms/) #web #dev #howto #drawing #image-generation
 - [Tracer.click \- A new way to track user behaviour](https://tracer.click) #product #showcase #analytics #tracking
-- [Starship: The minimal, blazing-fast, and infinitely customizable prompt for any shell](https://starship.rs) #shell #product #web #dev
+- [Starship: The minimal, blazing-fast, and infinitely customizable prompt for any shell](https://starship.rs) #shell #product #web #dev #tool
 - [The missing semester](https://edieblu.github.io/missing-semester/) #resource #computer-science #learning
-
-## Read
-
 - [[article-check-your-pulse-55]]
 - [[article-collaborative-design-research]]
 - [[article-coming-for-the-content-staying-for-the-community]]
