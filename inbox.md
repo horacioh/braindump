@@ -1,5 +1,6 @@
 # Inbox
 
+- [Cognition Augmentation Software \(CAS\) \| Moritz Wallawitsch](https://moritz.digital/blog/cas) #research #mintter #
 - [Rock, Paper, Blockchain \| Hacker Noon](https://hackernoon.com/how-far-away-are-we-from-mass-blockchain-adoption-7t5p32u3) #blockchain #research
 - [10 Pro Tips To Help Financial Advisors Adapt To The DeFi Market](https://www.forbes.com/sites/forbesfinancecouncil/2021/02/04/10-pro-tips-to-help-financial-advisors-adapt-to-the-defi-market/) #decentralisation #finance #research
 - [How Decentralized Software Is Transforming Money](https://www.forbes.com/sites/forbesfinancecouncil/2021/01/28/how-decentralized-software-is-transforming-money) #decentralisation #research
@@ -209,8 +210,8 @@
 - [Torus: Hosting for static websites](https://torus.host) #product #showcase #web #dev #ssg #hosting
 - [How to emulate hand-drawn shapes \/ Algorithms behind RoughJS](https://shihn.ca/posts/2020/roughjs-algorithms/) #web #dev #howto #drawing #image-generation
 - [Tracer.click \- A new way to track user behaviour](https://tracer.click) #product #showcase #analytics #tracking
-- [Starship: The minimal, blazing-fast, and infinitely customizable prompt for any shell](https://starship.rs) #shell #product #web #dev #tool
-- [The missing semester](https://edieblu.github.io/missing-semester/) #resource #computer-science #learning
+- [Starship: The minimal, blazing-fast, and infinitely customizable prompt for any shell](https://starship.rs) #shell #product #web #development #tool
+- [[the-missing-semester]]
 - [[article-check-your-pulse-55]]
 - [[article-collaborative-design-research]]
 - [[article-coming-for-the-content-staying-for-the-community]]
@@ -231,6 +232,7 @@
 [Agora]: agora "Agora"
 [graphql]: graphql "Graphql"
 [anne-laure-le-cunff]: anne-laure-le-cunff "Anne-Laure Le Cunff"
+[the-missing-semester]: the-missing-semester "The Missing Semester of Your CS Education"
 [article-check-your-pulse-55]: article-check-your-pulse-55 "Check your Pulse #55"
 [article-collaborative-design-research]: article-collaborative-design-research "Collaborative design  Research"
 [article-coming-for-the-content-staying-for-the-community]: article-coming-for-the-content-staying-for-the-community "“Coming for the Content, Staying for the Community” Started With Video Games (Or Maybe Religion?) But Will Define Media This Decade"
