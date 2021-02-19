@@ -1,5 +1,6 @@
 # Stale Plugins Notes
 
+- [[Slate]]
 - the new version (0.60+) has a common transforms methods that are super neat!
 - each element has a `defaults` object, where all the default config is set. also it provides a function where you can override those defaults (for now only the type I guess) on each component plugin (search for `setDefaults`)
 - use `editor.selection?.focus` to check the end part of the selection
