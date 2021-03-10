@@ -1,6 +1,7 @@
 # Snowpack
 
 - [website](https://www.snowpack.dev/)
+- [[snowpack migration]]
 
 - `yarn add --dev snowpack`
 - `snowpack dev`

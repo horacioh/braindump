@@ -1,13 +1,15 @@
 # Inbox
 
+- [Two Steps Forward, One Step Back \| Jxnblk](https://jxnblk.com/blog/two-steps-forward/) #css #js
+- [Beyond Swapping Bits](https://www.youtube.com/watch?v=3pyLu6weOvQ) delivered a very comprehensive Bitswap deep dive and showcase of all the results from the Beyond Bitswap project. A must watch for anyone getting to thinker with the internals of #ipfs #research #video #mintter
+- [Peter Cooper on Twitter: "A few weeks ago I had a fantastic \(video\!\) interview with @GuttusoAshley about the processes and tools we use at @Cooperpress when producing over ten weekly newsletters](https://twitter.com/peterc/status/1363800626501713921) #newsletter #writing #video #interviews
+- [Hiking Through the JavaScript Forest \- Speaker Deck](https://speakerdeck.com/xjamundx/hiking-through-the-javascript-forest) #javascript #slides #ast
 - [Workshop • Data Storytelling \| Ness Labs](https://community.nesslabs.com/c/recordings/workshop-data-storytelling) #workshop #nesslabs #storytelling
 - [Not Overthinking](https://notoverthinking.com/) #research #mintter
 - [Brainstorming \- Good ideas made brilliant](https://brainstorming.com/?twclid=11362038664084287489) #mintter #product
 - [Muted Colors: A new \(and old\) trend of which to take note \| UX Magazine](https://uxmag.com/articles/muted-colors?utm_content=bufferca28e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) #ux #colors #design #design-system
-- [[article-tailscale-phislosophy-social-proximity-networks]]
 - [Some thoughts on Social Networking and Usenet](https://www.notion.so/mintter/Some-thoughts-on-Social-Networking-and-Usenet-a91b555afce14517abac90c71b88e813) #social #network #research #usenet #mintter
 - [Why Software Is Eating the World \- Andreessen Horowitz](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) #research #mintter [[marc-andreesseen]]
-- [[From the Internet’s Past to the Future of Crypto]] #a16z-podcast [[marc-andreesseen]]
 - [Marc Andreessen's Original Sin \- E\-conomy](https://economyofbits.substack.com/p/marc-andreessens-original-sin) #research #mintter #post [[Marc Andreesseen]] #micropayments
 - [Visual Viewport API](https://developer.mozilla.org/en-US/docs/Web/API/Visual_Viewport_API) - [tweet](https://twitter.com/okonetchnikov/status/1361624540254724097) #web #api #viewport
 - [Why We Sleep: Unlocking the Power of Sleep and Dreams](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144324?crid=3L3TZW5I845UK&keywords=why+we+sleep&qid=1613473340&sprefix=why+we+see,aps,255&sr=8-1&linkCode=sl1&tag=eriksblog07-20&linkId=9885fd75a1393629a3aadf628aa47245&language=en_US&ref_=as_li_ss_tl). Book recommended by [[Erik Rasmussen]] [tweet](https://twitter.com/erikras/status/1361632365785792514) #book-recommendation #dreams
@@ -99,18 +101,15 @@
 - [TypeStyle](https://typestyle.github.io/#/)
 - [The Politics of Design](http://thepoliticsofdesign.com/about-the-book) #book
 - [unbag \- Black Gooey Universe](https://unbag.net/end/black-gooey-universe)
-- [Proceso \- Circoolar \- Ethical Workwear \- Recycled Recyclable Social Impact](https://circoolar.es/proceso/) #happori #resource
 - [Tienda ~ Página 2 de 10 ~ EcoHuella ZERO WASTE](https://www.ecohuella.es/shop/page/2/) #happori
 - [Zero Waste \| ¿Quieres reducir tus resíduos? Empieza aquí](https://tiendazerowaste.com/) #happori
 - [Intercreativity - Unterscore protocol](https://www.notion.so/Intercreativity-689f6c877df04e04a9e100a5c5448523) #mintter
 - [Interstitial journaling: combining notes, to\-do & time tracking \- Ness Labs](https://nesslabs.com/interstitial-journaling)
 - [What I learned building 20\+ startups in 5 years\.](https://venturism.io/020c1066b811455896119bdc9e546110)
-- [[Agora]]
 - [PARA method](https://www.horacioh.com/notes/book-reviews/atomic-habits)
 - [stackedit](https://github.com/benweet/stackedit) #code #web #editor
 - [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) #code #web #editor
 - [tiptap](https://github.com/ueberdosis/tiptap) #code #web #editor
-- [type fest](https://github.com/sindresorhus/type-fest) #typescript #web #resource
 - [New courses on distributed systems and elliptic curve cryptography](https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html) #course #mintter #reference
 - [https://notes.andymatuschak.org/A%20writing%20inbox%20for%20transient%20and%20incomplete%20notes](https://notes.andymatuschak.org/A%20writing%20inbox%20for%20transient%20and%20incomplete%20notes)
 - [https://foambubble.github.io/foam/capture-notes-with-drafts-pro](https://foambubble.github.io/foam/capture-notes-with-drafts-pro) #tutorial #drafts-app #note-taking #foam
@@ -129,7 +128,6 @@
 - [https://frontendmasters.com/courses/interviewing-frontend/](https://frontendmasters.com/courses/interviewing-frontend/) #course #hiring #interviews
 - [https://frontendmasters.com/courses/pure-react-state/](https://frontendmasters.com/courses/pure-react-state/) #course [[react]] #state-management
 - [https://frontendmasters.com/courses/design-systems/](https://frontendmasters.com/courses/design-systems/) #course #design-system #storybook [[react]]
-- [https://codepen.io/svganimationworkshop/collections/](https://codepen.io/svganimationworkshop/collections/) #web #svg #resource
 - review [Hammock driven development](https://www.notion.so/mintter/Hammock-Driven-Development-4d06aa22022a483ab7038d8e248f09b6?d=8c2c350b-aabf-44fa-ad4c-9e4a4ad80a56) #mintter
 - [review](https://www.notion.so/mintter/Suggestion-copy-article-into-Mintter-8daeb11d364a41c08498532d34acc13a?d=af10d313-9b8a-4d49-8fc7-e05824f9c395) #mintter
 - [How React Uses Closures to Avoid Bugs](https://epicreact.dev/how-react-uses-closures-to-avoid-bugs/) #read [[react]]
@@ -180,7 +178,6 @@
 - [https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/](https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/)
 - [http://pketh.org/the-first-four-years-of-glitch.html](http://pketh.org/the-first-four-years-of-glitch.html)
 - [https://kinopio.club/](https://kinopio.club/)
-- [https://aneventapart.com/news/post/resources-from-front-end-focus](https://aneventapart.com/news/post/resources-from-front-end-focus)
 - [https://theconversation.com/is-humanity-doomed-because-we-cant-plan-for-the-long-term-three-experts-discuss-137943](https://theconversation.com/is-humanity-doomed-because-we-cant-plan-for-the-long-term-three-experts-discuss-137943)
 - [https://adamwathan.me/tailwindcss-from-side-project-byproduct-to-multi-mullion-dollar-business/](https://adamwathan.me/tailwindcss-from-side-project-byproduct-to-multi-mullion-dollar-business/)
 - calcetines naive: 90% algodón 8% poliamida 2% lycra
@@ -195,20 +192,17 @@
 - [https://www.dougengelbart.org/content/view/191/268/](https://www.dougengelbart.org/content/view/191/268/)
 - [Glamorous toolkit](https://gtoolkit.com) #dev #tools
 - [How to add testing to an existing project](https://kentcdodds.com/blog/how-to-add-testing-to-an-existing-project/) [[react]] #testing [[kent-c-dodds]]
-- [conventional\: comments](https://conventionalcomments.org) #dev #resources #git #workflow
-- [Build your PC](https://www.logicalincrements.com) #hardware #pc #resource #reference #gear
 - [Open Source Sustainability](https://dev.to/erikras/open-source-sustainability-3pjf) #oss #article #thoughts
-- [GraphQL Recipes v2: Building APIs with GraphQL Transform](https://dev.to/open-graphql/graphql-recipes-building-apis-with-graphql-transform-3jp0) #dev #web #graphql #recipes #resources #tutorial [[graphql]]
 - [Fail like a Scientist](https://nesslabs.com/fail-like-a-scientist) #article #nesslabs [[anne-laure-le-cunff]]
 - [USABILITIPS: Tips de Usabilidad](https://usabilitips.glideapp.io)
 - [Como estoy usando Notion para recoger y ampliar conocimiento](https://elenadrigal.com/notion-recoger-ampliar-conocimiento) #notion #knowledge #notes #article #spanish
 - [The documented collection of UI components](https://uiplaybook.dev) #ui #reference #design [[accessibility]]
-- [Type Safe Infrastructure, Part 2 — GraphQL APIs with AWS AppSync](https://medium.com/@sam.goodwin1989/type-safe-infrastructure-part-2-graphql-apis-with-aws-appsync-d1225e4e21e3) [[graphql]] #resource #api #web #dev
+- [Type Safe Infrastructure, Part 2 — GraphQL APIs with AWS AppSync](https://medium.com/@sam.goodwin1989/type-safe-infrastructure-part-2-graphql-apis-with-aws-appsync-d1225e4e21e3) #api #web #dev
 - [UCAN: Authorizing Users Without a Back End](https://blog.fission.codes/auth-without-backend/) #article #authentication #web #dev #product
 - [Corey Ginnivan's website](https://corey.ginnivan.net)
-- [Records and Tuples for React](https://sebastienlorber.com/records-and-tuples-for-react) [[react]] #web #dev #resources #tutorial #js
+- [Records and Tuples for React](https://sebastienlorber.com/records-and-tuples-for-react) [[react]] #web #dev #tutorial #js
 - [Under the spotlight: Select](https://modulz-website.now.sh/blog/under-the-spotlight-select)
-- [Programmatically create forms, and capture submissions with Next.js and GraphQL](https://graphcms.com/blog/forms-and-submissions-with-nextjs-and-graphql) #web #graphql #nextjs #js #web #form #resource #tutorial
+- [Programmatically create forms, and capture submissions with Next.js and GraphQL](https://graphcms.com/blog/forms-and-submissions-with-nextjs-and-graphql) #web #graphql #nextjs #js #web #form #tutorial
 - [The Technonomicon](https://notes.technomancy.dev)
 - [From Zer0 to Saa$: building a side project live on stream](https://www.indiehackers.com/post/from-zer0-to-saa-building-a-side-project-live-on-stream-2c61fd956c) #article #howto #sideproject #sass
 - [Continuous Integration with Jest Tests and Github Actions]() #js #jest #tutorial #howto #web #dev
@@ -216,28 +210,16 @@
 - [What Should I Teach in a Video Tutorial?](https://johnlindquist.com/what-should-i-teach-in-a-video-tutorial/) #teaching #learning #video [[john-lindquist]] #web #dev #thoughts
 - [The power of Flexible Consistency](https://nesslabs.com/flexible-consistency) #article [[anne-laure-le-cunff]] #consistency #thoughts
 - [How to build filtering into your REST API](https://simonplend.com/how-to-build-filtering-into-your-rest-api/) #tutorial #web #dev [[react]] #howto
-- [Spanish Startup Riders](https://www.startupriders.io) #spain #startup #resource #list
-- [filter.css \- CSS only library to apply color filters](https://bansal.io/filters-css) #resource #css #library #web #dev
+- [Spanish Startup Riders](https://www.startupriders.io) #spain #startup #list
 - [Critical-ish CSS Extraction](https://giuseppegurgone.com/critical-css-extraction/) #web #dev #performance #css #howto
-- [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library) #react [[testing-frontend-apps]] #dev #web #resource [[kent-c-dodds]]
+- [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library) #react [[testing-frontend-apps]] #dev #web [[kent-c-dodds]]
 - [Tweetagram: Auto generate beautiful visuals from a Tweet](https://www.bannerbear.com/demos/tweetagram/) #product #showcase #twitter #instagram
 - [Torus: Hosting for static websites](https://torus.host) #product #showcase #web #dev #ssg #hosting
 - [How to emulate hand-drawn shapes \/ Algorithms behind RoughJS](https://shihn.ca/posts/2020/roughjs-algorithms/) #web #dev #howto #drawing #image-generation
 - [Tracer.click \- A new way to track user behaviour](https://tracer.click) #product #showcase #analytics #tracking
 - [Starship: The minimal, blazing-fast, and infinitely customizable prompt for any shell](https://starship.rs) #shell #product #web #development #tool
-- [[the-missing-semester]]
-- [[article-check-your-pulse-55]]
-- [[article-collaborative-design-research]]
-- [[article-coming-for-the-content-staying-for-the-community]]
-- [[article-getting-your-first-100-signups]]
-- [[article-how-to-iterate-and-collaborate-wth-creators-at-egghead]]
-- [[article-lightning-pool-is-open-for-business-lease-liquidity-earn-returns-stack-sats]]
-- [[article-market-definitions-and-tech-monopolies]]
-- [[article-progressively-delivering-new-image-formats-with-css-and-cloudflare-workers]]
-- [[article-the-power-of-flexible-consistency]]
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
-[article-tailscale-phislosophy-social-proximity-networks]: article-tailscale-phislosophy-social-proximity-networks "Philosophy of Tailscale: Social proximity networks"
 [marc-andreesseen]: marc-andreesseen "Marc Andreesseen"
 [clojure]: clojure "Clojure"
 [dokieli]: dokieli "Dokieli"
@@ -245,16 +227,5 @@
 [nader-dabit]: nader-dabit "Nader Dabit"
 [gaby-goldberg]: gaby-goldberg "Gaby Goldberg"
 [kent-c-dodds]: kent-c-dodds "Kent C Dodds"
-[graphql]: graphql "Graphql"
 [anne-laure-le-cunff]: anne-laure-le-cunff "Anne-Laure Le Cunff"
-[the-missing-semester]: the-missing-semester "The Missing Semester of Your CS Education"
-[article-check-your-pulse-55]: article-check-your-pulse-55 "Check your Pulse #55"
-[article-collaborative-design-research]: article-collaborative-design-research "Collaborative design  Research"
-[article-coming-for-the-content-staying-for-the-community]: article-coming-for-the-content-staying-for-the-community "“Coming for the Content, Staying for the Community” Started With Video Games (Or Maybe Religion?) But Will Define Media This Decade"
-[article-getting-your-first-100-signups]: article-getting-your-first-100-signups "Getting Your First 100 Signups"
-[article-how-to-iterate-and-collaborate-wth-creators-at-egghead]: article-how-to-iterate-and-collaborate-wth-creators-at-egghead "how we iterate and collaborate with creators at egghead"
-[article-lightning-pool-is-open-for-business-lease-liquidity-earn-returns-stack-sats]: article-lightning-pool-is-open-for-business-lease-liquidity-earn-returns-stack-sats "Lightning Pool Is Open for Business: Lease Liquidity, Earn Returns, Stack Sats"
-[article-market-definitions-and-tech-monopolies]: article-market-definitions-and-tech-monopolies "Market definitions and tech monopolies"
-[article-progressively-delivering-new-image-formats-with-css-and-cloudflare-workers]: article-progressively-delivering-new-image-formats-with-css-and-cloudflare-workers "Progressively deliver new image formats with CSS & Cloudflare Workers"
-[article-the-power-of-flexible-consistency]: article-the-power-of-flexible-consistency "Article the Power of Flexible Consistency"
 [//end]: # "Autogenerated link references"
