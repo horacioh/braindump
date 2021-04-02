@@ -1,5 +1,9 @@
 # Inbox
 
+- [Font size is useless; let’s fix it @ tonsky\.me](https://tonsky.me/blog/font-size/) #typography #article #design #web
+- [STATECHARTS: A VISUAL FORMALISM FOR COMPLEX SYSTEMS](https://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf) #statecharts #paper
+- [Cypress Screenshots for React Components · Michael Mangialardi](https://www.michaelmang.dev/blog/replacing-jest-snapshots-with-cypress-screenshots-for-testing-react-components) #web #testing
+- [Where should you store tokens? \| Balavishnu V J \| Software Engineer](https://balavishnuvj.com/blog/where-to-store-auth-tokens/) #web #jwt #js #tokens #auth
 - [Two Steps Forward, One Step Back \| Jxnblk](https://jxnblk.com/blog/two-steps-forward/) #css #js
 - [Beyond Swapping Bits](https://www.youtube.com/watch?v=3pyLu6weOvQ) delivered a very comprehensive Bitswap deep dive and showcase of all the results from the Beyond Bitswap project. A must watch for anyone getting to thinker with the internals of #ipfs #research #video #mintter
 - [Peter Cooper on Twitter: "A few weeks ago I had a fantastic \(video\!\) interview with @GuttusoAshley about the processes and tools we use at @Cooperpress when producing over ten weekly newsletters](https://twitter.com/peterc/status/1363800626501713921) #newsletter #writing #video #interviews

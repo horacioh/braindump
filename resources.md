@@ -11,3 +11,5 @@
 - [Build your PC](https://www.logicalincrements.com) #hardware #pc #reference #gear
 - [GraphQL Recipes v2: Building APIs with GraphQL Transform](https://dev.to/open-graphql/graphql-recipes-building-apis-with-graphql-transform-3jp0) #dev #web #graphql #recipes #tutorial #code
 - [filter.css \- CSS only library to apply color filters](https://bansal.io/filters-css) #css #library #web #code
+- [Developer Microskills](https://developermicroskills.com/) #newsletter #devrel
+- [Guide to Tiny Experiments: Book & Audio](https://learn.samjulien.com/guide-to-tiny-experiments) #sideproject #book #product
