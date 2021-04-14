@@ -1,5 +1,6 @@
 # Inbox
 
+- [TypeIt \- Typing animations for content creators](https://typeit.uppernauts.com/) #product #vscode-extension #video #code
 - [Font size is useless; let’s fix it @ tonsky\.me](https://tonsky.me/blog/font-size/) #typography #article #design #web
 - [STATECHARTS: A VISUAL FORMALISM FOR COMPLEX SYSTEMS](https://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf) #statecharts #paper
 - [Cypress Screenshots for React Components · Michael Mangialardi](https://www.michaelmang.dev/blog/replacing-jest-snapshots-with-cypress-screenshots-for-testing-react-components) #web #testing
