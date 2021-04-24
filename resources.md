@@ -14,3 +14,6 @@
 - [Developer Microskills](https://developermicroskills.com/) #newsletter #devrel
 - [Guide to Tiny Experiments: Book & Audio](https://learn.samjulien.com/guide-to-tiny-experiments) #sideproject #book #product
 - [Shopify/restyle: A type\-enforced system for building UI components in React Native with TypeScript\.](https://github.com/Shopify/restyle) #ui #styling #reactnative #library
+- [Checklist \- The A11Y Project](https://www.a11yproject.com/checklist/) #a11y #checklist
+- [The Bootcampers Guide to Web Accessibility](https://a11y-with-lindsey.ck.page/products/pre-order-the-bootcampers-guide-to-web) #ebook #a11y
+- [Daily Developer Tips \| Go Make Things](https://gomakethings.com/articles/) #web #dev

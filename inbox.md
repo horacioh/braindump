@@ -1,5 +1,10 @@
 # Inbox
 
+- [How I read a research paper](https://muratbuffalo.blogspot.com/2013/07/how-i-read-research-paper.html) #research #reading
+- [paper\.dvi](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) #research #reading
+- [useEncapsulation \| Kyle Shevlin](https://kyleshevlin.com/use-encapsulation) #code #web #react
+- [Xanalogical Structure, Needed Now More than Ever](http://cs.brown.edu/memex/ACM_HypertextTestbed/papers/60.html) #mintter #paper #research #xanadu
+- [remarkjs/remark\-directive: remark plugin to support directives](https://github.com/remarkjs/remark-directive) #remark #markdown #code #mintter #web
 - [TypeIt \- Typing animations for content creators](https://typeit.uppernauts.com/) #product #vscode-extension #video #code
 - [Font size is useless; let’s fix it @ tonsky\.me](https://tonsky.me/blog/font-size/) #typography #article #design #web
 - [STATECHARTS: A VISUAL FORMALISM FOR COMPLEX SYSTEMS](https://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf) #statecharts #paper
@@ -13,7 +18,6 @@
 - [Not Overthinking](https://notoverthinking.com/) #research #mintter
 - [Brainstorming \- Good ideas made brilliant](https://brainstorming.com/?twclid=11362038664084287489) #mintter #product
 - [Muted Colors: A new \(and old\) trend of which to take note \| UX Magazine](https://uxmag.com/articles/muted-colors?utm_content=bufferca28e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) #ux #colors #design #design-system
-- [Some thoughts on Social Networking and Usenet](https://www.notion.so/mintter/Some-thoughts-on-Social-Networking-and-Usenet-a91b555afce14517abac90c71b88e813) #social #network #research #usenet #mintter
 - [Why Software Is Eating the World \- Andreessen Horowitz](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) #research #mintter [[marc-andreesseen]]
 - [Marc Andreessen's Original Sin \- E\-conomy](https://economyofbits.substack.com/p/marc-andreessens-original-sin) #research #mintter #post [[Marc Andreesseen]] #micropayments
 - [Visual Viewport API](https://developer.mozilla.org/en-US/docs/Web/API/Visual_Viewport_API) - [tweet](https://twitter.com/okonetchnikov/status/1361624540254724097) #web #api #viewport
