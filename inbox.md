@@ -1,5 +1,9 @@
 # Inbox
 
+- https://twitter.com/jlantunez/status/972444699804958720 #thread #internet
+- [omgovich/colord: 👑 A tiny yet powerful tool for high\-performance color manipulations and conversions](https://github.com/omgovich/colord) #code #css #color #js
+- [Announcing Lucy](https://matthewphillips.info/programming/posts/announcing-lucy/) #web #tool #xstate #statemachine
+- [How To Manage Your Inbox On Vacation \- SaneBox Blog](https://blog.sanebox.com/2019/06/21/how-to-manage-your-inbox-on-vacation/) #productivity #tool #email #vacation
 - [How I read a research paper](https://muratbuffalo.blogspot.com/2013/07/how-i-read-research-paper.html) #research #reading
 - [paper\.dvi](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) #research #reading
 - [useEncapsulation \| Kyle Shevlin](https://kyleshevlin.com/use-encapsulation) #code #web #react
