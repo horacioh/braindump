@@ -1,5 +1,11 @@
 # Inbox
 
+- [The Log: What every software engineer should know about real\-time data's unifying abstraction \| LinkedIn Engineering](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) #software #development #article
+- [The magic of doing $10,000 per hour work \| RadReads](https://radreads.co/10k-work/) #work #productivity
+- [13\. Payment Channels and Lightning Network \- YouTube](https://www.youtube.com/watch?v=Hzv9WuqIzA0) #bitcoin #lnd #video
+- [Bitcoin's Lightning Network, Simply Explained\! \- YouTube](https://www.youtube.com/watch?v=rrr_zPmEiME) #bitcoin #video
+- [Lightning Network Information & Resources](https://www.lopp.net/lightning-information.html) #bitcoin #lnd
+- [TDD Changed My Life\. It’s 7:15 am and customer support is… \| by Eric Elliott \| JavaScript Scene \| Medium](https://medium.com/javascript-scene/tdd-changed-my-life-5af0ce099f80) #tdd #code #testing
 - https://twitter.com/jlantunez/status/972444699804958720 #thread #internet
 - [omgovich/colord: 👑 A tiny yet powerful tool for high\-performance color manipulations and conversions](https://github.com/omgovich/colord) #code #css #color #js
 - [Announcing Lucy](https://matthewphillips.info/programming/posts/announcing-lucy/) #web #tool #xstate #statemachine
@@ -82,7 +88,6 @@
 - [Introduction — Radix UI](https://radix-ui.com/primitives/docs/overview/introduction)
 - [specs/pubsub/gossipsub at master · libp2p/specs](https://github.com/libp2p/specs/tree/master/pubsub/gossipsub)
 - [Offline, Peer\-to\-Peer, Collaborative Editing using Yjs \- Show \- discuss\.ProseMirror](https://discuss.prosemirror.net/t/offline-peer-to-peer-collaborative-editing-using-yjs/2488)
-- [The Log: What every software engineer should know about real\-time data's unifying abstraction \| LinkedIn Engineering](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - [How Yjs works from the inside out \- YouTube](https://www.youtube.com/watch?v=0l5XgnQ6rB4)
 - [Delta \- Quill Rich Text Editor](https://quilljs.com/docs/delta/)
 - [A Text Editor – averylaird\.com](https://www.averylaird.com/programming/2017/09/22/the-text-editor/)
@@ -118,7 +123,7 @@
 - [Zero Waste \| ¿Quieres reducir tus resíduos? Empieza aquí](https://tiendazerowaste.com/) #happori
 - [Intercreativity - Unterscore protocol](https://www.notion.so/Intercreativity-689f6c877df04e04a9e100a5c5448523) #mintter
 - [Interstitial journaling: combining notes, to\-do & time tracking \- Ness Labs](https://nesslabs.com/interstitial-journaling)
-- [What I learned building 20\+ startups in 5 years\.](https://venturism.io/020c1066b811455896119bdc9e546110)
+- [What I learned building 20\+ startups in 5 years\.](https://venturism.io/020c1066b811455896119bdc9e546110) #startup
 - [PARA method](https://www.horacioh.com/notes/book-reviews/atomic-habits)
 - [stackedit](https://github.com/benweet/stackedit) #code #web #editor
 - [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) #code #web #editor
