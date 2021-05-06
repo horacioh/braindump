@@ -17,3 +17,8 @@
 - [Checklist \- The A11Y Project](https://www.a11yproject.com/checklist/) #a11y #checklist
 - [The Bootcampers Guide to Web Accessibility](https://a11y-with-lindsey.ck.page/products/pre-order-the-bootcampers-guide-to-web) #ebook #a11y
 - [Daily Developer Tips \| Go Make Things](https://gomakethings.com/articles/) #web #dev
+- [dypsilon/frontend\-dev\-bookmarks: Manually curated collection of resources for frontend web developers\.](https://github.com/dypsilon/frontend-dev-bookmarks) #javascript
+- [ronakganatra/awesome\-developer\-marketing: A living document of hand\-picked resources for marketers working on dev\-centric products](https://github.com/ronakganatra/awesome-developer-marketing) #marketing #devMarketing
+- [btford/write\-good: Naive linter for English prose](https://github.com/btford/write-good) #writting #english #tool
+- [RobinCsl/awesome\-js\-tooling\-not\-in\-js: A curated list of JavaScript tooling not written in JavaScript](https://github.com/RobinCsl/awesome-js-tooling-not-in-js) #javascript #tools
+- [siddharthkp/show\-keys: Utility to show key presses in your application](https://github.com/siddharthkp/show-keys) #tool #development #javascript #keyboard
