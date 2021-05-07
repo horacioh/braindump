@@ -18,6 +18,7 @@
 - block scope
 - logical operators in variable assignment (`||`, `??`)
 - optional chaining
+- event loop
 
 ## Possible topics to write about
 
@@ -63,6 +64,7 @@
 
 ## Resources & References
 
+- https://twitter.com/hhg2288/status/1390247754828599298
 - [Short\-circuit evaluation \- Wikipedia](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
 - [Optional chaining \(?\.\) \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 - [JavaScript: What is short\-circuit evaluation? \| by Brandon Morelli \| codeburst](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
