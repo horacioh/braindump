@@ -1,0 +1,30 @@
+# Kent & Taylor Remote Workshop Talk
+
+- Not scalable forever
+  - every person detracts from everyone else
+  - Kent has a limit to 40
+  - some questions will not get answered
+- making the workshop more engaging by breaking the group into smaller groups
+- wait after sessions
+- breakout rooms
+  - "say your name" and intros
+  - just on exercise time
+  - encourage working together
+- isolated exercise type
+  - source with all the exercises on separate files (Epic React way)
+- create the exercise code:
+  - create the final version
+  - copy the file
+  - remove the bits you want them to do
+  - add help comments!
+- help them to know what questions to ask!
+- emojis on comments are visual triggers
+- make exercises the way to set the right mindset to what's coming
+- the "code along" workshop type
+  - hard to maintain
+  - hard to follow and learn
+  - everything separate in branches
+- automate as much as you can!
+- feedback form for workshops
+- **How successful will be people following the material?**
+- super important to prepare the content VERY WELL

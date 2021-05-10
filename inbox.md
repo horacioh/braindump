@@ -1,5 +1,6 @@
 # Inbox
 
+- [Pedro Duarte — Code blocks, but better](https://ped.ro/blog/code-blocks-but-better) #codeblock #css #design #web
 - [The Log: What every software engineer should know about real\-time data's unifying abstraction \| LinkedIn Engineering](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) #software #development #article
 - [The magic of doing $10,000 per hour work \| RadReads](https://radreads.co/10k-work/) #work #productivity
 - [13\. Payment Channels and Lightning Network \- YouTube](https://www.youtube.com/watch?v=Hzv9WuqIzA0) #bitcoin #lnd #video
