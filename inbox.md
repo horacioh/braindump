@@ -1,5 +1,11 @@
 # Inbox
 
+- [Becoming Open Source by Default – code\.dblock\.org \| tech blog](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html) #opensource #oss #startup #article 
+- [artsy/README: \- The documentation for being an Artsy Engineer](https://github.com/artsy/README) #startup #opensource #oss #hiring #companyculture
+- [djui/alias\-tips: An oh\-my\-zsh plugin to help remembering those aliases you defined once](https://github.com/djui/alias-tips) #terminal #plugin #ohmyzsh
+- [Artsy · objc\.io](https://www.objc.io/issues/22-scale/artsy/) #opensource #startup
+- [Tree\-Shaking: A Reference Guide — Smashing Magazine](https://www.smashingmagazine.com/2021/05/tree-shaking-reference-guide/) #javascript #reference
+- [CSS Hell \- To Hell with bad CSS\!](https://csshell.dev/) #css #web
 - [Pedro Duarte — Code blocks, but better](https://ped.ro/blog/code-blocks-but-better) #codeblock #css #design #web
 - [The Log: What every software engineer should know about real\-time data's unifying abstraction \| LinkedIn Engineering](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) #software #development #article
 - [The magic of doing $10,000 per hour work \| RadReads](https://radreads.co/10k-work/) #work #productivity
