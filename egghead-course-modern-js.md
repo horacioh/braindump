@@ -20,6 +20,11 @@
 - optional chaining
 - event loop
 
+
+- [[template-literals]]
+- [[tagged-template-literals]]
+- [[trimming-and-padding]]
+
 ## Possible topics to write about
 
 - difference between arrow functions and function expressions

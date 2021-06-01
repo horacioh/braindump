@@ -1,4 +1,4 @@
-# meeting German Mentoria
+# mentoria German Mentoria
 
 - background: IT sistemas
 - estudia por su cuenta

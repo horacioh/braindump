@@ -1,5 +1,6 @@
 # Inbox
 
+- [Reviving Advanced Hypertext](https://www.nngroup.com/articles/reviving-advanced-hypertext/)
 - [Becoming Open Source by Default – code\.dblock\.org \| tech blog](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html) #opensource #oss #startup #article 
 - [artsy/README: \- The documentation for being an Artsy Engineer](https://github.com/artsy/README) #startup #opensource #oss #hiring #companyculture
 - [djui/alias\-tips: An oh\-my\-zsh plugin to help remembering those aliases you defined once](https://github.com/djui/alias-tips) #terminal #plugin #ohmyzsh
