@@ -7,3 +7,6 @@
 - https://www.youtube.com/watch?v=F8VY_z-yEwI&list=PLUdlARNXMVkmtpSwqvneh301Wnh0cUm5n
 - https://github.com/rust-lang/rustlings
 - https://egghead.io/q?q=rust
+- https://hello-rust.show/ (https://twitter.com/hellorustshow)
+- https://egghead.io/courses/learning-rust-by-solving-the-rustlings-exercises-a722
+- https://maggieappleton.com/wtf-rust
