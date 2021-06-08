@@ -1,5 +1,6 @@
 # Resources
 
+- [Git Interactive Rebase, Squash, Amend and Other Ways of Rewriting History](https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history) #git #coding
 - [Capsize](https://seek-oss.github.io/capsize/) #font #web #css #code #frontend
   - [Capsize example using Stitches](https://codesandbox.io/s/capsize-typography-system-stitches-6w74m?file=/src/stitches.config.ts)
 - [pmndrs/leva: 🌋 React\-first components GUI](https://github.com/pmndrs/leva) #react #components #ui #code
