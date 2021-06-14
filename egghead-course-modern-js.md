@@ -73,10 +73,11 @@
 - [Short\-circuit evaluation \- Wikipedia](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
 - [Optional chaining \(?\.\) \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 - [JavaScript: What is short\-circuit evaluation? \| by Brandon Morelli \| codeburst](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
-- [Getting Started with JavaScript, v2 with Kyle Simpson](https://frontendmasters.com/courses/getting-started-javascript-v2/)
+- [[Getting Started with JavaScript, v2 with Kyle Simpson]]
 - [Functional-Light JavaScript, v3 with Kyle Simpson](https://frontendmasters.com/courses/functional-javascript-v3/)
 - [Compiling vs Polyfills with Babel \(JavaScript\) \- ui\.dev](https://ui.dev/compiling-polyfills/)
 - [How to check for undefined in JavaScript \- ui\.dev](https://ui.dev/check-for-undefined-javascript/)
 - [How to add an item to the end of an Array in JavaScript \- ui\.dev](https://ui.dev/add-item-to-end-of-array-javascript/)
 - [Primitive vs Reference Values in JavaScript \- ui\.dev](https://ui.dev/primitive-vs-reference-values-in-javascript/)
 - [ES Modules in Depth \- ui\.dev](https://ui.dev/esmodules/)
+

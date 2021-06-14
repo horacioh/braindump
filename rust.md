@@ -10,3 +10,4 @@
 - https://hello-rust.show/ (https://twitter.com/hellorustshow)
 - https://egghead.io/courses/learning-rust-by-solving-the-rustlings-exercises-a722
 - https://maggieappleton.com/wtf-rust
+- https://frontendmasters.com/courses/rust/

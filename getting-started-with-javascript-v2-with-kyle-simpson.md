@@ -1,0 +1,64 @@
+# Getting Started with JavaScript, v2 with Kyle Simpson
+
+- [Getting Started with JavaScript, v2 with Kyle Simpson](https://frontendmasters.com/courses/getting-started-javascript-v2/)
+
+- values
+  - no difference between integers and floats
+  - `null` and `undefined` are "empty" values
+  - basic building blocks
+  - important to understand how to represent tassks that we want to accomplish
+- operations
+  - [MDN docs: Espressions and Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+  - `+` operator is overloaded (more than one operation depending on where its used)
+  - binary operators (two operands involved)
+  - unary operators (single operand)
+  - comparisons (== => loose equality)
+  - logical operators (`||`, `&&`...)
+- types
+  - `typeof`: unary operator
+  - `typeof null` = `object` IS A BUG
+  - `Array` is a subtype of `Object`
+- variable
+  - pointer, address, representation of some place in memory
+  - help use give useful names to values
+  - `=` assignment operator
+
+- types and coercion
+  - primitive types
+    - "in JS, everything is an object" => NOT TRUE
+    - undefined
+    - string
+    - number
+    - boolean
+    - object
+    - symbol
+    - null
+    - function (subtype)
+    - array (subtype)
+  - NaN
+    - the result of when JS can't convert values to make operations (divide a string by 2)
+  - new
+    - to create an instance of an object
+    - cannot use it with `String` `Boolean` `Number` (it will change the type of the value to `object`)
+    - 
+  - coercion
+    - super important
+    - anytime theres a mathematical operation with a string operand, it will convert all to string
+    - exercise: make sure we convert input values to nomber to make operations
+  - booleans
+    - values can be evaluate it to `true or false
+    - automatically happens in all if statements (inside the `()`)
+    - `!!`. `<`, `>` to explicitly convert values to booleans
+    - `<`, `>` convert operands to numbers implicitly
+  - coercion best practices
+    - make the types on any operation clear
+    - useful: when the reader is focused on what's important
+    - dangerous: when the reader can't tell what will happen
+    - Better: when the reader understands the code
+  - equality
+    - `==` vs `===`
+    - `==` allows coercion
+    - `===` disallows coercion
+    - show the difference with checking for `null` and `undefined`
+  - types summary
+    - is coercion helpful in this case?

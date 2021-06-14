@@ -1,5 +1,6 @@
 # Inbox
 
+- [Lesson Learned: Massive Burnout In Learning Web Development](https://adiati.com/lesson-learned-massive-burnout-in-learning-web-development) #read #softskills #burnout
 - [Reviving Advanced Hypertext](https://www.nngroup.com/articles/reviving-advanced-hypertext/)
 - [Becoming Open Source by Default – code\.dblock\.org \| tech blog](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html) #opensource #oss #startup #article 
 - [artsy/README: \- The documentation for being an Artsy Engineer](https://github.com/artsy/README) #startup #opensource #oss #hiring #companyculture
