@@ -1,5 +1,12 @@
 # Inbox
 
+- [June 2021 update \| Manyverse](https://www.manyver.se/blog/2021-06-update)
+- [A Practical Wait-Free Simulation for Lock-Free Data Structures](http://cs.technion.ac.il/~erez/Papers/wf-simulation-full.pdf) #paper #lock-free
+- [Lock\-Free to Wait\-Free Simulation in Rust](https://www.youtube.com/watch?v=Bw8-vvtA-E8) #video
+- [Conformance for Frameworks](https://web.dev/conformance/)
+- [Serving sharp images to high density screens \- JakeArchibald\.com](https://jakearchibald.com/2021/serving-sharp-images-to-high-density-screens/) #images #web
+- [Introducing Aurora](https://web.dev/introducing-aurora/) #tech
+- [MPPs & Wumbo Channels: Optimizing Liquidity on the Lightning Network \| by Roy Sheinfeld \| Breez Technology \| Medium](https://medium.com/breez-technology/mpps-wumbo-channels-optimizing-liquidity-on-the-lightning-network-6059bedea322) #mintter #bitcoin #lightning #tech
 - [Lesson Learned: Massive Burnout In Learning Web Development](https://adiati.com/lesson-learned-massive-burnout-in-learning-web-development) #read #softskills #burnout
 - [Reviving Advanced Hypertext](https://www.nngroup.com/articles/reviving-advanced-hypertext/)
 - [Becoming Open Source by Default – code\.dblock\.org \| tech blog](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html) #opensource #oss #startup #article 

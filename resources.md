@@ -1,5 +1,8 @@
 # Resources
 
+- [aleclarson/vite\-tsconfig\-paths: Support for TypeScript's path mapping in Vite](https://github.com/aleclarson/vite-tsconfig-paths)
+- [vite\-react\-jsx/plugin\.ts at master · alloc/vite\-react\-jsx](https://github.com/alloc/vite-react-jsx/blob/master/src/plugin.ts)
+- [kenv/clipboard\-history\.js at alpha · johnlindquist/kenv](https://github.com/johnlindquist/kenv/blob/alpha/scripts/clipboard-history.js) #kit #automation
 - [Git Interactive Rebase, Squash, Amend and Other Ways of Rewriting History](https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history) #git #coding
 - [Capsize](https://seek-oss.github.io/capsize/) #font #web #css #code #frontend
   - [Capsize example using Stitches](https://codesandbox.io/s/capsize-typography-system-stitches-6w74m?file=/src/stitches.config.ts)
