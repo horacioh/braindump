@@ -54,4 +54,4 @@
 - [Progressive Summarization: A Practical Technique for Designing Discoverable Notes](https://fortelabs.co/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes)
 - [Progressive Summarization Tutorial](https://www.youtube.com/watch?v=_YlhggSppF4)
 - [5-Minute Case Study: Using a Digital Second Brain to Take Online Courses](https://www.youtube.com/watch?v=58BX1-7WjP4)
-- [BASB - Progressive Summarization // Jessica Erin](https://www.youtube.com/watch?v=5JjF7BE8rDo)
+- [Progressive Summarization by Jessica Erin](https://www.youtube.com/watch?v=5JjF7BE8rDo)

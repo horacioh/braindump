@@ -1,5 +1,6 @@
 # mentoria German Mentoria
 
+- #fecha: 2021-05-18
 - background: IT sistemas
 - estudia por su cuenta
 - JS, React... poco a poco

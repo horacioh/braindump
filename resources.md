@@ -1,5 +1,7 @@
 # Resources
 
+- [Harry's Marketing Examples \(@GoodMarketingHQ\) / Twitter](https://twitter.com/GoodMarketingHQ) #marketing
+- [Marketing Examples](https://marketingexamples.com/) #marketing
 - [aleclarson/vite\-tsconfig\-paths: Support for TypeScript's path mapping in Vite](https://github.com/aleclarson/vite-tsconfig-paths)
 - [vite\-react\-jsx/plugin\.ts at master · alloc/vite\-react\-jsx](https://github.com/alloc/vite-react-jsx/blob/master/src/plugin.ts)
 - [kenv/clipboard\-history\.js at alpha · johnlindquist/kenv](https://github.com/johnlindquist/kenv/blob/alpha/scripts/clipboard-history.js) #kit #automation

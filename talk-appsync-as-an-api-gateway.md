@@ -1,5 +1,6 @@
 # AppSync as an API Gateway
 
+- [video](https://youtu.be/FVYqbM3JIWU?t=4534)
 When building a GraphQL APIs it is common to have existing microservices served via traditional REST APIs that need to be integrated into the schema and accessed via GraphQL queries and mutations. In this talk, you'll learn how to add custom HTTP and Lambda function resolvers to map existing REST endpoints and other API calls directly from Amplify.
 
 ## Main talk layout
@@ -50,7 +51,7 @@ amplify add api
 
 ### AWS Lambda Overview
 
-![Lambda Overview](./lambda-overview.png)
+![Lambda Overview](./assets/lambda-overview.png)
 
 - Run code without provisioning or managing any servers
 - pay only for the compute time you consume
@@ -169,3 +170,7 @@ try {
 
 - https://pages.awscloud.com/rs/112-TZM-766/images/2018_0821-MBL_Slide-Deck.pdf?mkt_tok=eyJpIjoiWVdZME5qQXlPVE5oTmpNeiIsInQiOiJnOGxJOFdFUklrYW1TRHpYVUY5ckFubzF2bkVhdHNJU0U1Ylhsc1FoSkw1T0ZlVGVKK01Hck9CNFR0dVhqZWMxQnIzMkpcL1wvWmFlREZMVWlkNlhHbXRuZFkwa21uUzFXdWcwNWVFajV6SDllblFqR2hvTnBjc2RBQzNmRThWM2l6cEQ1aDRGc284MFN5K09xK3l5UXZkUT09In0%3D
 - https://docs.amplify.aws
+- https://www.youtube.com/watch?v=WwdY9lsQThc
+- https://www.youtube.com/watch?v=yR-gJ2hMIPk
+- https://www.youtube.com/watch?v=4dZ91AarhPg
+- https://www.youtube.com/watch?v=y4Obz26GkCk

@@ -1,3 +1,0 @@
-#### Collaboration
-
-- https://togetherjs.com/

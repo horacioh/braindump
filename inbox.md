@@ -1,5 +1,7 @@
 # Inbox
 
+- [Taylor and Kent talk about Remote Workshops](https://www.notion.so/Taylor-and-Kent-talk-about-Remote-Workshops-e6a4b448d9ee449497aa215d32d4e9f8)
+- [Minimum Viable Digital Garden - UbD Outline](https://www.notion.so/Minimum-Viable-Digital-Garden-UbD-Outline-14db6bb47ca1459e9e68bc38a61bb8d0)
 - [The Future of the Front-End (with Pedro Duarte) – Stitches CSS-in-JS Demo](https://www.youtube.com/watch?v=Gw28VgyKGkw) #video #stitches #css-in-js
 - [June 2021 update \| Manyverse](https://www.manyver.se/blog/2021-06-update)
 - [A Practical Wait-Free Simulation for Lock-Free Data Structures](http://cs.technion.ac.il/~erez/Papers/wf-simulation-full.pdf) #paper #lock-free

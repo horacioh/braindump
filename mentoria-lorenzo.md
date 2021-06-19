@@ -1,5 +1,6 @@
 # mentoria Lorenzo Martinez
 
+- #fecha: 2021-06-02
 ## temas a tratar:
 
 Aprovecho, porque lei que habia que avisarte sobre que va a tratar la mentoría y temas. Yo quería hablar un poco para orientarme de a qué dedicarme o a qué rama enfocarse, si programación, más front end o si diseñador ui/ux. Ese ámbito de temas quería tratar.

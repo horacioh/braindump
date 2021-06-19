@@ -1,5 +1,6 @@
 # mentoria Senbastian
 
+- #fecha: 2021-05-19
 - estudiando React
 - esta preparando una prueba tecnica
 - autodidacta
