@@ -1,5 +1,6 @@
 # Inbox
 
+- [The Future of the Front-End (with Pedro Duarte) – Stitches CSS-in-JS Demo](https://www.youtube.com/watch?v=Gw28VgyKGkw) #video #stitches #css-in-js
 - [June 2021 update \| Manyverse](https://www.manyver.se/blog/2021-06-update)
 - [A Practical Wait-Free Simulation for Lock-Free Data Structures](http://cs.technion.ac.il/~erez/Papers/wf-simulation-full.pdf) #paper #lock-free
 - [Lock\-Free to Wait\-Free Simulation in Rust](https://www.youtube.com/watch?v=Bw8-vvtA-E8) #video

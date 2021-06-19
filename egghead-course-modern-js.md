@@ -81,3 +81,35 @@
 - [Primitive vs Reference Values in JavaScript \- ui\.dev](https://ui.dev/primitive-vs-reference-values-in-javascript/)
 - [ES Modules in Depth \- ui\.dev](https://ui.dev/esmodules/)
 
+
+
+## next steps
+
+- break down the outline into lessons
+- create the actual content
+- follow Matias structures
+  - por leccion
+    - intro
+    - primeros pasos
+    - objetivos
+    - ejercicio
+    - puntos extra
+    - feedback
+      - make it very actionable
+- focus on the content
+- workshop format
+  - intro
+  - challenge
+  - show the solution
+- write down all the lesson goals first
+
+example:
+- pilar 1
+  - lesson 1
+  - lesson 2
+  - lesson 3
+- pilar 2
+  - lesson 4
+  - lesson 5
+  - lesson 6
+  ...

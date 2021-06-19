@@ -2,6 +2,10 @@
 
 - kill _mutants_ instead of counting code coverage
 
+## Posts
+
+- [[Intro to mutation testing]]
+
 ## Intro
 
 Mutation testing is a technique that helps you test for multiple outcomes of a function. It analyses the code and make multiple assumptions to see if your code responds properly to the different outcomes.
