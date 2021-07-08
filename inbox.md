@@ -1,7 +1,9 @@
 # Inbox
 
-- [Taylor and Kent talk about Remote Workshops](https://www.notion.so/Taylor-and-Kent-talk-about-Remote-Workshops-e6a4b448d9ee449497aa215d32d4e9f8)
-- [Minimum Viable Digital Garden - UbD Outline](https://www.notion.so/Minimum-Viable-Digital-Garden-UbD-Outline-14db6bb47ca1459e9e68bc38a61bb8d0)
+- [Bug talkback value input type number \| Medium](https://medium.com/@francisco.marquez.job/masterclassaccesibilidad-input-type-number-eres-muy-maligno-1e0e7d74009d) #a11y
+- [Designing a Technical Interview \| Laurie on Tech](https://laurieontech.com/posts/interviews/) #hiring
+- [Taylor and Kent talk about Remote Workshops](https://www.notion.so/Taylor-and-Kent-talk-about-Remote-Workshops-e6a4b448d9ee449497aa215d32d4e9f8) #workshop
+- [Minimum Viable Digital Garden - UbD Outline](https://www.notion.so/Minimum-Viable-Digital-Garden-UbD-Outline-14db6bb47ca1459e9e68bc38a61bb8d0) #workshop #ubd
 - [The Future of the Front-End (with Pedro Duarte) – Stitches CSS-in-JS Demo](https://www.youtube.com/watch?v=Gw28VgyKGkw) #video #stitches #css-in-js
 - [June 2021 update \| Manyverse](https://www.manyver.se/blog/2021-06-update)
 - [A Practical Wait-Free Simulation for Lock-Free Data Structures](http://cs.technion.ac.il/~erez/Papers/wf-simulation-full.pdf) #paper #lock-free

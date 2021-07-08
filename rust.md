@@ -13,3 +13,4 @@
 - [What the Fork is Rust?](https://maggieappleton.com/wtf-rust) #article
 - [Learn the fundamentals of the Rust programming language in this in\-depth course with Richard Feldman](https://frontendmasters.com/courses/rust/) #tutorial #video
 - [napi\-rs Docs](https://napi.rs/) #tool
+- [Introduction \- A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/)
