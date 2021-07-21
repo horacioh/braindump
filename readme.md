@@ -6,7 +6,7 @@
 ## Latest Posts
 
 - [[cryptozombies-intro-1]]
-- [[article-hoisting]]
+- [[javascript-hoisting]]
 - [[javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones]]
 - [[mutation-testing]]
 - [Why I should care about Mutation Testing?](https://dev.to/horacioh/why-i-should-care-about-mutation-testing-4i92)
@@ -30,7 +30,7 @@
 [about-me]: about-me "About Me"
 [about-this-workspace]: about-this-workspace "About this workspace"
 [cryptozombies-intro-1]: cryptozombies-intro-1 "Cryptozombies: Introduccion a desarrollo con ETH y "Smart Contracts""
-[article-hoisting]: article-hoisting "Cómo funciona JavaScript: Hoisting"
+[javascript-hoisting]: javascript-hoisting "Cómo funciona JavaScript: Hoisting"
 [javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones]: javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones "Diferencia entre declaraciones de funciones y expresiones de funciones"
 [mutation-testing]: mutation-testing "Mutation Testing"
 [padres]: padres "Padres"

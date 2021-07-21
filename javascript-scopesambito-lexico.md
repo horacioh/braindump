@@ -1,0 +1,2 @@
+# javascript-scopes|Ambito Lexico
+

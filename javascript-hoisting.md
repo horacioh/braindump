@@ -116,3 +116,4 @@ Lo que me gustaría que recuerdes cuando veas la palabra *Hoisting* en JavaScrip
 
 
 (*) - En realidad no es que cambie nuestro código, pero el efecto que ocaciona es el de "subir" las declaraciones
+

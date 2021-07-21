@@ -1,5 +1,6 @@
 # Inbox
 
+- [Temporal \- the iPhone of System Design](https://www.swyx.io/why-temporal/)
 - [The Latin American Startup Opportunity \| by Sequoia \| Sequoia Capital Publication \| Jul, 2021 \| Medium](https://medium.com/sequoia-capital/the-latin-american-startup-opportunity-46ace259777f) #startup #latinamerica
 - [Bug talkback value input type number \| Medium](https://medium.com/@francisco.marquez.job/masterclassaccesibilidad-input-type-number-eres-muy-maligno-1e0e7d74009d) #a11y
 - [Designing a Technical Interview \| Laurie on Tech](https://laurieontech.com/posts/interviews/) #hiring
