@@ -16,7 +16,6 @@ Aqui podras encontrar todas mis notas sobre JavaScript que he hecho mientras apr
 [curso-fundamentos-avanzados-javascript]: curso-fundamentos-avanzados-javascript "curso-fundamentos-avanzados-javascript"
 [javascript-tips]: javascript-tips "JavaScript Tips"
 [javascript-tipos-primitivos]: javascript-tipos-primitivos "Tipos Primitivos"
-
 [javascript-this]: javascript-this "La Palabra clave "this""
 [javascript-scopes]: javascript-scopes "Ambitos de bloque o Scopes"
 [javascript-referencias]: javascript-referencias "Referencias en JavaScript"

@@ -1,5 +1,9 @@
 # Inbox
 
+- [Javascript String Offsets and Unicode Surrogate Pairs](https://www.lighttag.io/blog/unicode-surrogate-pairs/)
+- [Structuring\-Computer\-Mediated\-Communication\-Systems\-to\-Avoid\-Information\-Overload\.pdf](https://www.researchgate.net/profile/Starr-Hiltz/publication/220420820_Structuring_Computer-Mediated_Communication_Systems_to_Avoid_Information_Overload/links/0deec51fd15b970b51000000/Structuring-Computer-Mediated-Communication-Systems-to-Avoid-Information-Overload.pdf?origin=publication_detail)
+- [Telecollaboration: Beyond Memex and NLS](https://cs.brown.edu/stc/resea/telecollaboration/story.html)
+- [Douglas C. Engelbart - A Profile of His Work and Vision: Past, Present and Future](https://www.logitech.com/lang/pdf/Engelbart_Backgrounder.pdf)
 - [Temporal \- the iPhone of System Design](https://www.swyx.io/why-temporal/)
 - [The Latin American Startup Opportunity \| by Sequoia \| Sequoia Capital Publication \| Jul, 2021 \| Medium](https://medium.com/sequoia-capital/the-latin-american-startup-opportunity-46ace259777f) #startup #latinamerica
 - [Bug talkback value input type number \| Medium](https://medium.com/@francisco.marquez.job/masterclassaccesibilidad-input-type-number-eres-muy-maligno-1e0e7d74009d) #a11y
