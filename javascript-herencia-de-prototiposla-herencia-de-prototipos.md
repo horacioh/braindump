@@ -1,2 +1,2 @@
-# javascript-herencia-de-prototipos|La Herencia de Prototipos
+# javascript-herencia-de-prototiposla-herencia-de-prototipos
 

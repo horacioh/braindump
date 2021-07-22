@@ -1,5 +1,5 @@
 ---
-published-by: [[escuelafrontend.com]]
+published-by: [[escuelafrontend]]
 ---
 # Cómo funciona JavaScript: Hoisting
 

@@ -6,14 +6,15 @@
 ## Latest Posts
 
 - [[cryptozombies-intro-1]]
-- [[javascript-hoisting]]
-- [[javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones]]
-- [[mutation-testing]]
+- [[article-javascript-hoisting]]
+- [[article-javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones]]
+- [[intro-to-mutation-testing]]
 - [Why I should care about Mutation Testing?](https://dev.to/horacioh/why-i-should-care-about-mutation-testing-4i92)
 
 ## Featured notes
 
-- [[padres]]
+- [[javascript]]
+- [[escuelafrontend]]
 - [[streaming-101]]
 - [[ideas]]
 - [[egghead-talks-a11y-flavored-react-components-make-your-design-system-delicious]]
@@ -30,10 +31,11 @@
 [about-me]: about-me "About Me"
 [about-this-workspace]: about-this-workspace "About this workspace"
 [cryptozombies-intro-1]: cryptozombies-intro-1 "Cryptozombies: Introduccion a desarrollo con ETH y "Smart Contracts""
-[javascript-hoisting]: javascript-hoisting "Cómo funciona JavaScript: Hoisting"
-[javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones]: javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones "Diferencia entre declaraciones de funciones y expresiones de funciones"
-[mutation-testing]: mutation-testing "Mutation Testing"
-[padres]: padres "Padres"
+[article-javascript-hoisting]: article-javascript-hoisting "Cómo funciona JavaScript: Hoisting"
+[article-javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones]: article-javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones "Diferencia entre declaraciones de funciones y expresiones de funciones"
+[intro-to-mutation-testing]: intro-to-mutation-testing "Intro to mutation testing"
+[javascript]: javascript "JavaScript"
+[escuelafrontend]: escuelafrontend "escuelafrontend.com"
 [streaming-101]: streaming-101 "Streaming 101"
 [ideas]: ideas "Ideas"
 [egghead-talks-a11y-flavored-react-components-make-your-design-system-delicious]: egghead-talks-a11y-flavored-react-components-make-your-design-system-delicious "Accessibility-flavored React Components make your Design System Delicious"

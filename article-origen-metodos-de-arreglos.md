@@ -1,6 +1,6 @@
 ---
 title: ¿De donde vienen los metodos de arreglos?
-published-by: [[escuelafrontend.com]]
+published-by: [[escuelafrontend]]
 ---
 
 ## Referencias

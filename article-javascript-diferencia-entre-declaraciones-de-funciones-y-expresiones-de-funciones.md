@@ -51,9 +51,13 @@ Lo que me gustaría que recuerdes cuando veas la palabla _Hoisting_ en JavaScrip
 
 ## Empezemos con las Diferencias
 
-- [las declaraciones de funciones pueden ser ejecutadas antes de su definición](#las-declaraciones-de-funciones-pueden-ser-ejecutadas-antes-de-su-definicion)
-- [Declaraciones a la Derecha, Expresiones a la Izquierda](#declaraciones-a-la-derecha-expresiones-a-la-izquierda)
-- [Las expresiones son más difíciles de inspeccionar](#las-expresiones-son-mas-dificiles-de-inspeccionar)
+- [Diferencia entre declaraciones de funciones y expresiones de funciones](#diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones)
+  - [Hablemos de Hoisting](#hablemos-de-hoisting)
+  - [Empezemos con las Diferencias](#empezemos-con-las-diferencias)
+    - [las Declaraciones de funciones pueden ser ejecutadas antes de su definición](#las-declaraciones-de-funciones-pueden-ser-ejecutadas-antes-de-su-definición)
+    - [Declaraciones a la Derecha, Expresiones a la Izquierda](#declaraciones-a-la-derecha-expresiones-a-la-izquierda)
+    - [Las expresiones son más difíciles de inspeccionar](#las-expresiones-son-más-difíciles-de-inspeccionar)
+  - [Conclusiones](#conclusiones)
 
 ### las Declaraciones de funciones pueden ser ejecutadas antes de su definición
 
