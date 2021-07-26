@@ -1,5 +1,6 @@
 # Inbox
 
+- [Automated support for deriving test requirements from UML statecharts](https://www.academia.edu/3115770/Automated_support_for_deriving_test_requirements_from_UML_statecharts?auto=download&email_work_card=download-paper) #statecharts #paper #read
 - [Javascript String Offsets and Unicode Surrogate Pairs](https://www.lighttag.io/blog/unicode-surrogate-pairs/)
 - [Structuring\-Computer\-Mediated\-Communication\-Systems\-to\-Avoid\-Information\-Overload\.pdf](https://www.researchgate.net/profile/Starr-Hiltz/publication/220420820_Structuring_Computer-Mediated_Communication_Systems_to_Avoid_Information_Overload/links/0deec51fd15b970b51000000/Structuring-Computer-Mediated-Communication-Systems-to-Avoid-Information-Overload.pdf?origin=publication_detail)
 - [Telecollaboration: Beyond Memex and NLS](https://cs.brown.edu/stc/resea/telecollaboration/story.html)

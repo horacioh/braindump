@@ -3,6 +3,7 @@ title: Tipos Primitivos
 alias: primitivos
 ---
 
+
 # tipos primitivos
 
 - tipado dinamico
@@ -30,7 +31,7 @@ alias: primitivos
       - IEEE 754: numeros que ocupan 8Bytes
       - usar `toFixed` para truncar los decimales de los resultados de las operaciones
       - tenemos limites al usar numeros -(2 ** 53) - (2 ** 53)
-      - puedes usar el valur `Number.MIN_SAFE_INTEGER` y `Number.MAX_SAFE_INTEGER`
+      - puedes usar el valor `Number.MIN_SAFE_INTEGER` y `Number.MAX_SAFE_INTEGER`
       - tambien `Number.isSafeInteger()` para comprobar que el numero esta dentro de los limites
       - `Number.MAX_VALUE` y `Number.MIN_VALUE` son los numeros mas grande y pequeños con los que puedes trabajar, pero son aproximaciones
       - tambien existe `Infinity` y `-Infinity`, que son mayores al numero mas grande y menos grande.
