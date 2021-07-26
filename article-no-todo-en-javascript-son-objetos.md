@@ -38,12 +38,13 @@ Quizás también te preguntes: Si los tipos primitivos no tienen métodos ni pro
 ### `string`
 
 Te sirve para describir cualquier cadena de texto. Para poder representarlo tienes 3 maneras:
+
 - con commillas simples (`'`)
 - con comillas dobles (`"`)
 - con "backticks" (`\``)
 
 ```js
-const nombre = 'Horacio'
+const nombre = "Horacio"
 const nombre = "Horacio"
 const nombre = `Horacio`
 ```
@@ -61,7 +62,7 @@ Una ventaja o propiedad de usar los "backticks" es que **puedes interpolar cualq
 ```js
 const persona = {
   nombre: "Horacio",
-  edad: 33
+  edad: 33,
 }
 const saludo = `Hola ${persona.nombre}`
 const mayorDeEdad = `es ${persona.edad > 18 ? "mayor" : "menor"} de edad`
@@ -74,33 +75,33 @@ const mayorDeEdad = `es ${persona.edad > 18 ? "mayor" : "menor"} de edad`
 A diferencia de otros lenguajes de programación, en JavaScript solo hay una manera de representar cualquier tipo de número (bueno, realmente no [todos](#bigint)), tanto números enteros como números decimales:
 
 ```js
-typeof 42     // 'number'
-typeof 12.2   // 'number'
-typeof -24    // 'number'
+typeof 42 // 'number'
+typeof 12.2 // 'number'
+typeof -24 // 'number'
 ```
 
 Los números en JavaScript no se "guardan" exactamente como los escribimos nosotros, esto es mas evidente cuando agregamos decimales a los numeros:
 
 ```js
-console.log(0.1 + 0.2 === 0.3); // false
-console.log(0.1 + 0.2 === 0.30000000000000004); // true???
+console.log(0.1 + 0.2 === 0.3) // false
+console.log(0.1 + 0.2 === 0.30000000000000004) // true???
 ```
 
 Ya se, es raro. Pero lo que realmente esta pasando es que JavaScript esta guardando una "aproximación" al numero que hemos escrito. Podemos comprobar esta aproximación con un valor especial que tenemos acceso en JavaScript:
 
 ```js
-console.log(Number.MAX_SAFE_INTEGER);     // 9007199254740991
-console.log(Number.MAX_SAFE_INTEGER + 1); // 9007199254740992
-console.log(Number.MAX_SAFE_INTEGER + 2); // 9007199254740992 (igual al anterior!)
-console.log(Number.MAX_SAFE_INTEGER + 3); // 9007199254740994
-console.log(Number.MAX_SAFE_INTEGER + 4); // 9007199254740996
-console.log(Number.MAX_SAFE_INTEGER + 5); // 9007199254740996 (el mismo que el anterior!)
+console.log(Number.MAX_SAFE_INTEGER) // 9007199254740991
+console.log(Number.MAX_SAFE_INTEGER + 1) // 9007199254740992
+console.log(Number.MAX_SAFE_INTEGER + 2) // 9007199254740992 (igual al anterior!)
+console.log(Number.MAX_SAFE_INTEGER + 3) // 9007199254740994
+console.log(Number.MAX_SAFE_INTEGER + 4) // 9007199254740996
+console.log(Number.MAX_SAFE_INTEGER + 5) // 9007199254740996 (el mismo que el anterior!)
 ```
 
 Una forma de poder resolver o limitar los problemas que te puedan ocacionar estas aproximaciones, es usando la función `toFixed()`, que limita la cantidad de decimales de el numero en cuestión.
 
 ```js
-const nota = 83.34367890
+const nota = 83.3436789
 console.log(nota.toFixed(2)) //83.
 ```
 
@@ -121,18 +122,18 @@ Además de `Number.MAX_SAFE_INTEGER`, JavaScript tambien tiene otros números es
 Tenemos estos numeros disponibles porque JavaScript necesita una manera de representar cualquier operación matemática que puedas hacer, incluso aunque sea "imposible" o "errónea", como por ejemplo `1 / 0` (el resultado es `Infinity`).
 
 ```js
-let valor = 0;
-let a = 1 / valor; // Infinity
-let b = 0 / valor; // NaN
-let c = -a;        // -Infinity
-let d = 1 / c;     // -0
+let valor = 0
+let a = 1 / valor // Infinity
+let b = 0 / valor // NaN
+let c = -a // -Infinity
+let d = 1 / c // -0
 ```
 
 - TODO: Porque hay `-0` en JS?
 
-Es poco habitual que tengas la necesidad de usar estos números especiales en tus programas, pero uno que seguro te has encontrado es `NaN`. Aunque no parezca un número, si que lo es (puedes comprobarlo ejecutando `typeof(NaN)`, te devolverá "number"). Es un número porque JavaScript necesita una manera de representar el resultado de **una operación inválida** (`NaN` son las iniciales de "Not a Number"), como por ejemplo `0/0`. 
+Es poco habitual que tengas la necesidad de usar estos números especiales en tus programas, pero uno que seguro te has encontrado es `NaN`. Aunque no parezca un número, si que lo es (puedes comprobarlo ejecutando `typeof(NaN)`, te devolverá "number"). Es un número porque JavaScript necesita una manera de representar el resultado de **una operación inválida** (`NaN` son las iniciales de "Not a Number"), como por ejemplo `0/0`.
 
-> Un dato curioso de `NaN`, es que **es el único número en JavaScript que no tiene identidad**, lo que ocaciona que nunca será igual a si mismo* (`NaN !== NaN`)
+> Un dato curioso de `NaN`, es que **es el único número en JavaScript que no tiene identidad**, lo que ocaciona que nunca será igual a si mismo\* (`NaN !== NaN`)
 
 ### `boolean`
 
@@ -142,7 +143,7 @@ Este tipo de dato solo permite dos valores: `true` o `false`. Estos valores son 
 
 ### `null`
 
-Este tipo de valor nos ayuda a representar **la ausencia de valor**. Pero con `null` tenemos un problema: **¿Por qué la ejecución de `typeof null` devuelve `"object"`?** 
+Este tipo de valor nos ayuda a representar **la ausencia de valor**. Pero con `null` tenemos un problema: **¿Por qué la ejecución de `typeof null` devuelve `"object"`?**
 
 **`null` nos engaña**. Así es, es un mentiroso.
 
@@ -151,11 +152,8 @@ Pues eso, `null` sigue siendo un tipo primitivo, pero recibimos "object" por un 
 Este tipo de dato se utiliza mucho para determinar **ausencia de valor**. Un ejemplo muy claro es en componentes React:
 
 ```jsx
-
-function Button({hide = false, ...props}) {
-  return hide ? (
-    <button {...props} />
-  ) : null // ⬅️ Devolvemos `null` si `hide` es `false`.
+function Button({ hide = false, ...props }) {
+  return hide ? <button {...props} /> : null // ⬅️ Devolvemos `null` si `hide` es `false`.
 }
 ```
 
@@ -181,7 +179,7 @@ Cuando creamos una variable de tipo `Symbol`, este valor es único, asi que solo
 ```js
 Symbol() === Symbol() // false
 Symbol(42) === Symbol(42) // false
-Symbol('descripcion') === Symbol('descripcion') // false
+Symbol("descripcion") === Symbol("descripcion") // false
 ```
 
 #### Registro global de Símbolos
@@ -189,10 +187,10 @@ Symbol('descripcion') === Symbol('descripcion') // false
 Existe un **registro global de simbolos**, en el que podemos crear y recibir el mismo símbolo a partir de la descripción. Además que este registro es compartido en nuestra página, incluso entre los **serviceworkers** y **iframes** que estén en ella.
 
 ```js
-var simbolo1 = Symbol.for('escuelafrontend') // Crea el símbolo para ésta descripción si no existe
+var simbolo1 = Symbol.for("escuelafrontend") // Crea el símbolo para ésta descripción si no existe
 
 // en otra parte de nuestro programa
-var llave = Symbol.for('escuelafrontend')
+var llave = Symbol.for("escuelafrontend")
 
 simbolo1 === llave // true!
 ```
@@ -207,22 +205,22 @@ Este tipo no es muy utilizado en nuestros programas, pero si que se utiliza much
 
   ```js
   const ACCIONES = {
-    ABRIR: Symbol('abrir'),
-    CERRAR: Symbol('cerrar')
+    ABRIR: Symbol("abrir"),
+    CERRAR: Symbol("cerrar"),
   }
 
   function reducerGrifo(accion) {
     if (accion === ACCIONES.ABRIR) {
-      console.log('abrir el grifo')
+      console.log("abrir el grifo")
       return
     }
 
     if (accion === ACCIONES.CERRAR) {
-      console.log('cerrar el grifo')
+      console.log("cerrar el grifo")
       return
     }
 
-    console.log('acción desconocida')
+    console.log("acción desconocida")
     return
   }
 
@@ -231,19 +229,20 @@ Este tipo no es muy utilizado en nuestros programas, pero si que se utiliza much
   reducerGrifo(ACCIONES.ABRIR) // abrir el grifo
   reducerGrifo(ACCIONES.CERRAR) // cerrar el grifo
 
-  reducerGrifo('ABRIR') // acción desconocida
+  reducerGrifo("ABRIR") // acción desconocida
   ```
+
   En este caso, no se puede pasar una cadena de texto a esta función, solo los símbolos del objeto de acciones.
 
-- Para evitar la colisión de atributos de un objeto cuando estemos haciendo comprobaciones sobre el: 
+- Para evitar la colisión de atributos de un objeto cuando estemos haciendo comprobaciones sobre el:
 
   ```js
   const persona = {
-    nombre: 'Horacio',
-    apellido: 'Herrera',
+    nombre: "Horacio",
+    apellido: "Herrera",
   }
 
-  const isLoggedIn = Symbol('esta logado')
+  const isLoggedIn = Symbol("esta logado")
 
   persona[isLoggedIn] = false
 
@@ -268,8 +267,8 @@ En cuanto a operaciones matemáticas, no se permite hacerlas entre diferentes ti
 const n1 = 67890987654323456789n
 const n2 = BigInt(42) // también podemos crearlos a partir del objeto "BigInt"
 
-n1 + 100  // 🚫 INVÁLIDO
-n1 + n2   // ✅
+n1 + 100 // 🚫 INVÁLIDO
+n1 + n2 // ✅
 ```
 
 ### `object`
@@ -289,6 +288,7 @@ typeof soyUnaFuncion // "function" ????
 ```
 
 El resultado de `typeof Function` no es "object", porque las funciones se consideran "callable objects" o "objetos invocables". por eso es que su "tipo" devuelve el valos "function". Esto aunque parece que es un error, personalmente creo que esto puede ser una ventaja para nuestros programas. lo importante es saberlo, asi podemos sacarle provecho!
+
 ## Como podemos sacarle ventaja a los valores primitivos?
 
 Es importante tener estos conceptos claros, porque como mensionaba en la analogía de la comida arriba, **conocer bien las herramientas que tenemos a nuestro alcanze y como funcionan es muy importante para escribir programas de calidad y evitar bugs**, con lo que la mejor manera de sacarles ventaja )desde mi punto de vista), es teniendo en cuenta su funcionamiento para escribir mejor código y que nos permita ahorrar tiempo cuando ocurran errores o bugs (que lastimosamente son inevitables!).
@@ -300,7 +300,7 @@ El hecho que podamos llamar a funciones a partir de primitivos, no es porque est
 **Autoboxing** o **Object Wrapper** ocurre cuando llamamos a un metodo definido en el prototipo relacionado a el primitivo en cuestión.
 
 ```js
-var saludo = 'Hola escuelafrontend!'
+var saludo = "Hola escuelafrontend!"
 saludo.toUpperCase() // "HOLA ESCUELAFRONTEND!"
 ```
 
@@ -311,19 +311,19 @@ En el ejemplo de arriba, el método `toUpperCase` esta definido en el prototipo 
 Ahora que ya hemos visto todo lo que necesitamos saber sobre primitivos, pongámoslo en práctica!. Miremos el siguiente código:
 
 ```js
-var root;
-var primero = 20;
-var segundo = primero;
-primero = 25;
+var root
+var primero = 20
+var segundo = primero
+primero = 25
 
-var v1 = segundo / 0;
-var v2 = '42';
-var v3 = v2 + primero;
+var v1 = segundo / 0
+var v2 = "42"
+var v3 = v2 + primero
 
-var logado = Symbol('logado');
+var logado = Symbol("logado")
 var user = {
-  name: 'Horacio',
-  logado: true
+  name: "Horacio",
+  logado: true,
 }
 ```
 
@@ -336,9 +336,13 @@ Después de que el código se ejecute completamente:
 ### Puntos Extra
 
 1. Lista todos los valores finales para todas las variables
+
+---
+
 ## Conclusion
 
 Los tipos primitivos son una parte fundamental del lenguaje. Saber qué son, cuales son estos tipos y la diferencia entre ellos te va a ayudar a crear un conocimiento fundacional muy importante para tu futura carrera como desarrollador. Espero que te haya ayudado a entender mejor los tipos primitivos, y que de ahora en adelante lo que muchos describen como "las partes malas de JavaScript", no las vean tan malas y puedas usarlas en tu ventaja.
+
 ## Notas
 
 (\*) - Una razon por la cual se dice que `typeof null` devuelve `"object"` es porque todo objeto en JavaScript se deriva de `null`, por eso es que devuelve `"object"` en vez de `"null"` como la regla dice que debería ser. [fuente: MDN](https://developer.mozilla.org/en-US/docs/Glossary/Null)
