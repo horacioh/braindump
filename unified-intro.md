@@ -31,4 +31,4 @@ https://unifiedjs.com/learn/guide/introduction-to-unified/
 ### Questions and comments
 
 [^1]: are all transformation following the same structure? (HTML -> structure1 ; MD -> structure2 ; structure1 === structure 2 ?)
-[^2]: (https://github.com/syntax-tree)
+
