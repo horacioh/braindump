@@ -1,5 +1,5 @@
 ---
-title: "En JavaScript todo NO son objetos"
+title: Aprendamos sobre los Tipos Primitivos de JavaScript
 tags: #tipos-primitivos #javascript [[escuelafrontend]]
 ---
 

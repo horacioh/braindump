@@ -1,5 +1,34 @@
 # Inbox
 
+- [Can you make money as a thought leader online? How the experts are turning their ideas to currency. - by Ellen Donnelly - The Ask.](https://theask.substack.com/p/can-you-make-money-as-a-thought-leader)
+- [Rarepress OS](https://rarepress.org/)
+- [nannou-org/nannou: A Creative Coding Framework for Rust.](https://github.com/nannou-org/nannou)
+- [Here’s a tweet thread of ideas I featured in an issue of my newsletter](https://twitter.com/jspector/status/1231359197561778176)
+- [Large Rust Workspaces](https://matklad.github.io//2021/08/22/large-rust-workspaces.html)
+- [The Economics of Superstars - Sherwin Rosen](https://www.uvm.edu/pdodds/files/papers/others/1981/rosen1981a.pdf)
+- [Writing a Re\-usuable Drag/Drop Behavior with XState — Jonathan Dickinson](https://dickinson.id/writing-a-re-usuable-drag-drop-behavior-with-xstate)
+- [A beginner’s guide to DAOs — Mirror](https://linda.mirror.xyz/Vh8K4leCGEO06_qSGx-vS5lvgUqhqkCz9ut81WwCP2o)
+- [CSS Nesting Module](https://drafts.csswg.org/css-nesting/)
+- [Dickie Bush \| ThreadsByMe](https://www.threadsby.me/its/dickiebush)
+- [Creating an accessible autocomplete experience – React Spectrum Blog](https://react-spectrum.adobe.com/blog/building-a-combobox.html)
+- [Jad Esber 🕺 on Twitter: "In a recent conversation with @HBSmktg and @LK617, we talked about the bookshelf and what it represents\. Turns out, the bookshelf serves as an effective metaphor for a lot of what I've been thinking about RE: what @koodos is shaping up to be\. 🧵👇 https://t\.co/Xs3WeHHRrQ" / Twitter](https://twitter.com/Jad_AE/status/1420167902016192512)
+- [I wrote 1 blog post every day for 2 years\. Here's 5 things I learned about SEO](https://flaviocopes.com/blog-seo/)
+- [SEO for developers writing blogs](https://flaviocopes.com/seo-for-developers/)
+- [From Zero to 300k Monthly Readers: The Impact of Blogging Consistently with Robin Wieruch](https://bloggingfordevs.com/robin-wieruch-interview/)
+- [Audacity Tutorial: 17 Essential Audacity Tips for Podcasters](https://www.buzzsprout.com/learn/audacity-tutorial)
+- [Web Design for Everyone \| Home](https://www.intro-webdesign.com/)
+- [100 Questions Designers Always Ask \| by Jon Moore \| UX Power Tools \| Medium](https://medium.com/ux-power-tools/100-questions-designers-always-ask-8b9f441bcd35)
+- [Silent Authentication](https://gist.github.com/theianjones/8770d33617b4688c75a052d17ca90bc6)
+- [The Ultimate Guide to UX Research](https://maze.co/guides/ux-research/?ref=sidebar)
+- [The good line\-height](https://www.thegoodlineheight.com/?ref=sidebar)
+- [UI Coach \| Become a better UI designer \| UI Design challenge generator \+ Anonymous feedback platform](https://uicoach.io/generator)
+- [Interviews \- Coffee & Pens](https://coffeeandpens.com/interviews/)
+- [Stop learning — nashvail\.me](https://www.nashvail.me/blog/stop-learning)
+- [Multilingual codeblocks \| Nicky blogs](https://nickymeuleman.netlify.app/blog/multilanguage-codeblocks)
+- [The Third Age of JavaScript](https://www.swyx.io/js-third-age/)
+- [Why Tailwind CSS](https://www.swyx.io/why-tailwind/)
+- [How I Built a Cross\-Platform Desktop Application with Svelte, Redis, and Rust \| CSS\-Tricks](https://css-tricks.com/how-i-built-a-cross-platform-desktop-application-with-svelte-redis-and-rust/)
+- [Cloudways: "\[Webinar\] Visible Is Marketable: How to Design a Website Everybody Can See"](https://www.pscp.tv/w/1gqGvoyEaDWJB?s=09)
 - [Automated support for deriving test requirements from UML statecharts](https://www.academia.edu/3115770/Automated_support_for_deriving_test_requirements_from_UML_statecharts?auto=download&email_work_card=download-paper) #statecharts #paper #read
 - [Javascript String Offsets and Unicode Surrogate Pairs](https://www.lighttag.io/blog/unicode-surrogate-pairs/)
 - [Structuring\-Computer\-Mediated\-Communication\-Systems\-to\-Avoid\-Information\-Overload\.pdf](https://www.researchgate.net/profile/Starr-Hiltz/publication/220420820_Structuring_Computer-Mediated_Communication_Systems_to_Avoid_Information_Overload/links/0deec51fd15b970b51000000/Structuring-Computer-Mediated-Communication-Systems-to-Avoid-Information-Overload.pdf?origin=publication_detail)
@@ -50,7 +79,6 @@
 - [Where should you store tokens? \| Balavishnu V J \| Software Engineer](https://balavishnuvj.com/blog/where-to-store-auth-tokens/) #web #jwt #js #tokens #auth
 - [Two Steps Forward, One Step Back \| Jxnblk](https://jxnblk.com/blog/two-steps-forward/) #css #js
 - [Beyond Swapping Bits](https://www.youtube.com/watch?v=3pyLu6weOvQ) delivered a very comprehensive Bitswap deep dive and showcase of all the results from the Beyond Bitswap project. A must watch for anyone getting to thinker with the internals of #ipfs #research #video #mintter
-- [Peter Cooper on Twitter: "A few weeks ago I had a fantastic \(video\!\) interview with @GuttusoAshley about the processes and tools we use at @Cooperpress when producing over ten weekly newsletters](https://twitter.com/peterc/status/1363800626501713921) #newsletter #writing #video #interviews
 - [Hiking Through the JavaScript Forest \- Speaker Deck](https://speakerdeck.com/xjamundx/hiking-through-the-javascript-forest) #javascript #slides #ast
 - [Workshop • Data Storytelling \| Ness Labs](https://community.nesslabs.com/c/recordings/workshop-data-storytelling) #workshop #nesslabs #storytelling
 - [Not Overthinking](https://notoverthinking.com/) #research #mintter
@@ -82,9 +110,7 @@
 - [The High Price of Free – A List Apart](https://alistapart.com/article/the-high-price-of-free/) #research #mintter
 - [Create your design system, part 1: Typography \| by Sebastiano Guerriero \| CodyHouse \| Medium](https://medium.com/codyhouse/create-your-design-system-part-1-typography-7c630d9092bd) #design-system #css #web
 - [Scuttlebutt Demo](https://awinterman.github.io/simple-scuttle/) #decentralisation #research #scuttlebutt
-- [iainc/iA\-Writer\-Templates: Preview, create PDFs, and print documents in your own style with templates in iA Writer\.](https://github.com/iainc/iA-Writer-Templates) #mintter #writing #typography #fonts #design-system #design
 - [Calvin: Fast Distributed Transactions for Partitioned Database Systems](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf) #research #whitepaper #mintter #distributed-systems
-- [Hero of the information age: Data storyteller \[Nesslabs session\] \- YouTube](https://www.youtube.com/watch?v=SskNmJHjm9I&feature=emb_title) #nesslabs #video #storytelling #writing
 - [Accessibility – Tiny Helpers](https://tiny-helpers.dev/accessibility/)
 - [How to build a simple notes app with IDX](https://blog.ceramic.network/how-to-build-a-simple-notes-app-with-idx/)
 - [Getting Started with Secure Scuttlebutt \(SSB\) \| by Miguel Mota \| Medium](https://medium.com/@miguelmota/getting-started-with-secure-scuttlebut-e6b7d4c5ecfd)
@@ -136,7 +162,6 @@
 - [trekhleb/javascript\-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings](https://github.com/trekhleb/javascript-algorithms)
 - [The Smart Coder](https://thesmartcoder.dev/10-awesome-github-repos-every-web-developer-should-know/)
 - [The Era of Visual Studio Code \| Roben Kleene](https://blog.robenkleene.com/2020/09/21/the-era-of-visual-studio-code/)
-- [How to Build a Consistent Content Creation Habit](https://www.jason.af/build-consistent-content-creation-habit)
 - [paulshen/manipulative: Devtool for manipulating React \+ Emotion styles in the browser](https://github.com/paulshen/manipulative)
 - [earthstar\-project/earthstar: A distributed, syncable document database for making p2p apps](https://github.com/earthstar-project/earthstar) #research #mintter #distributed-systems
 - [Why we hire consultants to help build egghead\.io](https://joelhooks.com/blog/2017/10/26/why-we-hire-consultants-to-help-build-egghead-dot-io)
@@ -259,27 +284,17 @@
 - [Spanish Startup Riders](https://www.startupriders.io) #spain #startup #list
 - [Critical-ish CSS Extraction](https://giuseppegurgone.com/critical-css-extraction/) #web #dev #performance #css #howto
 - [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library) #react [[testing-frontend-apps]] #dev #web [[kent-c-dodds]]
-- [Tweetagram: Auto generate beautiful visuals from a Tweet](https://www.bannerbear.com/demos/tweetagram/) #product #showcase #twitter #instagram
-- [Torus: Hosting for static websites](https://torus.host) #product #showcase #web #dev #ssg #hosting
 - [How to emulate hand-drawn shapes \/ Algorithms behind RoughJS](https://shihn.ca/posts/2020/roughjs-algorithms/) #web #dev #howto #drawing #image-generation
-- [Tracer.click \- A new way to track user behaviour](https://tracer.click) #product #showcase #analytics #tracking
-- [Starship: The minimal, blazing-fast, and infinitely customizable prompt for any shell](https://starship.rs) #shell #product #web #development #tool
+
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [marc-andreesseen]: marc-andreesseen "Marc Andreesseen"
 [clojure]: clojure "Clojure"
-[clojure]: clojure "Clojure"
-[clojure]: clojure "Clojure"
-[dokieli]: dokieli "Dokieli"
-[dokieli]: dokieli "Dokieli"
 [dokieli]: dokieli "Dokieli"
 [martin-kleppmann]: martin-kleppmann "Martin Kleppmann"
 [nader-dabit]: nader-dabit "Nader Dabit"
 [gaby-goldberg]: gaby-goldberg "Gaby Goldberg"
-[gaby-goldberg]: gaby-goldberg "Gaby Goldberg"
-[kent-c-dodds]: kent-c-dodds "Kent C Dodds"
 [kent-c-dodds]: kent-c-dodds "Kent C Dodds"
 [anne-laure-le-cunff]: anne-laure-le-cunff "Anne-Laure Le Cunff"
-[anne-laure-le-cunff]: anne-laure-le-cunff "Anne-Laure Le Cunff"
-[kent-c-dodds]: kent-c-dodds "Kent C Dodds"
+[testing-frontend-apps]: testing-frontend-apps "testing-frontend-apps"
 [//end]: # "Autogenerated link references"
