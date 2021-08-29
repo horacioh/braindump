@@ -1,2 +1,0 @@
-# MDE Cloudinary programs
-

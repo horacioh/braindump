@@ -25,9 +25,6 @@ I'm commiting to write something every day from December 1st to December 25th!. 
   - [[post-coming-for-the-content-staying-for-the-community]]
 - [[2020-12-09]]
   - [[post-market-definitions-and-tech-monopolies]]
-- [[2020-12-10]]
-- [[2020-12-11]]
-- [[2020-12-12]]
 - [[2020-12-13]]
   - [[egghead-course-data-structures-and-algorithms]] WIP
 - [[2020-12-19]]

@@ -1,4 +1,8 @@
-# JSON.stringify()
+---
+title: Como funciona JSON.stringify()
+status: draft
+language: spanish
+---
 
 - este metodo nos ayuda a transformar cualquier objeto a `string`
 - siempre que el valor sea serializable y consumible por cualquier otro sistema compatible con JSON se devolverá en su estado natural.
