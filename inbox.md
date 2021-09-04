@@ -1,5 +1,11 @@
 # Inbox
 
+- [Why People Are Paying # Inbox
+00K+ To Change Their Profile to a Digital Ape - by Peter Yang - Creator Economy by Peter Yang](https://creatoreconomy.so/p/bored-ape-yacht-club-community)
+- [Mirror.xyz Review. An overview of Mirror, the… | by Casey Botticello | Digital Marketing Lab | Jul, 2021 | Medium](https://medium.com/digital-marketing-lab/mirror-xyz-review-186e0960bac2#:~:text=Potential%20to%20earn%20from%20subscriptions%20and%20ads%3A%20As%20the%20Mirror.xyz%20platform%20develops%2C%20it%20is%20expected%20that%20writers%20on%20the%20platform%20will%20eventually%20have%20the%20option%20to%20place%20ads%20on%20popular%20content%2C%20as%20well%20as%20charge%20a%20subscription%20fee)
+- [IntersectionObserver’s Coming into View  |  Web  |  Google Developers](https://developers.google.com/web/updates/2016/04/intersectionobserver?utm_campaign=chrome_series_intersectionobserverarticle_080317&utm_source=chromedev&utm_medium=yt-desc)
+- [Law Of Demeter](https://wiki.c2.com/?LawOfDemeter)
+- [Acciones — Alejandro Crosa](https://collectednotes.com/alejandro/acciones)
 - [Draftbit - Visually build native mobile apps](https://draftbit.com/)
 - [Can you make money as a thought leader online? How the experts are turning their ideas to currency. - by Ellen Donnelly - The Ask.](https://theask.substack.com/p/can-you-make-money-as-a-thought-leader)
 - [Rarepress OS](https://rarepress.org/)

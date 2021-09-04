@@ -63,6 +63,7 @@ hello('var a = 2', 1) // 2, 1
 
 ### `with`
 
+- [CONTINUE HERE](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch2.md#with)
 
 ## ámbitos de bloques (block scopes)
 
@@ -96,6 +97,8 @@ hello('var a = 2', 1) // 2, 1
 
 - *Lexical Scope* es el siguiente (arriba) ambito de funcion en el cual la funcion esta definida. esto es importante saberlo cuando usamos [[funciones-flecha]] o *Arrow functions*.
 - no importa donde ejecutes una funcion, su ambito lexico siempre sera el que tiene cuando es declarada.
+- Piensa en que el ambito lexico esta definido por el autor del codigo. y se define en tiempo de compilacion!
+- tiene que ver con el compilador (expecificamente la parte de "lexer")
 
 
 
