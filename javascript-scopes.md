@@ -1,4 +1,4 @@
----
+****---
 title: 'Ambitos de bloque o Scopes'
 alias: 'scopes'
 ---
