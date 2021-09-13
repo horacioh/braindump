@@ -1,5 +1,9 @@
 # Inbox
 
+- [Fast Rust Builds](https://matklad.github.io/2021/09/04/fast-rust-builds.html)
+- [‎Creative Elements: Ali Abdaal [Efficiency] on Apple Podcasts](https://podcasts.apple.com/podcast/id1498801064?i=1000502434084&at=1000lSDb)
+- [adonismendozaperez/33-js-conceptos: 📜 33 Conceptos que todo desarrollador de JavaScript debería saber.](https://github.com/adonismendozaperez/33-js-conceptos#6-alcance-de-la-funci%C3%B3n-%C3%A1mbito-de-bloque-y-alcance-l%C3%A9xico)
+- [I Processed 558k Transactions on AWS Lambda in 5 Minutes | by Mohamed Latfalla | AWS in Plain English](https://aws.plainenglish.io/how-did-i-processed-half-a-million-transactions-in-aws-lambda-within-minutes-120c69d37ce5)
 - [Why People Are Paying # Inbox
 00K+ To Change Their Profile to a Digital Ape - by Peter Yang - Creator Economy by Peter Yang](https://creatoreconomy.so/p/bored-ape-yacht-club-community)
 - [Mirror.xyz Review. An overview of Mirror, the… | by Casey Botticello | Digital Marketing Lab | Jul, 2021 | Medium](https://medium.com/digital-marketing-lab/mirror-xyz-review-186e0960bac2#:~:text=Potential%20to%20earn%20from%20subscriptions%20and%20ads%3A%20As%20the%20Mirror.xyz%20platform%20develops%2C%20it%20is%20expected%20that%20writers%20on%20the%20platform%20will%20eventually%20have%20the%20option%20to%20place%20ads%20on%20popular%20content%2C%20as%20well%20as%20charge%20a%20subscription%20fee)
