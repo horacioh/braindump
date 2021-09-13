@@ -64,4 +64,3 @@ alias: primitivos
 - Autoboxing: JavaScript hace esto para poder llamar a los metodos de prototipo disponibles para los tipos primitivos de JS.
 - se le conoce tambien como "Object Wrapper" a la accion de encapsular valores primitivos para poder acceder a los metodos de funcion del tipo.
   - una vez lo utiliza, el motor de JS lo borra instantaneamente.
-- hC8L9v89bn#^L8hFURvx}Au+pyehsJA$K@@^i7)Pxt6YZ2KEiYdkbrY8D3$WEaBWrh
