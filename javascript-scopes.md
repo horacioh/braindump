@@ -24,7 +24,7 @@ alias: "scopes"
 
 ## Errores
 
-- Siempre recibiremos un error siempre y cuando no encontremos la referencia a una variable no importa si es a la derecha (RHS) o a la izquierda (RHS)
+- Siempre recibiremos un error siempre y cuando no encontremos la referencia a una variable no importa si es a la derecha (RHS) o a la izquierda (LHS)
 - el Error sera diferente dependiendo del tipo de look-up que el "engine" este haciendo.
 - si no se encuentra una RHS, el error es de tipo `ReferenceError`
 - si no se encuentra una LHS, la respuesta cambia dependiendo si estas en `Strict Mode` o no
@@ -65,8 +65,7 @@ hello("var a = 2", 1) // 2, 1
 
 ### `with`
 
-- [CONTINUE HERE](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch2.md#with)
-
+- TBD
 ## ámbitos de bloques (block scopes)
 
 - un _scope_ es cualquier seccion de codigo en la que esta delimitada por dos corchetes `{}`, siempre y cuando haya alguna asignacion dentro.
