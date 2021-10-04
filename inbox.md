@@ -1,5 +1,7 @@
 # Inbox
 
+- [React with TypeScript: Components as Function Declarations vs. Function Expressions | by Joe Previte | Echobind](https://blog.echobind.com/react-with-typescript-components-as-function-declarations-vs-function-expressions-e433ac8d6938)
+- [Swipe Files | Marketing Community, Courses, & Content](https://www.swipefiles.com/)
 - [How to Build a Product in Public | Hacker Noon](https://hackernoon.com/how-to-build-a-product-in-public-1b4159d5df6b)
 - [thinkrr](https://thinkrr.co/)
 - [Dialogues of Plato](https://sacred-texts.com/cla/plato/index.htm)
