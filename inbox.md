@@ -1,5 +1,28 @@
 # Inbox
 
+- [rustyrussell/bitcoin-storage-guide: Rusty's Remarkable Unreliable Guide To Bitcoin Storage](https://github.com/rustyrussell/bitcoin-storage-guide)
+- [In Defence Of Dialog](https://whistlr.info/2021/in-defence-of-dialog/)
+- [Common Accessibility Errors](https://tigerabrodi.hashnode.dev/common-accessibility-errors)
+- [Swift.org - Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/)
+- [[BONUS] Esto es un experimento: Dacias, salirse del sistema y la sombra de la inflación - kaizen con Jaime Rodríguez de Santiago - Podcast en iVoox](https://www.ivoox.com/bonus-esto-es-experimento-dacias-salirse-del-audios-mp3_rf_77448177_1.html)
+- [Rosie Sherry 🐌 #100DaysOfCommunity on Twitter: "When you're starting a community, really you are designing one. 🧵" / Twitter](https://twitter.com/rosiesherry/status/1455560746914385930)
+- [Julian's Writing Workshop - 11/2/2021 - Notes](https://gist.github.com/jsjoeio/9758a7a700b5b7b6613b1460a72f52f3)
+- [Writing Handbook: How to source writing ideas](https://www.julian.com/guide/write/ideas)
+- [Creativity Faucet: How to generate more ideas](https://www.julian.com/blog/creativity-faucet)
+- [Bear Tips: Organize notes with tags and infinite nested tags](https://blog.bear.app/2017/08/bear-tips-organize-notes-with-tags-and-infinite-nested-tags/)
+- [undefined](https://stepzen.com/blog/how-not-to-build-graphql-server,)
+- [My Challenge to the Web Performance Community — Philip Walton](https://philipwalton.com/articles/my-challenge-to-the-web-performance-community/)
+- [Scheduling in React | Philipp Spiess](https://philippspiess.com/scheduling-in-react/)
+- [Best practices for using third-party embeds](https://web.dev/embed-best-practices/)
+- [50 lessons learned from writing 50 newsletters - Ness Labs](https://nesslabs.com/50-lessons-50-newsletters)
+- [Writing Decentralized Applications in JavaScript - Libp2p Basics | Hacker Noon](https://hackernoon.com/writing-decentralized-applications-in-javascript-libp2p-basics)
+- [A message from the creator of absurd-sql about maintenance · Discussion #33 · jlongster/absurd-sql](https://github.com/jlongster/absurd-sql/discussions/33)
+- [How to build a Storybook addon](https://www.chromatic.com/blog/how-to-build-a-storybook-addon/)
+- [Storybook Composition](https://www.chromatic.com/blog/storybook-composition/)
+- [The Delightful Storybook Workflow](https://www.chromatic.com/blog/the-delightful-storybook-workflow/)
+- [Accessible Font Sizing, Explained | CSS-Tricks](https://css-tricks.com/accessible-font-sizing-explained/)
+- [Joel on Software](https://www.joelonsoftware.com/)
+- [Cloudflare just disrupted 3 industries in 1 week](https://www.indiehackers.com/post/cloudflare-just-disrupted-3-industries-in-1-week-907e44a8f5)
 - [React with TypeScript: Components as Function Declarations vs. Function Expressions | by Joe Previte | Echobind](https://blog.echobind.com/react-with-typescript-components-as-function-declarations-vs-function-expressions-e433ac8d6938)
 - [Swipe Files | Marketing Community, Courses, & Content](https://www.swipefiles.com/)
 - [How to Build a Product in Public | Hacker Noon](https://hackernoon.com/how-to-build-a-product-in-public-1b4159d5df6b)
@@ -34,7 +57,7 @@
 - [adonismendozaperez/33-js-conceptos: 📜 33 Conceptos que todo desarrollador de JavaScript debería saber.](https://github.com/adonismendozaperez/33-js-conceptos#6-alcance-de-la-funci%C3%B3n-%C3%A1mbito-de-bloque-y-alcance-l%C3%A9xico)
 - [I Processed 558k Transactions on AWS Lambda in 5 Minutes | by Mohamed Latfalla | AWS in Plain English](https://aws.plainenglish.io/how-did-i-processed-half-a-million-transactions-in-aws-lambda-within-minutes-120c69d37ce5)
 - [Why People Are Paying # Inbox
-00K+ To Change Their Profile to a Digital Ape - by Peter Yang - Creator Economy by Peter Yang](https://creatoreconomy.so/p/bored-ape-yacht-club-community)
+  00K+ To Change Their Profile to a Digital Ape - by Peter Yang - Creator Economy by Peter Yang](https://creatoreconomy.so/p/bored-ape-yacht-club-community)
 - [Mirror.xyz Review. An overview of Mirror, the… | by Casey Botticello | Digital Marketing Lab | Jul, 2021 | Medium](https://medium.com/digital-marketing-lab/mirror-xyz-review-186e0960bac2#:~:text=Potential%20to%20earn%20from%20subscriptions%20and%20ads%3A%20As%20the%20Mirror.xyz%20platform%20develops%2C%20it%20is%20expected%20that%20writers%20on%20the%20platform%20will%20eventually%20have%20the%20option%20to%20place%20ads%20on%20popular%20content%2C%20as%20well%20as%20charge%20a%20subscription%20fee)
 - [IntersectionObserver’s Coming into View  |  Web  |  Google Developers](https://developers.google.com/web/updates/2016/04/intersectionobserver?utm_campaign=chrome_series_intersectionobserverarticle_080317&utm_source=chromedev&utm_medium=yt-desc)
 - [Law Of Demeter](https://wiki.c2.com/?LawOfDemeter)
@@ -90,7 +113,7 @@
 - [MPPs & Wumbo Channels: Optimizing Liquidity on the Lightning Network \| by Roy Sheinfeld \| Breez Technology \| Medium](https://medium.com/breez-technology/mpps-wumbo-channels-optimizing-liquidity-on-the-lightning-network-6059bedea322) #mintter #bitcoin #lightning #tech
 - [Lesson Learned: Massive Burnout In Learning Web Development](https://adiati.com/lesson-learned-massive-burnout-in-learning-web-development) #read #softskills #burnout
 - [Reviving Advanced Hypertext](https://www.nngroup.com/articles/reviving-advanced-hypertext/)
-- [Becoming Open Source by Default – code\.dblock\.org \| tech blog](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html) #opensource #oss #startup #article 
+- [Becoming Open Source by Default – code\.dblock\.org \| tech blog](https://code.dblock.org/2015/02/09/becoming-open-source-by-default.html) #opensource #oss #startup #article
 - [artsy/README: \- The documentation for being an Artsy Engineer](https://github.com/artsy/README) #startup #opensource #oss #hiring #companyculture
 - [djui/alias\-tips: An oh\-my\-zsh plugin to help remembering those aliases you defined once](https://github.com/djui/alias-tips) #terminal #plugin m#ohmyzsh
 - [Artsy · objc\.io](https://www.objc.io/issues/22-scale/artsy/) #opensource #startup
@@ -325,7 +348,6 @@
 - [Critical-ish CSS Extraction](https://giuseppegurgone.com/critical-css-extraction/) #web #dev #performance #css #howto
 - [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library) #react [[testing-frontend-apps]] #dev #web [[kent-c-dodds]]
 - [How to emulate hand-drawn shapes \/ Algorithms behind RoughJS](https://shihn.ca/posts/2020/roughjs-algorithms/) #web #dev #howto #drawing #image-generation
-
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [marc-andreesseen]: marc-andreesseen "Marc Andreesseen"
