@@ -1,6 +1,6 @@
 # XState Tip: Crea un Actor y compartelo Globalmente en tu app usando React Context
 
-Here you can see a way to create a XState Actor and make it accessible in React using the Context API. The cool thing about doing this, is that the actor value will **never change**, making it a safe to add it as a value of our Context and avoid unnecesary renders or rendering all your tree when the state changes.
+> TLDR: revisa el código [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) y [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h)
 
 Te enseño una manera de create un XState Actor y compartirlo globalmente en React usando la API de Context. Lo bueno de este método es que nuestro actor **no cambia nunca**, de modo que es seguro usarlo como valor del Context global evitando así renderizados innecesarios o renderizados completos del arbol completo de la app cuando el estado global cambia.
 
@@ -26,6 +26,16 @@ export const authModel = createModel(
 )
 
 export const authMachine = authModel.createMachine({
+  context: {
+    user: {
+      // puedes obtener la info del usuario dentro de la máquina
+      // Te recomiendo que veas mi post sobre cómo hacerlo (en inglés):
+      // https://www.horacioh.com/writing/auth-flow-with-xstate-and-react
+      email: "foo@bar.com",
+      username: "horacio",
+      id: "1234567890",
+    },
+  },
   // ...
 })
 ```
@@ -159,3 +169,5 @@ export { AuthProvider, useAuth }
 
 export const useUser = createAuthSelector((state) => state.context.user)
 ```
+
+Puedes Revisar el código functionando de la primera versión [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) y el de la versión con el bonus [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h?file=/src/App.tsx)
