@@ -1,5 +1,8 @@
 # Inbox
 
+- [GraphQL Is Built for Federation, But Don’t Do It Wrong – The New Stack](https://thenewstack.io/graphql-is-built-for-federation-but-dont-do-it-wrong/)
+- [And You Will Know Us by the Company We Keep — Remains of the Day](https://www.eugenewei.com/blog/2021/9/29/and-you-will-know-us-by-the-company-we-keep)
+- [Remains of the Day](https://www.eugenewei.com/)
 - [rustyrussell/bitcoin-storage-guide: Rusty's Remarkable Unreliable Guide To Bitcoin Storage](https://github.com/rustyrussell/bitcoin-storage-guide)
 - [In Defence Of Dialog](https://whistlr.info/2021/in-defence-of-dialog/)
 - [Common Accessibility Errors](https://tigerabrodi.hashnode.dev/common-accessibility-errors)

@@ -174,7 +174,7 @@ export const useUser = createAuthSelector((state) => state.context.user)
 
 Puedes Revisar el código functionando de la primera versión [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) y el de la versión con el bonus [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h?file=/src/App.tsx)
 
-## Version 1
+## Versión 1
 
 <iframe src="https://codesandbox.io/embed/share-a-global-machine-in-react-using-context-v1-30c54?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -183,7 +183,7 @@ Puedes Revisar el código functionando de la primera versión [aquí](https://co
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-## Bonus Version
+## Versión Bonus
 
 <iframe src="https://codesandbox.io/embed/share-a-global-machine-in-react-using-context-v2-6bq0h?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
