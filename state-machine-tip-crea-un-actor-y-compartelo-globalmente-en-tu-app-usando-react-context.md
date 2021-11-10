@@ -1,10 +1,10 @@
-# XState Tip: Share a global machine in React using Context
+# State Machine Tip: Crea un Actor y compartelo Globalmente en tu app usando React Context
 
-> TLDR: Check the code [here](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) and [here](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h)
+> TLDR: revisa el código [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) y [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h)
 
-Here you can see a way to create a XState Actor and make it accessible in React using the Context API. The cool thing about doing this, is that the actor value will **never change**, making it a safe to add it as a value of our Context and avoid unnecesary renders or rendering all your tree when the state changes.
+Te enseño una manera de create un XState Actor y compartirlo globalmente en React usando la API de Context. Lo bueno de este método es que nuestro actor **no cambia nunca**, de modo que es seguro usarlo como valor del Context global evitando así renderizados innecesarios o renderizados completos del arbol completo de la app cuando el estado global cambia.
 
-1. Create your global state machine
+1. Creemos nuestra máquina de estados global
 
 ```typescript
 import { createModel } from "xstate/lib/model"
@@ -28,8 +28,8 @@ export const authModel = createModel(
 export const authMachine = authModel.createMachine({
   context: {
     user: {
-      // this can be fetched inside the machine.
-      // checkout my other post:
+      // puedes obtener la info del usuario dentro de la máquina
+      // Te recomiendo que veas mi post sobre cómo hacerlo (en inglés):
       // https://www.horacioh.com/writing/auth-flow-with-xstate-and-react
       email: "foo@bar.com",
       username: "horacio",
@@ -40,7 +40,7 @@ export const authMachine = authModel.createMachine({
 })
 ```
 
-2. create a Provider Component and a custom hook for your actor
+2. crea el componente Provider y un custom hook para nuestro actor
 
 ```typescript
 // ...
@@ -61,7 +61,7 @@ export function useAuth() {
 export const AuthProvider = authContext.Provider
 ```
 
-3. You can also create custom selectors for accessing the state or context values:
+3. Puedes incluso también crear selectores para partes de tu estado global
 
 ```typescript
 import { useSelector } from "@xstate/react"
@@ -73,7 +73,7 @@ export function useUser() {
 }
 ```
 
-4. Implement and Start your Actor
+4. Implementemos y Inicializemos nuestro actor:
 
 ```typescript
 import { AuthProvider } from "./auth"
@@ -84,7 +84,7 @@ export function App() {
 }
 ```
 
-5. Inside any component that is rendered inside the Provider, you can then access the auth actor:
+5. Dentro de cualquier componente que este renderizado dentro de nuestro Provider, podemos acceder a nuestro actor de ésta forma:
 
 ```typescript
 import { useAuth } from "./auth"
@@ -100,7 +100,7 @@ export function Topbar() {
 
 **BONUS**
 
-6. You can abstract all the Context/Provider creation to a simple set of utility functions! (kudos to the [Stately Team!](https://github.com/statelyai/xstate-viz/blob/dev/src/utils.ts))
+6. Si necesitas hacer varios Providers globales para otras máquinas de estado, puedes abstraer la manera de crear el context y el Provider a una serie de funciones abstractas! (kudos al [equipo de Stately!](https://github.com/statelyai/xstate-viz/blob/dev/src/utils.ts))
 
 ```typescript
 // machine-utils.ts
@@ -153,7 +153,7 @@ export function createRequiredContext<TContext>(displayName: string) {
 }
 ```
 
-And use them like this:
+Y usarlas de esta manera:
 
 ```typescript
 // auth-context.ts
@@ -170,9 +170,9 @@ export { AuthProvider, useAuth }
 export const useUser = createAuthSelector((state) => state.context.user)
 ```
 
-Feel free to checkout the code for the version 1 [here](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) and the version with the bonus code [here](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h?file=/src/App.tsx)
+Puedes Revisar el código functionando de la primera versión [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) y el de la versión con el bonus [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h?file=/src/App.tsx)
 
-## Versión 1
+## Version 1
 
 <iframe src="https://codesandbox.io/embed/share-a-global-machine-in-react-using-context-v1-30c54?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -181,7 +181,7 @@ Feel free to checkout the code for the version 1 [here](https://codesandbox.io/s
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-## Versión Bonus
+## Bonus Version
 
 <iframe src="https://codesandbox.io/embed/share-a-global-machine-in-react-using-context-v2-6bq0h?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
