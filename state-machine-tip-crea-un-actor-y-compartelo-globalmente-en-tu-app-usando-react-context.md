@@ -1,5 +1,7 @@
 # State Machine Tip: Crea un Actor y compartelo Globalmente en tu app usando React Context
 
+- Ir a la [Lista completa](./state-machine-tips)
+
 > TLDR: revisa el código [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) y [aquí](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h)
 
 Te enseño una manera de create un XState Actor y compartirlo globalmente en React usando la API de Context. Lo bueno de este método es que nuestro actor **no cambia nunca**, de modo que es seguro usarlo como valor del Context global evitando así renderizados innecesarios o renderizados completos del arbol completo de la app cuando el estado global cambia.

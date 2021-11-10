@@ -1,5 +1,7 @@
 # State Machine Tip: Share a global machine in React using Context
 
+- Go to [Tips List](./state-machine-tips)
+
 > TLDR: Check the code [here](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v1-30c54) and [here](https://codesandbox.io/s/share-a-global-machine-in-react-using-context-v2-6bq0h)
 
 Here you can see a way to create a XState Actor and make it accessible in React using the Context API. The cool thing about doing this, is that the actor value will **never change**, making it a safe to add it as a value of our Context and avoid unnecesary renders or rendering all your tree when the state changes.
