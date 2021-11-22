@@ -1,5 +1,15 @@
 # Inbox
 
+- [Getting Started ⚡ Zig Programming Language](https://ziglang.org/learn/getting-started/)
+
+- [Redis For Beginners - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/redis-for-beginners-3182)
+- [Proto and Prototype in Javascript - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/proto-and-prototype-in-javascript-k1b)
+- [Javascript call and apply 101 - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/javascript-call-and-apply-101-2138)
+- [Javascript bind 101 - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/javascript-bind-101-3k23)
+- [Javascript this 101 - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/javascript-this-101-13j5)
+- [Why reading code is a habit all beginning developers should cultivate - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/notes-from-young-engineer-read-code-9n6)
+- [Bundle Your Javascript Code From Scratch - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/bundle-your-javascript-code-from-scratch-3dpo)
+- [A collection of popular layouts and patterns made with CSS - CSS Layout](https://csslayout.io/)
 - [GraphQL Is Built for Federation, But Don’t Do It Wrong – The New Stack](https://thenewstack.io/graphql-is-built-for-federation-but-dont-do-it-wrong/)
 - [And You Will Know Us by the Company We Keep — Remains of the Day](https://www.eugenewei.com/blog/2021/9/29/and-you-will-know-us-by-the-company-we-keep)
 - [Remains of the Day](https://www.eugenewei.com/)

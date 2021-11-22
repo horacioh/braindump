@@ -1,0 +1,32 @@
+# Vim
+
+## Resources
+
+- [[vim-for-vscode]]
+- [Neovim](https://nicknisi.com/posts/2015-10-19-neovim/)
+- [(1) Learn Vim (@learnvim) / Twitter](https://twitter.com/learnvim)
+- [What Is Inside My Vimrc - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/what-is-inside-my-vimrc-3ob7)
+- [Debugging in Vim with Vimspector - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/debugging-in-vim-with-vimspector-4n0m)
+- [How to search faster in Vim with FZF.vim - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/how-to-search-faster-in-vim-with-fzf-vim-36ko)
+- [Mastering Visual Mode in Vim - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/mastering-visual-mode-in-vim-15pl)
+- [The Only Vim Insert-Mode Cheatsheet You Ever Needed - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/the-only-vim-insert-mode-cheatsheet-you-ever-needed-nk9)
+- [Learn how to use vim undo to time travel - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/learn-how-to-use-vim-undo-to-time-travel-3l73)
+- [Working with vim and git - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/working-with-vim-and-git-4nkh)
+- [How to use tags in Vim to jump to definitions quickly - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/how-to-use-tags-in-vim-to-jump-to-definitions-quickly-2g28)
+- [How to search and open files in Vim without plugins - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/how-to-search-and-open-files-in-vim-without-plugins-d52)
+- [Using buffers, windows, and tabs efficiently in Vim - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
+- [How to use Vim Packages - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/how-to-use-vim-packages-3gil)
+- [Basic Vim Mapping - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/basic-vim-mapping-5ahj)
+- [Discovering Vim Global Command - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/discovering-vim-global-command-49ad)
+- [How to Learn Vim in 2020 - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/learning-vim-in-2020-1mma)
+- [Introduction to Vim modes - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/introduction-to-vim-modes-1cp2)
+- [Mastering Vim grammar - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/mastering-vim-grammar-1dfi)
+- [Type less and save time with Vim's global command! - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/save-time-by-typing-less-with-vim-s-global-command-30m2)
+- [Automate typing with Vim macros - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/automate-typing-with-vim-macros-4m9c)
+- [Moving around in Vim - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/vim-cheatsheet-to-move-around-in-a-file-plus-tips-to-use-them-bme)
+- [Best Way to Navigate Files in Vim - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/best-way-to-navigate-files-in-vim-4g09)
+- [Execute command line commands from inside vim - DEV Community 👩‍💻👨‍💻](https://dev.to/iggredible/execute-command-line-commands-from-inside-vim-51c)
+- [How I'm able to take notes in mathematics lectures using LaTeX and Vim | Gilles Castel](https://castel.dev/post/lecture-notes-1/)
+- [neoclide/coc.nvim: Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.](https://github.com/neoclide/coc.nvim)
+- [ycm-core/YouCompleteMe: A code-completion engine for Vim](https://github.com/ycm-core/YouCompleteMe)
+- [VimGolf - real Vim ninjas count every keystroke!](http://www.vimgolf.com/)
