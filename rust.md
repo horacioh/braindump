@@ -2,15 +2,16 @@
 
 ## Notas
 
-- [[rust-general]]
-- [[rust-glosario]]
-- [[rust-let]]
-- [[rust-macros]]
-- [[rust-enums]]
-- [[rust-funciones]]
-- [[rust-condicionales]]
-- [[rust-colecciones]]
-- [[rust-tipos-primitivos]]
+- [rust-general](./rust-general.md)
+- [rust-glosario](./rust-glosario.md)
+- [rust-let](./rust-let.md)
+- [rust-macros](./rust-macros.md)
+- [rust-enums](./rust-enums.md)
+- [rust-funciones](./rust-funciones.md)
+- [rust-statement-y-expresiones](./rust-statement-y-expresiones.md)
+- [rust-condicionales](./rust-condicionales.md)
+- [rust-colecciones](./rust-colecciones.md)
+- [rust-tipos-primitivos](./rust-tipos-primitivos.md)
 
 ## Recursos
 

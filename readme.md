@@ -36,6 +36,7 @@
 [about-me]: about-me "About Me"
 [about-this-workspace]: about-this-workspace "About this workspace"
 [post-no-todo-en-javascript-son-objetos]: post-no-todo-en-javascript-son-objetos "Aprendamos sobre los Tipos Primitivos de JavaScript"
+
 [cryptozombies-intro-1]: cryptozombies-intro-1 "Cryptozombies: Introduccion a desarrollo con ETH y "Smart Contracts""
 [post-javascript-hoisting]: post-javascript-hoisting "Cómo funciona JavaScript: Hoisting"
 [post-javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones]: post-javascript-diferencia-entre-declaraciones-de-funciones-y-expresiones-de-funciones "Diferencia entre declaraciones de funciones y expresiones de funciones"
