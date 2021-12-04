@@ -30,3 +30,4 @@
 - [neoclide/coc.nvim: Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.](https://github.com/neoclide/coc.nvim)
 - [ycm-core/YouCompleteMe: A code-completion engine for Vim](https://github.com/ycm-core/YouCompleteMe)
 - [VimGolf - real Vim ninjas count every keystroke!](http://www.vimgolf.com/)
+- [VundleVim/Vundle.vim: Vundle, the plug-in manager for Vim](https://github.com/VundleVim/Vundle.vim)
