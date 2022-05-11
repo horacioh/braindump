@@ -1,5 +1,10 @@
 # Let y Const
 
+- como mencionaba en el articulo anterior, conocer sobre los ambitos es crucial para entender mejor sobre `let` y `const`
+- la razon por la que tenemos diferentes maneras de nombrar nuestras variables es para poder encapsularlas de la manera correcta y que no sobrepasen el ambto en el que deben estar. antes de `let` y `const` teniamos mecanismos gracias a funciones, pero hay casos en los que es limitado, comparado con tener tipos de variables que funcionan a nivel de ambitos de bloque.
+
+---
+
 - descripcion
 - como funcionan
 - las necesitamos para crear ambitos lexicos
