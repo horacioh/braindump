@@ -1,5 +1,11 @@
 # Inbox
 
+- [wiggins-mctighe-ubd-nutshell.pdf](https://carpentries.github.io/instructor-training/files/papers/wiggins-mctighe-ubd-nutshell.pdf)
+- [[dev]: switch from jest-playwright to playwright test · Issue #3115 · coder/code-server](https://github.com/coder/code-server/issues/3115)
+- [Sales Safari in a Nutshell](https://egghead.io/learn/30x500/sales-safari)
+- [VIDEO - Sales Safari in Action - Stacking the Bricks](https://stackingthebricks.com/video-sales-safari-in-action/)
+- [Andy Matuschak on physically-informed digital interface design](https://www.notion.so/blog/andy-matuschak)
+- [UbD in a Nutshell](https://www.notion.so/UbD-in-a-Nutshell-db986d158c76463e83d83181035bdffe)
 - [rfcs/0000-useevent.md at useevent · reactjs/rfcs](https://github.com/reactjs/rfcs/blob/useevent/text/0000-useevent.md)
 - [adx/architecture.md at main · bluesky-social/adx](https://github.com/bluesky-social/adx/blob/main/architecture.md)
 - [Pace Layering: How Complex Systems Learn and Keep Learning · Journal of Design and Science](https://jods.mitpress.mit.edu/pub/issue3-brand/release/2)
