@@ -10,6 +10,8 @@ link: https://jamesclear.com/atomic-habits
 **An Easy & Proven Way to Build Good Habits & Break Bad Ones**
 [website](https://jamesclear.com/atomic-habits)
 
+- tags: [[books]]
+
 ---
 
 ## Why
