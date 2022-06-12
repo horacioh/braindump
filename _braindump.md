@@ -57,8 +57,6 @@
 - #content Project automation (ESLint, husky, Actions, lint-staged, changesets)
 - #content Stitches
 - #content Vitejs
-- #content Snowpack
-- #content Esbuild
 - #content ScriptKit in Spanish
 - #review course club 2.0 content
 - #content [[egghead-lesson-ideas]]
@@ -109,6 +107,48 @@
 - modo "entrevista fake" para mentorias
 - #write about how to send emails using Amplify and SES
 - Trucos para mejorar videos #video (idea from Ari)
-- Streamings haciendo Rustlings
-- Aprender Go
 - Aprender mas sobre Bitcoin y LND
+- [ ] CFPs
+  - [ ] CFP component testing
+  - [ ] CFP state machines (refactor and add functionality)
+  - [ ] https://docs.google.com/forms/d/e/1FAIpQLScDO_8VuVGKp_PZAepiJe6WHEbdc7UeDS4jX3PzgMO4OeMFQQ/viewform
+  - [ ]
+- [ ] mandar facturas a gestor
+- [ ] organizar facturas a gestor
+- [ ] cancelar contrato iberent
+- [ ] storybook rollup transform
+- [ ] put foam back to work
+- [ ] slate testing with storybook
+- [ ] RFC Testing with storybook in Slate
+- [ ] Mintter: make editor tests work again
+- [ ] Happori: revisar temas kit digital
+- [ ] Happori: pagar a David Calcetines de Bebeto
+- [ ] Mintter: test page load times
+- [ ] ver cursos de escritura creativa para Dani
+- [ ] montar un server de minecraft para Dani
+- [ ] limpieza de mi ropa
+- [ ] limpieza de mis cajas
+- [ ] mirar lo del último embargo
+- [ ] limpieza del mueble de balcón
+- [ ] poner regleta en la secadora
+- [ ] limpieza de termos
+- [ ] limpieza de zapatos
+- [ ] egghead: escoger proyecto para grabarme
+- [ ] comprar adaptador de mac
+- [ ] egghead: follow up artículo EF
+- [ ] egghead: preparar vídeos slate
+- [ ] egghead: preparar vídeos state machine español
+- [ ] egghead: buscar ideas de vídeos en mis notas
+- [ ] prueba de SolidJS
+- [ ] Mintter: prueba de NextJS + Mintter
+- [ ] Mintter: prueba de Slate simplificado
+- [ ] hablar de Mintter con Michael Liendo a ver cómo podemos usar AWS para deployment de Nodos
+- [ ] PIANO
+- [ ] RUST
+- [ ] GO
+- [ ] ver curso de rust, go y TS en FEM
+- [ ] ver curso de VIM en FEM
+- [ ] comentar idea de CSSBattle para state machines
+- [ ] Mintter: refactor code block with slate example
+- [ ] Mintter: pass an editor prop to the Draft View and conditionally use that or the one from the context for testing!
+- [ ] Post about XState slider panes demo
