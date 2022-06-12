@@ -1,5 +1,7 @@
 # Inbox
 
+- [дэн on Twitter: "i am writing the new useEffect documentation now. what do you want to know about it?" / Twitter](https://twitter.com/dan_abramov/status/1526584624159555584)
+- [Report: The Diminishing Marginal Value of Aesthetics](https://subpixel.space/entries/diminishing-marginal-aesthetic-value/)
 - [wiggins-mctighe-ubd-nutshell.pdf](https://carpentries.github.io/instructor-training/files/papers/wiggins-mctighe-ubd-nutshell.pdf)
 - [[dev]: switch from jest-playwright to playwright test · Issue #3115 · coder/code-server](https://github.com/coder/code-server/issues/3115)
 - [Sales Safari in a Nutshell](https://egghead.io/learn/30x500/sales-safari)
@@ -447,7 +449,7 @@
 - [Programmatically create forms, and capture submissions with Next.js and GraphQL](https://graphcms.com/blog/forms-and-submissions-with-nextjs-and-graphql) #web #graphql #nextjs #js #web #form #tutorial
 - [The Technonomicon](https://notes.technomancy.dev)
 - [From Zer0 to Saa$: building a side project live on stream](https://www.indiehackers.com/post/from-zer0-to-saa-building-a-side-project-live-on-stream-2c61fd956c) #article #howto #sideproject #sass
-- [Continuous Integration with Jest Tests and Github Actions]() #js #jest #tutorial #howto #web #dev
+- [Continuous Integration with Jest Tests and Github Actions](https://joelhooks.com/jest-and-github-actions) #js #jest #tutorial #howto #web #dev
 - [Our 8 Pillars of Education](https://writeofpassage.school/2020/02/10/our-8-pillars-of-education/) #education #article #learning
 - [What Should I Teach in a Video Tutorial?](https://johnlindquist.com/what-should-i-teach-in-a-video-tutorial/) #teaching #learning #video [[john-lindquist]] #web #dev #thoughts
 - [The power of Flexible Consistency](https://nesslabs.com/flexible-consistency) #article [[anne-laure-le-cunff]] #consistency #thoughts
