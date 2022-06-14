@@ -32,3 +32,8 @@ const fileId = this.emitFile({
   fileName: "foo.js", // not usually used, but this overrides the output's filename
 });
 ```
+
+## resources
+
+- [rollup.js](https://rollupjs.org/guide/en/#properties)
+- [rollup.js](https://rollupjs.org/guide/en/#plugin-context)

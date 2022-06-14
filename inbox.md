@@ -1,5 +1,10 @@
 # Inbox
 
+- [Building data-centric apps with a reactive relational database](https://riffle.systems/essays/prelude/)
+- [relative-deps - npm](https://www.npmjs.com/package/relative-deps)
+- [tobyshorin/Open-Transclude: Cite yourself with iframe-based transclusions.](https://github.com/tobyshorin/Open-Transclude)
+- [ramonh/fundamentos-de-typescript: Fundamentos de TypeScript: 3 unidades de TypeScript práctico](https://github.com/ramonh/fundamentos-de-typescript)
+- [Hypertext tools from the 80s](https://fibery.io/blog/hypertext-tools-from-the-80s/)
 - [дэн on Twitter: "i am writing the new useEffect documentation now. what do you want to know about it?" / Twitter](https://twitter.com/dan_abramov/status/1526584624159555584)
 - [Report: The Diminishing Marginal Value of Aesthetics](https://subpixel.space/entries/diminishing-marginal-aesthetic-value/)
 - [wiggins-mctighe-ubd-nutshell.pdf](https://carpentries.github.io/instructor-training/files/papers/wiggins-mctighe-ubd-nutshell.pdf)

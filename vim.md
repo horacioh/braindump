@@ -31,3 +31,5 @@
 - [ycm-core/YouCompleteMe: A code-completion engine for Vim](https://github.com/ycm-core/YouCompleteMe)
 - [VimGolf - real Vim ninjas count every keystroke!](http://www.vimgolf.com/)
 - [VundleVim/Vundle.vim: Vundle, the plug-in manager for Vim](https://github.com/VundleVim/Vundle.vim)
+- [VIM Fundamentals - #frontendmasters](https://frontendmasters.com/courses/vim-fundamentals)
+- [Vim Fundamentals Material - #frontendmasters](https://theprimeagen.github.io/vim-fundamentals/)
