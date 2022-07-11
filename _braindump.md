@@ -1,32 +1,26 @@
 # Braindump
 
-# Free My Brain
+## Next
+
+- [ ] organizar facturas a gestor
+- [ ] mandar facturas a gestor
+- [ ] llamar a Pepephone por problemas con el Wifi
 
 ## Mintter
 
-- Sidepanel User tasks
-- state machine UI interactions
-- CI/CD setup
-- UI showcase (storybook? docusaurus? nextjs?)
-- Preact Demo
-- tauri demo
-- route animations
-- cypress integration
-- #review Pablo <> Burdi PR
-- editor save strategies
-- mttAST
-- Jonas IPFS Demo #review
-- Review Typescript playground codebase
+- [ ] write the Editor Strategy
+- [ ] Mintter: make editor tests work again
+- [ ] Mintter: test page load times
+- [ ] Mintter: prueba de NextJS + Mintter
+- [ ] Mintter: prueba de Slate simplificado
 
 ## Happori
 
+- [ ] Happori: revisar temas kit digital
+- [ ] Happori: pagar a David Calcetines de Bebeto
 - test custom packaging with cricut
-- [x] Thread sobre Happori en Español
-- [x] certificado digital Happori
-- JAMStack happori
 - [ ] cuestionario para atraer leads (que tan sostenible eres)
 - tips with our packaging
-- [x] send design specs to Gemma (MMMM Studio)
 - Proceso Happori
   - Video
   - Mail
@@ -45,16 +39,17 @@
 
 ## Egghead
 
-- #content Modern JS course
-  - [x] Structure outline in Lessons
-  - [x] prepare course repo
-  - course research
-    - other course outlines (p. 179)
+- [ ] egghead: escoger proyecto para grabarme
+- [ ] egghead: follow up artículo EF
+- [ ] egghead: preparar vídeos slate
+- [ ] egghead: preparar vídeos state machine español
+- [ ] egghead: buscar ideas de vídeos en mis notas
+- course research
+- other course outlines (p. 180)
 - Talks
   - Event loop
   - Call Stack
 - #content Slate videos
-- #content Project automation (ESLint, husky, Actions, lint-staged, changesets)
 - #content Stitches
 - #content Vitejs
 - #content ScriptKit in Spanish
@@ -63,45 +58,13 @@
 
 ## Personal
 
-- Goodmoments
-  - [x] Acabar API
-  - pasarla a un Express "normal"
-- Pay Ubeeqo
-- #taxes Slowmov tickets
-- other tickets
-- Facturas Honest
-- finish #read How to take Smart Notes
-- Monthly expenses #review
-- comprar 2 alargos (grande) para estudio y oficina
-- Meeting tia Thays
-- Cambiar laptop?
 - #book Make it stick
 - Setup Content in Colby repo fork (share content repo)
 - #write about Slate History
-- #read all saved emails
-- #read all getpocket articles
-
-## Sideprojects
-
-- Tickets app
-- parenting ebook -> [[padres]]
-- Twitter blocker extension
-- [[ideas]]
-- App to search filtered by all your followres and help you gather info about a particular topic. store searches/data locally to make it really fast
-
-## Community
-
 - #write content about links
   - Links UX in popular apps
   - A11y considerations on Links creation
   - UX demo Link creation with Slate
-- #mentoring Videos about Mentorship Setup
-  - crear texto descripcion
-  - crear calendly para que los mentees reserven
-  - template para notas
-  - tips?
-  - formulario de inscripcion: https://tiny.cc/fec-mentoria
-  - formulario de feedback: https://tiny.cc/fec-mentoria-feedback
   - https://www.loom.com/share/d8e67805785b4220b508887bdfb832c5
 - #write about amplify api redirect
 - modo "entrevista fake" para mentorias
@@ -111,37 +74,16 @@
 - [ ] CFPs
   - [ ] CFP component testing
   - [ ] CFP state machines (refactor and add functionality)
-  - [ ] https://docs.google.com/forms/d/e/1FAIpQLScDO_8VuVGKp_PZAepiJe6WHEbdc7UeDS4jX3PzgMO4OeMFQQ/viewform
-  - [ ]
-- [ ] mandar facturas a gestor
-- [ ] organizar facturas a gestor
+  - [ ] https://docs.google.com/forms/d/e/1FAIpQLScDO_8VuVGKp_PZAepiJe6WHEbdc7UeDS4jX3PzgMO4OeMFQQ/viewform (DEADLINE 31/JULY)
+  - [ ] https://sessionize.com/modern-frontends-live-2022/ (DEADLINE 31/JULY)
 - [ ] cancelar contrato iberent
 - [ ] storybook rollup transform
-- [ ] put foam back to work
 - [ ] slate testing with storybook
 - [ ] RFC Testing with storybook in Slate
-- [ ] Mintter: make editor tests work again
-- [ ] Happori: revisar temas kit digital
-- [ ] Happori: pagar a David Calcetines de Bebeto
-- [ ] Mintter: test page load times
 - [ ] ver cursos de escritura creativa para Dani
 - [ ] montar un server de minecraft para Dani
-- [ ] limpieza de mi ropa
-- [ ] limpieza de mis cajas
-- [ ] mirar lo del último embargo
-- [ ] limpieza del mueble de balcón
-- [ ] poner regleta en la secadora
-- [ ] limpieza de termos
-- [ ] limpieza de zapatos
-- [ ] egghead: escoger proyecto para grabarme
 - [ ] comprar adaptador de mac
-- [ ] egghead: follow up artículo EF
-- [ ] egghead: preparar vídeos slate
-- [ ] egghead: preparar vídeos state machine español
-- [ ] egghead: buscar ideas de vídeos en mis notas
 - [ ] prueba de SolidJS
-- [ ] Mintter: prueba de NextJS + Mintter
-- [ ] Mintter: prueba de Slate simplificado
 - [ ] hablar de Mintter con Michael Liendo a ver cómo podemos usar AWS para deployment de Nodos
 - [ ] PIANO
 - [ ] RUST
@@ -149,6 +91,21 @@
 - [ ] ver curso de rust, go y TS en FEM
 - [ ] ver curso de VIM en FEM
 - [ ] comentar idea de CSSBattle para state machines
-- [ ] Mintter: refactor code block with slate example
-- [ ] Mintter: pass an editor prop to the Draft View and conditionally use that or the one from the context for testing!
 - [ ] Post about XState slider panes demo
+
+## Home
+
+- [x] limpieza de mi ropa
+- [ ] limpieza de mis cajas
+- [ ] mirar lo del último embargo
+- [ ] limpieza del mueble de balcón
+- [x] poner regleta en la secadora
+- [ ] limpieza de termos
+
+## Sideprojects
+
+- Tickets app
+- parenting ebook -> [[padres]]
+- Twitter blocker extension
+- [[ideas]]
+- App to search filtered by all your followres and help you gather info about a particular topic. store searches/data locally to make it really fast
