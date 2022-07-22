@@ -1,5 +1,13 @@
 # Inbox
 
+- [undefined](https://every.to/divinations/did-medium-succeed)
+- [undefined](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
+- [undefined](https://moderncss.dev/totally-custom-list-styles/)
+- [undefined](https://smolcss.dev/)
+- [undefined](https://codepen.io/pen?editors=1100)
+- [undefined](https://web.dev/css-marker-pseudo-element/)
+- [undefined](https://developer.chrome.com/blog/intersectionobserver/)
+- [undefined](https://cushionapp.com/journal/overflow-shadows-using-the-intersection-observer-api)
 - [Pushdown automaton](https://en.wikipedia.org/wiki/Pushdown_automaton)
 - [undefined](https://threadreaderapp.com/thread/1546920413908942852.html)
 - [undefined](https://threadreaderapp.com/thread/1544630261664649217.html)
