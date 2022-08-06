@@ -1,5 +1,11 @@
 # Inbox
 
+- [undefined](https://daily-dev-tips.com/posts/css-truncate-text-with-ellipsis/)
+- [undefined](https://codepen.io/rebelchris/pen/KKVRoEa)
+- [undefined](https://www.ladridosalamo.com/archivos/613)
+- [undefined](https://www.developerway.com/posts/react-re-renders-guide?utm_campaign=This%20Week%20In%20React&utm_medium=email&utm_source=Revue%20newsletter)
+- [undefined](https://getsprinkles.app/)
+- [undefined](https://phoenixnap.com/kb/cut-copy-paste-vim)
 - [undefined](https://every.to/divinations/did-medium-succeed)
 - [undefined](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
 - [undefined](https://moderncss.dev/totally-custom-list-styles/)
