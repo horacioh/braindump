@@ -63,3 +63,17 @@
 - **If I want to remove a worktree:**
   - `git worktree remove <NAME>`
   - you can do `git worktree list` to check the names of your current worktrees
+
+## QA
+
+- **how can I merge branches?**
+  - the same way you do with a normal repo. no changes here
+- **If I accidentally created a worktree in the wrong place, what can I do?**
+  - easy, you do `git worktree move <CURRENT_PLACE> <NEW_DESTINATION>` and you are good to go.
+  - ⚠️ Don't do a normal folder move!, because this will mess up your bare repo
+- **If I accidentally start adding changes to the wrong worktree, how can I mvoe those changes to the correct worktree?**
+  - lucky for us, everything you stash is at the repo level, so you can stash your changes and pop them in the correct worktree. easy peasy!
+- **A colleague needs help with a quick fix, what should I do?**
+  - create a new worktree based on his/her branch or a new branch depending on your start point and do your thing!
+- **have more questions?**
+  - send them to me in Twitter!
