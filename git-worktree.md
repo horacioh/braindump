@@ -59,3 +59,7 @@
   - then I was able to do `fit fetch --all` and bring all the remote branches
   - now I run `git worktree add wt/my-other-branch origin/my-other-branch`
   - this does not create a new branch but creates the worktree with the branch you specified
+
+- **If I want to remove a worktree:**
+  - `git worktree remove <NAME>`
+  - you can do `git worktree list` to check the names of your current worktrees
