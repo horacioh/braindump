@@ -1,5 +1,6 @@
 # Inbox
 
+- [5 Questions Every Unit Test Must Answer](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
 - [undefined](https://daily-dev-tips.com/posts/css-truncate-text-with-ellipsis/)
 - [undefined](https://codepen.io/rebelchris/pen/KKVRoEa)
 - [undefined](https://www.ladridosalamo.com/archivos/613)
