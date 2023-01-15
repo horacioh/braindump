@@ -14,13 +14,16 @@
 
 ## Transactions
 
-- every interaction on the editor creates a *transaction*. this transactions are the ones that needs to be applied to create a **new state**, which then updates the view.
+- every interaction on the editor creates a _transaction_. this transactions are the ones that needs to be applied to create a **new state**, which then updates the view.
 
 ## Plugins
 
+- extends the behavior of the editor. they can be very simple or super complex.
+- plugins are registered when creating a state
+
 ## Commands
 
-- operations that can be hooked to plugines and create transactions.
+- operations that can be hooked to plugins and create transactions.
 - `prosemirror-commands` have a set of basic editing commands.
 - the `keymap` also helps to bound interactions to anything in the editor
 
@@ -31,8 +34,7 @@
 
 ## Documents
 
-
-
 ## References
 
 - https://prosemirror.net/docs/guide/#intro
+- [[prosemirror-reference-manual]]

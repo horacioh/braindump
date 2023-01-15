@@ -167,6 +167,10 @@ const machine = createMachine(
 - the second parameter (the actions object) will override any actions inside the ones defined in the machine
 - finite states represents Qualitative data, it describes the behaviour
 
+## Other features
+
+- `raise` is a method to send a new event at the same state. it's synchronous.
+
 ## Extended state
 
 - describes Quantitative data. The combination of both (Finite + Extended state) describes your state machine

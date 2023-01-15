@@ -2,8 +2,12 @@
 
 - Why do we test our code?
 - the amount of work we need to do in order to test our applications is massive no matter which tool you use
-  - mocking your APi
+  - mocking your API
   - setting your test component for wrappers (contexts)
+- what are the downsides of not having Tests
+- different testing strategies
+  - test behavior, not implementations
+    - this is important because this will enable you to decouple DOM/UI changes from what you are trying to test which is user interactions
 
 ## Playwright
 
@@ -48,3 +52,5 @@
 - [Playwright 1.22: Component Tests (preview) Overview](https://www.youtube.com/watch?v=y3YxX4sFJbM)
 - [Cypress vs. Playwright: Let the Code Speak](https://www.youtube.com/watch?v=fncL63KRA-0)
 - [Text Automation University by Applitools](https://testautomationu.applitools.com)
+- [Cypress Tips and Tricks - videos](https://www.youtube.com/playlist?list=PLP9o9QNnQuAYYRpJzDNWpeuOVTwxmIxcI)
+- [Cypress Tips](https://cypress.tips)

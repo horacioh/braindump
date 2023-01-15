@@ -1,5 +1,30 @@
 # Inbox
 
+- https://jessmart.in/articles/real-time
+- [DRAFT: Collaborating with the invisible](https://jessmart.in/articles/invisible)
+- [Universal data portability](https://alexanderobenauer.com/labnotes/002/)
+- https://www.rfleury.com/p/in-defense-of-linked-lists
+- [The perfect link](https://www.a11y-collective.com/the-perfect-link/)
+- [5 reasons why flashy websites destroy the user experience!](https://www.a11y-collective.com/why-flashy-website-destroy-the-user-experience/)
+- [The first rule for using ARIA](https://www.a11y-collective.com/the-first-rule-for-using-aria/) #a11y
+- [How to test for web accessibility: an introduction](https://www.a11y-collective.com/how-to-test-for-web-accessibility-an-introduction/) #a11y
+- https://www.lekoarts.de/javascript/writing-performant-css-with-vanilla-extract
+  - a good explanation about [[vanilla-extract]]
+- https://runyourown.social
+- https://www.cccb.org/en/multimedia/videos/luis-angel-fernandez-hermana-vincent-puig-karma-peiro-and-marc-garriga/211573
+  - debate con [[luis angel]]
+- https://www.asktog.com/papers/magic.html
+  - https://discord.com/channels/1043471499375411210/1043471499375411213/1044218941880402010
+- https://jdnoc.com/guides/increasing-wealth-as-a-father
+- https://jdnoc.com/note/
+- http://www.vpri.org/writings.php
+  - https://discord.com/channels/1043471499375411210/1044220102154911754/1044342771399532545
+- https://github.com/GoogleChromeLabs/container-query-polyfill
+- https://matthiasott.com/notes/better-bridges
+- https://css-irl.info/creative-css-layout-and-the-flexible-web/
+- https://journals.sagepub.com/doi/pdf/10.1177/20563051221122448
+- [Learn how to unleash the full potential of the Turing Complete type system of TypeScript!](https://type-level-typescript.com)
+- [Improve TLDraw performance by Cheng lLou](https://gist.github.com/steveruizok/3d1bf2b95c1bbac9b46658527a2ca717)
 - [5 Questions Every Unit Test Must Answer](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
 - [undefined](https://daily-dev-tips.com/posts/css-truncate-text-with-ellipsis/)
 - [undefined](https://codepen.io/rebelchris/pen/KKVRoEa)

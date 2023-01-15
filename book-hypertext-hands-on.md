@@ -4,6 +4,15 @@ author: [[ben-shneiderman]], Greg Kearsley
 
 ---
 
+## Table of Contents
+
+- [Book: Hypertext Hands-On!: An Introduction to a New Way of Organizing and Accessing Information](#book-hypertext-hands-on-an-introduction-to-a-new-way-of-organizing-and-accessing-information)
+  - [Table of Contents](#table-of-contents)
+  - [Chapter 4. Implementation issues](#chapter-4-implementation-issues)
+  - [Chapter 3. System Design issues](#chapter-3-system-design-issues)
+  - [Quotes](#quotes)
+  - [References](#references)
+
 ## Chapter 4. Implementation issues
 
 - **Navigation**
@@ -45,6 +54,37 @@ author: [[ben-shneiderman]], Greg Kearsley
     - human retention over time
   - Subjective satisfaction should be high for hypertext systems because usage is often discretionary and therefore dissatisfied users will avoid using them.
   - check out QUIS (Questionnaire for User Interface Satisfaction) (link in references)
+
+## Chapter 3. System Design issues
+
+- **Usability/User Interface**
+  - learning time must be minimal. use visible aids instead of commands and _default options_
+- **Displays**
+  - talks about the capabilities of a screen, but screens like the ones being discussed does not exist anymore. this point is irrelevant today I believe
+- **Performance**
+  - faster is better, but super fast is bad. **Response times less than 0.1s can cause confusion and may lead to disorientation**
+  - keep in mind that a hypertext system will grow exponentially with the number of links and the size of the database. parallelize tasks might be a good thing to consider to keep the system performant even with large datasets
+- **Exporting (Printing)**
+  - because a hypertext system are non-linear, it's didficult to define the order in which data will be exported. We can use either hierarchy or **tours** which provides a means of organizing the database for output.
+- **Versions**
+  - there are two levels of versions: the node/link version and the whole database version
+  - this enables the possibility of accessing different versions of nodes and/or multiple database versions
+  - The fact that a user can access all links and nodes in all versions possible, makes a need to know what are the _new things that happened_ since the last time it was accessed. This is different from just seeing "what's new?"
+- **Networks**
+  - Each node on a hypertext system has its own databse.
+  - This raises the problem of compatibility issues. Systems like [[Xanadu]] and [[Neptune]] attempt to overcome incompatibility **by separating machine-independen database from machine-dependend user interface**.
+- **Annotation**
+  - or "margin notes"
+  - can be shown along with the original document or in a separate window
+  - Annotations are important for authoring, Reviewers should be able to make suggestions or corrections as part of the original text.
+  - Annotations are **extremely important** for hypertext when is used as a communication medium or for collaboration.
+- **Integration**
+  - One of the main problems of Hypertext Systems is that they are self-contained. there's little to none integration and inter-communication between two or more hypertext systems.
+  - One interesting possibility is to use the hypertext system and user interface as the layer of consistency to other programs, that consumes all hypertext databases into the same user interface
+- **Aliasing**
+  - is important for finding the desired information.
+  - most of us do remember more if we are able to assign our desired number instead of using the pre-assigned one.
+- ## **Fisheye views**
 
 ## Quotes
 
