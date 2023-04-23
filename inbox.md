@@ -1,5 +1,23 @@
 # Inbox
 
+- [Building High Impact Developer Communities - by Nader Dabit](https://nader.substack.com/p/building-high-impact-developer-communities)
+- [CITYJS 2023 London - YouTube](https://www.youtube.com/watch?v=RdiXuoMPtUA&t=25019s)
+- [Getify post on local-first](https://www.linkedin.com/posts/getify_local-first-web-development-activity-7048667993895022592-TnQR/)
+- [Tufte CSS](https://edwardtufte.github.io/tufte-css/)
+- [Softspace](https://soft.space/)
+- [https://windowai.io](https://windowai.io/)
+- [Grow the Puzzle Around You - Jessica Livingston](https://foundersatwork.posthaven.com/grow-the-puzzle-around-you)
+- https://interconnected.org/home/2020/09/24/unoffice_hours
+- https://www.geoffreylitt.com/wildcard/salon2020/
+- https://www.geoffreylitt.com/margin-notes/
+- https://every.to/superorganizers/linus-lee-is-living-with-ai
+- [Information Architecture (IA) for Authors](https://abbycovert.com/writing/ia-for-authors/)
+- https://www.brendanschlagel.com
+- https://github.com/quilljs/delta: maybe this is relevant to calculate selections on the PM experiments with editor-per-line?
+- [SilverBullet](./silverbullet.md)
+- [Multi-VZersion Documents](http://multiversiondocs.blogspot.com/2011/02/standoff-markup-explained.html): I found this interesting because is similar to what we do at Mintter. I want to find how different it is
+- https://github.com/ccorcos/electron-architecture: review this Electron architecture and _maybe_ do a small project porting Mintter to Electron
+- https://github.com/ccorcos/tuple-database: I sent a DM to ccorcos to schedule a call and see how this Db can be helpfull for Application UI data storage.
 - https://jessmart.in/articles/real-time
 - [DRAFT: Collaborating with the invisible](https://jessmart.in/articles/invisible)
 - [Universal data portability](https://alexanderobenauer.com/labnotes/002/)

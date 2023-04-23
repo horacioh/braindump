@@ -1,5 +1,15 @@
 # Clausuras (Closure)
 
+- es muy importante saber que es el [[post-ambito-lexico]]
+- la habilidad de las funciones de recordar los valores declarados en su ambito lexico sin importar donde son ejecutadas
+- ejemplos de Clausuras
+- beneficios de clausuras
+- dato curioso sobre cuanto tiempo duraron en ser adoptadas (dos generaciones)
+- como se identifica una clausura
+- ejercicio
+  - retrasar operaciones o adelantar operaciones usando clausuras.
+  - algo con react y hooks?
+    - counter con custom hook
 - para entender bien closures, necesitamos entender que es ambito lexico ([[javascript-scopes]])
 - Solo las funciones tienen closure
 - hay dos etapas:
