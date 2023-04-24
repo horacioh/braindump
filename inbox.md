@@ -1,5 +1,7 @@
 # Inbox
 
+- [What is a Minimum Lovable Product](https://slowlettuce.io/blog/what-is-a-minimum-lovable-product)
+- [Electron Security](https://doyensec.com/resources/us-17-Carettoni-Electronegativity-A-Study-Of-Electron-Security-wp.pdf)
 - [CapCut | Editor de videos todo en uno](https://www.capcut.com/es-la/)
 - [efficient-node/500-child-processes.adoc at main · samerbuna/efficient-node](https://github.com/samerbuna/efficient-node/blob/main/500-child-processes.adoc)
 - [AD4M - Apps for the next internet](https://ad4m.dev/)
