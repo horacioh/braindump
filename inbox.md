@@ -1,5 +1,7 @@
 # Inbox
 
+- [TrustNet](https://cblgh.org/trustnet/)
+- [Distributed Press](http://distributed.press)
 - [What is a Minimum Lovable Product](https://slowlettuce.io/blog/what-is-a-minimum-lovable-product)
 - [Electron Security](https://doyensec.com/resources/us-17-Carettoni-Electronegativity-A-Study-Of-Electron-Security-wp.pdf)
 - [CapCut | Editor de videos todo en uno](https://www.capcut.com/es-la/)
