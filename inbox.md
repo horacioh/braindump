@@ -1,5 +1,6 @@
 # Inbox
 
+- [Content source maps is the technology Vercel uses to implement their new editing in place experience](https://github.com/sanity-io/content-source-maps)
 - [TrustNet](https://cblgh.org/trustnet/)
 - [Distributed Press](http://distributed.press)
 - [What is a Minimum Lovable Product](https://slowlettuce.io/blog/what-is-a-minimum-lovable-product)
