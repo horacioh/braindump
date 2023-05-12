@@ -1,5 +1,7 @@
 # Inbox
 
+- [Ink: this showed up as an example of the new wave of terminal UIs in a text-and-alternative-data meeting](https://github.com/vadimdemedes/ink)
+- [some interesting details on p2p monitoring shared by Eric Vicenti](https://www.youtube.com/watch?v=8cGEjdCfm14)
 - [Content source maps is the technology Vercel uses to implement their new editing in place experience](https://github.com/sanity-io/content-source-maps)
 - [TrustNet](https://cblgh.org/trustnet/)
 - [Distributed Press](http://distributed.press)
