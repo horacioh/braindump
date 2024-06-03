@@ -20,11 +20,17 @@
   "foam.edit.linkReferenceDefinitions": "off",
   "foam.openDailyNote.directory": "journal",
   "foam.openDailyNote.titleFormat": "fullDate",
-  "foam.openDailyNote.filenameFormat": "'daily-note'-yyyy-mm-dd",
+  "foam.openDailyNote.filenameFormat": "yyyy-mm-dd",
+  "foam.openDailyNote.onStartup": true,
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "markdown.preview.breaks": true,
   "pasteImage.path": "${projectRoot}/attachments",
   "pasteImage.showFilePathConfirmInputBox": true,
-  "prettier.singleQuote": false
+  "prettier.singleQuote": false,
+  "spellright.language": [],
+  "spellright.documentTypes": [
+    "latex",
+    "plaintext"
+  ]
 }

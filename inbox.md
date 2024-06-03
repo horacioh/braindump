@@ -1,5 +1,112 @@
 # Inbox
 
+- https://gist.github.com/adamwiggins/5687294
+- https://alexanderobenauer.com/ollos/
+- https://norman.life/posts/ipfs-bittorrent
+- https://willcrichton.net/notes/portable-epubs/
+- https://prosemirror.net/docs/ref/
+- https://discuss.prosemirror.net/t/question-about-moving-block/4163
+- https://prosemirror-flat-list.netlify.app/
+- https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously
+- https://warpcast.notion.site/Farcaster-Frames-4bd47fe97dc74a42a48d3a234636d8c5
+- https://docs.farcaster.xyz/learn/architecture/hubs
+- https://docs.farcaster.xyz/learn/architecture/hubs
+- https://tamagui.dev/docs/intro/props#hover-events
+- https://www.igi-global.com/dictionary/link-resolver/17222
+- https://www.notion.so/mintter/Provide-Feedback-for-Content-Discovery-Failures-ad1076817fc44975bd743d47fbdb053d
+- https://www.youtube.com/watch?v=xDXjJGO0yLo
+- https://app.tana.inc/?wsid=2iyP-FuuoF8A
+- https://www.youtube.com/
+- https://lunaticoin.blog/la-guerra-del-op_return-de-2014
+- https://docs.google.com/document/d/13LBiLj2Lb5LUmBjafO0Y1Y09ZQEQx3mAFkEdtWR0s0M/edit
+- https://hyper.media/d/RJz1GNWJaEg3Gwbyz446K3?v=bafy2bzacedqlo37q3544fqc3jwdzvkiewkj34ucxre3dgkb3rtvc3cv4flxhs
+- https://github.com/MintterHypermedia/mintter/issues/1626
+- https://twitter.com/schickling
+- https://twitter.com/elicitorg
+- https://elicit.com/careers
+- https://www.google.com/search?q=openai+extract+text+from+pdf&oq=open+ai+extract+text+from+&gs_lcrp=EgZjaHJvbWUqCQgCEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTINCAcQABiGAxiABBiKBTIGCAgQRRhA0gEIODM0OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+- https://community.openai.com/t/accurately-read-pdf-files/149255
+- https://github.com/thoqbk/openai-pdf
+- https://www.youtube.com/watch?v=Ox8hhpgrUi0
+- https://app.jenni.ai/editor/v29hkjCszAl1WI34wR1T
+- https://expo.dev/changelog/2024/01-18-sdk-50
+- https://gist.github.com/cfcosta/2089d610c6f413a23940582d2ccc9ce5
+- https://discuss.prosemirror.net/t/how-to-set-initial-focus-of-document/3476/3
+- https://github.com/ccorcos/prosemirror-examples/blob/e68edaa1f3c2661d5962edab38c0dd672b17a452/src/components/BlockSelection.tsx#L63-L182
+- https://github.com/ccorcos/prosemirror-examples/blob/master/src/app/components/BlockSelectionPlugin.tsx
+- https://ccorcos.github.io/prosemirror-examples/#/
+- https://notion.notion.site/notion/Linus-s-reading-list-a1c2bc1eed314db5aa34ad216260aca4
+- https://github.com/ccorcos/prosemirror-examples/blob/master/src/app/components/Keyboard.tsx
+- https://notion.notion.site/Linus-s-reading-list-a1c2bc1eed314db5aa34ad216260aca4
+- https://github.com/simplex-chat/simplex-chat/tree/stable
+- https://github.com/alexreardon/tiny-invariant
+- https://www.newyorker.com/news/the-weekend-essay/is-the-media-prepared-for-an-extinction-level-event
+- https://blog.gitbutler.com/git-tips-2-new-stuff-in-git/
+- https://dev.to/taw/electron-adventures-episode-20-ipc-benchmark-2b2d
+- https://jacobian.org/2024/feb/16/paying-maintainers-is-good/
+- https://github.com/sindresorhus/electron-util/blob/main/source/shared/github-issue.ts
+- https://github.com/sindresorhus/electron-serve
+- https://github.com/twentyhq/twenty/blob/main/packages/twenty-front/src/App.tsx
+- https://piccalil.li/blog/the-path-to-becoming-a-publisher/
+- https://inkandswitch.notion.site/Academish-Voice-0d8126b3be5545d2a21705ceedb5dd45
+- https://piccalil.li/blog/some-little-ways-im-using-css-has-in-the-real-world/
+- https://github.com/microsoft/aici
+- https://standardnotes.com/why-encrypted
+- https://github.com/atlassian/pragmatic-drag-and-drop
+- https://dougengelbart.org/pubs/augment-3906-Framework.html
+- https://github.com/Hercules2013/electron-react-boilerplate/blob/main/package.json
+- https://woolgather.sh/issue/2
+- https://samthor.au/2021/observing-dom/
+- https://www.elysian.press/p/no-one-buys-books
+- https://github.com/fabiospampinato/fast-string-truncated-width
+- https://henrikbjorn.medium.com/electron-communicating-via-postmessage-f9a419f94bf7
+- https://github.com/BradNeuberg/hyperscope
+- https://electric-sql.com/blog/2023/02/09/developing-local-first-software
+- https://vlcn.io/blog/intro-to-crdts
+- https://bricolage.io/some-notes-on-local-first-development/
+- https://patternlanguage.cc/
+- https://mattweidner.com/2024/04/29/list-positions.html
+- https://radiant.earth/blog/2023/10/what-is-source-cooperative/
+- https://github.com/mikeal/centerless
+- https://uxie.vercel.app/
+- https://stackblitz.com/edit/vitejs-vite-z2cyev?file=src%2Feditor.js&terminal=dev
+- https://github.com/Wilfred/difftastic
+- https://github.com/ProseMirror/prosemirror-changeset/blob/master/test/test-diff.ts
+- https://discuss.prosemirror.net/t/best-way-to-loop-through-the-differences-between-two-fragments/413
+- https://discuss.prosemirror.net/t/suggestions/296?u=jtblin
+- https://tone-row.com/
+- https://dizzy.systems/editor/dashboard
+- https://github.com/inkandswitch/peritext/blob/main/src/bridge.ts
+- https://www.tweetune.club/
+- https://bmannconsulting.com/notes/community-search-engines/
+- https://bmannconsulting.com/notes/proto-apps/
+- https://stepwisehq.com/blog/2023-07-25-prosemirror-collab-performance/
+- https://github.com/stepwisehq/prosemirror-collab-commit
+- https://www.flightcontrol.dev/blog/ultimate-guide-to-multi-tenant-saas-data-modeling
+- https://stackblitz.com/edit/vitejs-vite-z2cyev?file=src%2Feditor.js&terminal=dev
+- [[george-kamel-free-chapter]]
+- http://red-green-blue.com/kid-pix-the-early-years
+- Build Databases As Spreadsheets: https://www.nocodb.com/
+- Electron test utils: https://github.com/MarshallOfSound/electron-test-utils/tree/master
+- Testing electron apps example: https://medium.com/kubeshop-i/testing-electron-apps-with-playwright-kubeshop-839ff27cf376
+- Don't ask to ask, just ask!: https://dontasktoask.com/
+- The Real World Vimeo account: https://vimeo.com/user165613278
+- real world react app example:
+  - react-admin: https://github.com/marmelab/react-admin/tree/master
+  - plane - Jira clone: https://github.com/makeplane/plane
+  - spacedrive: https://github.com/spacedriveapp/spacedrive
+- Matt Mullenweg Renews Push for Canonical Plugins: https://wptavern.com/matt-mullenweg-renews-push-for-canonical-plugins
+- React context and algebraic effects: https://tanishqkancharla.dev/thoughts/11-30-23-react-context
+- Bangle Rich Text Editor: https://github.com/bangle-io/bangle-editor
+- Lexical state updates: https://dio.la/article/lexical-state-updates
+- Nodejs desktop automation: https://github.com/octalmage/robotjs
+- Blogging and Composting: https://blog.jim-nielsen.com/2023/blogging-and-compositing/
+- react-resizable-panels library: https://github.com/bvaughn/react-resizable-panels
+- Graphical language server platform: https://github.com/eclipse-glsp/glsp
+- performant lists libraries
+  - https://github.com/Flipkart/recyclerlistview
+- example of universal app RN + web and design system: https://github.com/showtime-xyz/showtime-frontend
+- [How We’re Building Git for Infrastructure](https://blog.railway.app/p/launch-week-01-changesets)
 - [Ink: this showed up as an example of the new wave of terminal UIs in a text-and-alternative-data meeting](https://github.com/vadimdemedes/ink)
 - [some interesting details on p2p monitoring shared by Eric Vicenti](https://www.youtube.com/watch?v=8cGEjdCfm14)
 - [Content source maps is the technology Vercel uses to implement their new editing in place experience](https://github.com/sanity-io/content-source-maps)
@@ -408,7 +515,6 @@
 - [Visly](https://visly.app/)
 - [Introduction — Radix UI](https://radix-ui.com/primitives/docs/overview/introduction)
 - [specs/pubsub/gossipsub at master · libp2p/specs](https://github.com/libp2p/specs/tree/master/pubsub/gossipsub)
-- [Offline, Peer\-to\-Peer, Collaborative Editing using Yjs \- Show \- discuss\.ProseMirror](https://discuss.prosemirror.net/t/offline-peer-to-peer-collaborative-editing-using-yjs/2488)
 - [How Yjs works from the inside out \- YouTube](https://www.youtube.com/watch?v=0l5XgnQ6rB4)
 - [Delta \- Quill Rich Text Editor](https://quilljs.com/docs/delta/)
 - [A Text Editor – averylaird\.com](https://www.averylaird.com/programming/2017/09/22/the-text-editor/)

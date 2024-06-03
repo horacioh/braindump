@@ -2,19 +2,19 @@
 
 - tags: #richtext-editor #prosemirror
 
-- rich text editing for the web
-- prioritize modularity and customizability over simplicity
+## Tutorials
 
-## Essensial modules
+- (guide for writing ProseMirror plugins)[https://emergence-engineering.com/blog/prosemirror-plugin-system]. got it from (here)[https://discuss.prosemirror.net/t/guide-for-writing-prosemirror-plugins/5939]
+- 
 
-- `prosemirror-model`: defines the document model
-- `prosemirror-state`: provides a data structure that defines all the editor's state
-- `prosemirror-view`: implements the UI
-- `prosemirror-transform`: all needed to modify documents
+## libraries
 
 ### Transactions
+- Prosemirror flat list plugins: https://discuss.prosemirror.net/t/prosemirror-flat-list-alpha/5191
+  - https://github.com/ocavue/prosemirror-flat-list
+  - https://github.com/ocavue/prosemirror-flat-list/blob/af74ba83e32a8ad1b6d40e346054b078fc02d539/packages/remirror-playground/src/editor.tsx
 
-- every interaction on the editor creates a _transaction_. this transactions are the ones that needs to be applied to create a **new state**, which then updates the view.
+## Forums/posts
 
 ### Plugins
 
@@ -63,3 +63,4 @@
 
 - https://prosemirror.net/docs/guide/#intro
 - [[prosemirror-reference-manual]]
+- [Offline, Peer\-to\-Peer, Collaborative Editing using Yjs \- Show \- discuss\.ProseMirror](https://discuss.prosemirror.net/t/offline-peer-to-peer-collaborative-editing-using-yjs/2488)
