@@ -1,5 +1,21 @@
 # Inbox
 
+- https://nytimes.github.io/oak-byo-react-prosemirror-redux/post/prosemirror-basics/
+- https://nytimes.github.io/oak-byo-react-prosemirror-redux/post/build-your-own-pm-view/
+- [Manifiesto por una web humana](https://programaraciegas.net/?p=1179)
+- https://www.lowercase.club/
+- https://github.com/zoubingwu/electron-shared-state
+- [Zustang helper](https://gist.github.com/anis-dr/5cba43157b87ecab19e59bd8fecca638)
+- [1-click RCE in Electron Applications](https://shabarkin.medium.com/1-click-rce-in-electron-applications-79b52e1fe8b8)
+- Electron IPC performance benchmark: https://dev.to/taw/electron-adventures-episode-20-ipc-benchmark-2b2d
+- demo react complex app: https://github.com/twentyhq/twenty
+- https://marcgrabanski.com/articles/personal-health-checklist/
+- example of personal website: https://stevekrouse.com/
+- https://mitchellh.com/ghostty
+- [Bloggi](https://bloggi.co/)
+  - https://hernansartorio.com/
+- [I give up](https://nutjs.dev/blog/i-give-up)
+- https://marcgrabanski.com/articles/personal-health-checklist/
 - https://www.youtube.com/watch?v=G3UNtbY1go4
 - https://bjjfanatics.com/products/systematically-attacking-the-guard-half-guard-passing-by-gordon-ryan?pb=0
 - https://bjjfanatics.com/collections/beginner-collection?pb=0
@@ -52,7 +68,7 @@
 - https://tiptap.dev/api/nodes/code-block
 - https://github.com/ueberdosis/tiptap/releases?page=2
 - https://github.com/ueberdosis/tiptap/blob/main/packages/extension-code-block/src/code-block.ts
-- https://gist.github.com/adamwiggins/5687294
+- [adams-heroku-values.md](https://gist.github.com/adamwiggins/5687294)
 - https://alexanderobenauer.com/ollos/
 - https://norman.life/posts/ipfs-bittorrent
 - https://willcrichton.net/notes/portable-epubs/
@@ -62,7 +78,6 @@
 - https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously
 - https://warpcast.notion.site/Farcaster-Frames-4bd47fe97dc74a42a48d3a234636d8c5
 - https://docs.farcaster.xyz/learn/architecture/hubs
-- https://docs.farcaster.xyz/learn/architecture/hubs
 - https://tamagui.dev/docs/intro/props#hover-events
 - https://www.igi-global.com/dictionary/link-resolver/17222
 - https://www.notion.so/mintter/Provide-Feedback-for-Content-Discovery-Failures-ad1076817fc44975bd743d47fbdb053d
@@ -70,7 +85,7 @@
 - https://app.tana.inc/?wsid=2iyP-FuuoF8A
 - https://www.youtube.com/
 - https://lunaticoin.blog/la-guerra-del-op_return-de-2014
-- https://docs.google.com/document/d/13LBiLj2Lb5LUmBjafO0Y1Y09ZQEQx3mAFkEdtWR0s0M/edit
+- [LIBRO BLANCO](https://docs.google.com/document/d/13LBiLj2Lb5LUmBjafO0Y1Y09ZQEQx3mAFkEdtWR0s0M/edit)
 - https://hyper.media/d/RJz1GNWJaEg3Gwbyz446K3?v=bafy2bzacedqlo37q3544fqc3jwdzvkiewkj34ucxre3dgkb3rtvc3cv4flxhs
 - https://github.com/MintterHypermedia/mintter/issues/1626
 - https://twitter.com/schickling
@@ -82,7 +97,7 @@
 - https://www.youtube.com/watch?v=Ox8hhpgrUi0
 - https://app.jenni.ai/editor/v29hkjCszAl1WI34wR1T
 - https://expo.dev/changelog/2024/01-18-sdk-50
-- https://gist.github.com/cfcosta/2089d610c6f413a23940582d2ccc9ce5
+- [how to implement delta-state crdts?](https://gist.github.com/cfcosta/2089d610c6f413a23940582d2ccc9ce5)
 - https://discuss.prosemirror.net/t/how-to-set-initial-focus-of-document/3476/3
 - https://github.com/ccorcos/prosemirror-examples/blob/e68edaa1f3c2661d5962edab38c0dd672b17a452/src/components/BlockSelection.tsx#L63-L182
 - https://github.com/ccorcos/prosemirror-examples/blob/master/src/app/components/BlockSelectionPlugin.tsx
