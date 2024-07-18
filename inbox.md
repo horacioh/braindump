@@ -1,5 +1,8 @@
 # Inbox
 
+- [Product/Market Fit (PMF): Experience & Data](https://longform.asmartbear.com/product-market-fit/)
+- [The roadmap to Product/Market Fit (PMF)… maybe](https://longform.asmartbear.com/product-market-fit-formula/)
+- [Home-Cooked Software and Barefoot Developers](https://maggieappleton.com/home-cooked-software)
 - https://nytimes.github.io/oak-byo-react-prosemirror-redux/post/prosemirror-basics/
 - https://nytimes.github.io/oak-byo-react-prosemirror-redux/post/build-your-own-pm-view/
 - [Manifiesto por una web humana](https://programaraciegas.net/?p=1179)
