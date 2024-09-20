@@ -1,5 +1,14 @@
 # Inbox
 
+- https://bogost.com/writing/blog/gamification_is_bullshit/
+- https://developer.chrome.com/docs/devtools/performance/
+- unicode codepoints: https://tanishiking.hashnode.dev/count-the-number-of-unicode-code-points-in-javascript-on-cross-browser-62c32b8d919c
+- new app framework: https://jazz.tools/
+- PDF highlighter example:
+  - https://github.com/MariusBongarts/medium-highlighter/blob/main/content.js
+  - https://github.com/MariusBongarts
+  - https://web-highlights.com/
+- [Prompt Chaining Guide](https://www.prompthub.us/blog/prompt-chaining-guide)
 - [Product/Market Fit (PMF): Experience & Data](https://longform.asmartbear.com/product-market-fit/)
 - [The roadmap to Product/Market Fit (PMF)… maybe](https://longform.asmartbear.com/product-market-fit-formula/)
 - [Home-Cooked Software and Barefoot Developers](https://maggieappleton.com/home-cooked-software)
